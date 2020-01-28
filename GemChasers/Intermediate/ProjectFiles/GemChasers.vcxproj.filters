@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GemChasers.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{FB5142FB-68E5-452A-929C-890DA5F5D793}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GemChasers.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GemChasersEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{9EA9D5CB-8F9F-4EAE-A32E-85AB77E81131}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GemChasers">
+      <UniqueIdentifier>{920376EA-20A6-4AF9-8CDC-3761C4D63EF2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GemChasers\GemChasers.Build.cs">
+      <Filter>Source\GemChasers</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GemChasers\GemChasers.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\GemChasers.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GemChasers\GemChasersGameModeBase.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\GemChasersGameModeBase.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

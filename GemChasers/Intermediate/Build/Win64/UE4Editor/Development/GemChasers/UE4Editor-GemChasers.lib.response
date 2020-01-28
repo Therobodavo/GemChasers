@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GemChasers.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasers.cpp.obj"
+"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasersGameModeBase.cpp.obj"
+"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasers.init.gen.cpp.obj"
+"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasersGameModeBase.gen.cpp.obj"
+"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\Default.rc2.res"
+/OUT:"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers.lib"
+/INCLUDE:IMPLEMENT_MODULE_GemChasers

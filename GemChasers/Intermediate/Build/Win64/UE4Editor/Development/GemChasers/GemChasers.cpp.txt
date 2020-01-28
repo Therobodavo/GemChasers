@@ -1,0 +1,2 @@
+D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\Definitions.GemChasers.h
+d:\college stuff\unreal\gemchasers\source\gemchasers\GemChasers.h
