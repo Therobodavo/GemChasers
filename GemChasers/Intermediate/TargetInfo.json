@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "GemChasers",
-			"Path": "D:\\College Stuff\\Unreal\\GemChasers\\Source\\GemChasers.Target.cs",
+			"Path": "D:\\College Stuff\\Unity\\GemChasers\\GemChasers\\Source\\GemChasers.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "GemChasersEditor",
-			"Path": "D:\\College Stuff\\Unreal\\GemChasers\\Source\\GemChasersEditor.Target.cs",
+			"Path": "D:\\College Stuff\\Unity\\GemChasers\\GemChasers\\Source\\GemChasersEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

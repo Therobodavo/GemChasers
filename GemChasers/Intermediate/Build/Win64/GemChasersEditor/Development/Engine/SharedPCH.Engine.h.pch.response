@@ -254,11 +254,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I "D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine"
-/Yc"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\College Stuff\Unreal\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine"
+/Yc"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeGemChasers_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD72B05A6,
-				0x157027F8,
+				0x69426884,
+				0x2D19352B,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

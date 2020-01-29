@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\College Stuff\\Unreal\\GemChasers\\Source\\GemChasers\\GemChasers.Build.cs",
-		"D:\\College Stuff\\Unreal\\GemChasers\\Source\\GemChasers.Target.cs",
-		"D:\\College Stuff\\Unreal\\GemChasers\\Source\\GemChasersEditor.Target.cs"
+		"D:\\College Stuff\\Unity\\GemChasers\\GemChasers\\Source\\GemChasers\\GemChasers.Build.cs",
+		"D:\\College Stuff\\Unity\\GemChasers\\GemChasers\\Source\\GemChasers.Target.cs",
+		"D:\\College Stuff\\Unity\\GemChasers\\GemChasers\\Source\\GemChasersEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.1"
 }
