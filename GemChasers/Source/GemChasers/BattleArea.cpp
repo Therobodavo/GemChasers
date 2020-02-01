@@ -27,7 +27,7 @@ void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * Other
 		ATestEnemy* enemy = Cast<ATestEnemy>(OtherActor);
 
 		enemy->SetActorLocation(EnemyPositions[0]);
-		enemy->inBattle = true;
+		//enemy->inBattle = true;
 	}
 }
 

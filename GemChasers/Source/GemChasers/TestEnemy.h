@@ -16,7 +16,7 @@ public:
 	ATestEnemy();
 
 	UPROPERTY(VisibleDefaultsOnly, BlueprintReadWrite)
-		bool* inBattle = false;
+		bool inBattle = false;
 
 protected:
 	// Called when the game starts or when spawned
