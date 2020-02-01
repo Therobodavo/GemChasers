@@ -1,23 +1,7 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+﻿  Cleaning GemChasersEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+  Creating makefile for GemChasersEditor (no existing makefile)
   Parsing headers for GemChasersEditor
     Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GemChasersEditor in 8.4142581 seconds
-  Building GemChasersEditor...
-  Using Visual Studio 2017 14.16.27026 toolchain (D:\VSEnterprise\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Upgrade]
-  [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
-  [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
-  [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
-  [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
-  [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
-  [Upgrade]
-  Building 5 actions with 8 processes...
-    [1/5] BattleArea.cpp
-    [2/5] BattleArea.gen.cpp
-    [3/5] UE4Editor-GemChasers-0003.lib
-       Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0003.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0003.exp
-    [4/5] UE4Editor-GemChasers-0003.dll
-       Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0003.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0003.suppressed.exp
-    [5/5] GemChasersEditor.target
-  Total time in Parallel executor: 2.44 seconds
-  Total execution time: 11.93 seconds
+D:/College Stuff/Unity/GemChasers/GemChasers/Source/GemChasers/TestEnemy.h(19): error : Inappropriate '*' on variable of type 'bool', cannot have an exposed pointer to this type.
+D:\VSEnterprise\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(49,5): error MSB3073: The command ""D:\Epic Games\UE_4.24\Engine\Build\BatchFiles\Rebuild.bat" GemChasersEditor Win64 Development -Project="D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" -WaitMutex -FromMsBuild" exited with code -1.

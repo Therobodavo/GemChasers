@@ -22,7 +22,10 @@ void ATestEnemy::BeginPlay()
 void ATestEnemy::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	if (!inBattle) 
+	{
+		SetActorLocation(GetActorLocation() - FVector(1, 0, 0) * 50 * DeltaTime);
+	}
 }
 
 // Called to bind functionality to input
