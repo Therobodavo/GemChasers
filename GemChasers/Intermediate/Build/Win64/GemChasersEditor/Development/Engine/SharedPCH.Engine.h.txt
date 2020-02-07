@@ -2,63 +2,63 @@ D:/College Stuff/Unity/GemChasers/GemChasers/Intermediate/Build/Win64/GemChasers
 D:/Epic Games/UE_4.24/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/ContainersFwd.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\CoreTypes.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\HAL/Platform.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/Build.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\hal\PreprocessorHelpers.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Windows/WindowsPlatformCompilerPreSetup.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\GenericPlatform/GenericPlatformCompilerPreSetup.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\GenericPlatform/GenericPlatform.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Windows/WindowsPlatformCodeAnalysis.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Windows/WindowsPlatform.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\sal.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\concurrencysal.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\MSVC/MSVCPlatform.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Windows/WindowsPlatformCompilerSetup.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\ProfilingDebugging/UMemoryDefines.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/CoreMiscDefines.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/CoreDefines.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Platform.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Build.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL\PreprocessorHelpers.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerPreSetup.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCompilerPreSetup.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatform.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCodeAnalysis.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatform.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\sal.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\concurrencysal.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\MSVC/MSVCPlatform.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformCompilerSetup.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/UMemoryDefines.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/CoreMiscDefines.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/CoreDefines.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Exec.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/AssertionMacros.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformMisc.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformMisc.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\CoreFwd.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\UObject/UObjectHierarchyFwd.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/UObjectHierarchyFwd.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformCrt.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\new
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\exception
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\yvals.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\yvals_core.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xkeycheck.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\crtdefs.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vadefs.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\new
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\yvals_core.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\vcruntime.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\vadefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\xkeycheck.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\exception
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\yvals.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\crtdbg.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_new_debug.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_new.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\use_ansi.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\type_traits
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xstddef
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cstddef
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\vcruntime_new_debug.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\vcruntime_new.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\crtdefs.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\use_ansi.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\type_traits
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\xstddef
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\cstddef
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stddef.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xtr1common
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\cstdlib
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\xtr1common
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\cstdlib
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\math.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_math.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stdlib.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_malloc.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_search.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wstdlib.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\limits.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\math.h
-C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_math.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\initializer_list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\limits.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\initializer_list
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\malloc.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_exception.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\eh.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\vcruntime_exception.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\eh.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_terminate.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\wchar.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_memcpy_s.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\errno.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\vcruntime_string.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wconio.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_stdio_config.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wctype.h
@@ -72,7 +72,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\corecrt_wtime.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\sys/stat.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\sys/types.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\stdio.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\stdarg.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\stdarg.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\math.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\float.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\string.h
@@ -84,21 +84,21 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericP
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformMemory.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsSystemIncludes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/MinimalWindowsApi.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\intrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\intrin0.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\setjmp.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\immintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\wmmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\nmmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\smmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\tmmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\pmmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\emmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\xmmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\mmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\zmmintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\ammintrin.h
-D:\VSEnterprise\VC\Tools\MSVC\14.16.27023\INCLUDE\stdint.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\intrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\intrin0.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\setjmp.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\immintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\wmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\nmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\smmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\tmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\pmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\emmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\xmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\mmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\zmmintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\ammintrin.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508\INCLUDE\stdint.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt\tchar.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\intsafe.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\winapifamily.h
@@ -107,7 +107,7 @@ C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\specstrings.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\specstrings_strict.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\specstrings_undef.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\driverspecs.h
-c:\program files (x86)\windows kits\10\include\10.0.16299.0\shared\sdv_driverspecs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\sdv_driverspecs.h
 C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared\strsafe.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CpuProfilerTrace.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace/Config.h
@@ -115,7 +115,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/AndOrNot.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/EnableIf.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/IsArrayOrRefOfType.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/IsValidVariadicFunctionArg.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\templates\IsEnum.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates\IsEnum.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/VarArgs.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/Array.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/UnrealMemory.h
@@ -200,7 +200,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/Tuple.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Delegates/IntegerSequence.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchive.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Serialization/StructuredArchiveFormatter.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\serialization\Formatters/BinaryArchiveFormatter.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Serialization\Formatters/BinaryArchiveFormatter.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Optional.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Concepts/Insertable.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/Models.h
@@ -217,7 +217,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Timespan.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Interval.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/StringConv.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/UnrealNames.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\uobject\UnrealNames.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject\UnrealNames.inl
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/Map.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Algo/Reverse.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Concepts/GetTypeHashable.h
@@ -235,9 +235,9 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Logging/LogTrace.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/FormatArgsTrace.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/SharedPointer.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\CoreGlobals.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\HAL/PlatformTLS.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\GenericPlatform/GenericPlatformTLS.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Windows/WindowsPlatformTLS.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformTLS.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTLS.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTLS.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/SharedPointerInternals.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/SharedPointerTesting.inl
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Delegates/Delegate.h
@@ -256,79 +256,79 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Delegates/DelegateCombin
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Parse.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/DateTime.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\CoreMinimal.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/FrameNumber.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Color.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/ColorList.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/IntVector.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Vector2D.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/IntRect.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/ByteSwap.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Containers/EnumAsByte.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/CulturePointer.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/TextLocalizationManager.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Containers/ArrayView.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/TextKey.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/LocTesting.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/LocKeyFuncs.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/LocalizedTextSourceTypes.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/EnumClassFlags.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/Text.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/StringTableCoreFwd.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/ITextData.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Internationalization/Internationalization.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Vector.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Axis.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Vector4.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/VectorRegister.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/UnrealMathSSE.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/UnrealMathVectorConstants.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/UnrealMathVectorCommon.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/TwoVectors.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Edge.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\UObject/ObjectVersion.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\UObject/PendingVersions.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Plane.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Sphere.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/CapsuleShape.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Rotator.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/RangeBound.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/AutomationEvent.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Misc/Guid.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Range.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/RangeSet.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Box.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Box2D.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/BoxSphereBounds.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/OrientedBox.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Matrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Matrix.inl
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/RotationTranslationMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/RotationAboutPointMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/ScaleRotationTranslationMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/RotationMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Quat.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/PerspectiveMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/OrthoMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/TranslationMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/QuatRotationTranslationMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/InverseRotationMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/ScaleMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/MirrorMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/ClipProjectionMatrix.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/InterpCurvePoint.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/InterpCurve.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/CurveEdInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Float32.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Float16.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Float16Color.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Vector2DHalf.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Transform.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/ScalarRegister.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/TransformVectorized.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/TransformNonVectorized.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/ConvexHull2d.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/UnrealMath.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\Math/Ray.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/FrameNumber.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Color.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/ColorList.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/IntVector.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Vector2D.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/IntRect.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/ByteSwap.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/EnumAsByte.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/CulturePointer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManager.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/ArrayView.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/TextKey.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/LocTesting.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/LocKeyFuncs.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/LocalizedTextSourceTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/EnumClassFlags.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/Text.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/StringTableCoreFwd.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/ITextData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/Internationalization.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Vector.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Axis.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Vector4.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/VectorRegister.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnrealMathSSE.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnrealMathVectorConstants.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnrealMathVectorCommon.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/TwoVectors.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Edge.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/ObjectVersion.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/PendingVersions.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Plane.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Sphere.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/CapsuleShape.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Rotator.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/RangeBound.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/AutomationEvent.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Guid.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Range.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/RangeSet.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Box.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Box2D.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/BoxSphereBounds.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/OrientedBox.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Matrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Matrix.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/RotationTranslationMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/RotationAboutPointMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/ScaleRotationTranslationMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/RotationMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Quat.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/PerspectiveMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/OrthoMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/TranslationMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/QuatRotationTranslationMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/InverseRotationMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/ScaleMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/MirrorMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/ClipProjectionMatrix.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/InterpCurvePoint.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/InterpCurve.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/CurveEdInterface.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Float32.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Float16.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Float16Color.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Vector2DHalf.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Transform.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/ScalarRegister.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/TransformVectorized.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/TransformNonVectorized.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/ConvexHull2d.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/UnrealMath.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/Ray.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/Greater.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/ThreadSingleton.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/TlsAutoCleanup.h
@@ -336,7 +336,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformTime.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformTime.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformTime.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Stats/Stats.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\stats\StatsCommon.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Stats\StatsCommon.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Stats/Stats2.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/LowLevelMemTracker.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/ScopeLock.h
@@ -348,7 +348,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericP
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/ChunkedArray.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/IndirectArray.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/MiscTrace.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\stats\StatsTrace.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Stats\StatsTrace.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceRedirector.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ResourceSize.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/RandomStream.h
@@ -380,7 +380,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatfo
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/TransformCalculus.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/TransformCalculus2D.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\misc\Change.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc\Change.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/CoreStats.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformAffinity.h
@@ -495,7 +495,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GCObject.
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Serialization/BulkData.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/SortedMap.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/AsyncFileHandle.h
-d:\epic games\ue_4.24\engine\source\runtime\coreuobject\public\serialization\BulkData2.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkData2.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/Package.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/CoreOnline.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Hash/CityHash.h
@@ -544,7 +544,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/FrameValue.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Layout/Clipping.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering/RenderingCommon.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\SlateGlobals.h
-d:\epic games\ue_4.24\engine\source\runtime\slatecore\public\Debugging/SlateDebugging.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Debugging/SlateDebugging.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateDebugging.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\RenderingCommon.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Clipping.generated.h
@@ -571,10 +571,10 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering/ShaderRes
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Styling/SlateBrush.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateBrush.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Textures/SlateTextureData.h
-d:\epic games\ue_4.24\engine\source\runtime\slatecore\public\rendering\DrawElementPayloads.h
-d:\epic games\ue_4.24\engine\source\runtime\slatecore\public\rendering\SlateRenderBatch.h
-d:\epic games\ue_4.24\engine\source\runtime\slatecore\public\rendering\ElementBatcher.h
-d:\epic games\ue_4.24\engine\source\runtime\slatecore\public\widgets\InvalidateWidgetReason.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering\DrawElementPayloads.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering\SlateRenderBatch.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering\ElementBatcher.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets\InvalidateWidgetReason.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateWidgetAccessibleTypes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/SNullWidget.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/DeclarativeSyntaxSupport.h
@@ -672,50 +672,50 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Input/SCheckBox
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIDefinitions.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\PixelFormat.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHI.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\MultiGPU.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\RHIResources.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\DynamicRHI.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\RHIContext.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\RHIUtilities.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\RHICommandList.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\MultiGPU.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIResources.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\DynamicRHI.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIContext.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIUtilities.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHICommandList.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfiler.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfilerTrace.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
-d:\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\Detail/Trace.h
-d:\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\Detail/Field.h
-d:\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\Detail/EventDef.inl
-d:\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\detail\EventDef.h
-d:\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\detail\Writer.inl
-d:\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\detail\Atomic.h
-d:\epic games\ue_4.24\engine\source\runtime\rhi\public\RHICommandList.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Field.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/EventDef.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail\EventDef.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail\Writer.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail\Atomic.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHICommandList.inl
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIStaticStates.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderResource.h
-d:\epic games\ue_4.24\engine\source\runtime\rendercore\public\RenderCore.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderCore.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderingThread.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\UniformBuffer.h
-d:\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderParameterMacros.h
-d:\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderParameterMetadata.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMacros.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMetadata.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\PackedNormal.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderUtils.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameters.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\Shader.h
-d:\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderPermutation.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderPermutation.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/RenderingObjectVersion.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\VertexFactory.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameterUtils.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\AssetData.h
-d:\epic games\ue_4.24\engine\source\runtime\assetregistry\public\AssetDataTagMap.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\AssetDataTagMap.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\AssetData.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public\PacketHandler.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Net\Core\Public\Net/Core/Misc/PacketTraits.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Sockets\Public\IPAddress.h
-d:\epic games\ue_4.24\engine\source\runtime\sockets\public\SocketTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Sockets\Public\SocketTypes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/EngineTypes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/NetSerialization.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\EngineLogs.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Net/GuidReferences.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineLogs.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net/GuidReferences.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetSerialization.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraphNode.h
@@ -727,7 +727,7 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Engin
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_AssetUserData.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_AssetUserData.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ActorComponent.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ComponentInstanceDataCache.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ComponentInstanceDataCache.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ComponentInstanceDataCache.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ActorComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SceneComponent.h
@@ -747,11 +747,11 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintGener
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintGeneratedClass.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Blueprint/BlueprintSupport.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Blueprint.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\EngineDefines.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineDefines.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavigationTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationTypes.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\AI/Navigation/NavQueryFilter.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\CollisionQueryParams.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AI/Navigation/NavQueryFilter.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CollisionQueryParams.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LatentActionManager.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LatentActionManager.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavAgentInterface.h
@@ -759,41 +759,41 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAg
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Pawn.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/PendingNetGame.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\NetworkDelegates.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\NetworkDelegates.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PendingNetGame.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\WorldCollision.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\WorldCollision.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\CollisionShape.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/World.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameInstance.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/GameInstanceSubsystem.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/Subsystem.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/GameInstanceSubsystem.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/Subsystem.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Subsystem.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstanceSubsystem.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/SubsystemCollection.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/SubsystemCollection.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstance.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysicsInterfaceDeclares.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceDeclares.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceDeclaresCore.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Particles/WorldPSCPool.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldPSCPool.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/WorldSubsystem.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/WorldSubsystem.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldSubsystem.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\World.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SceneTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/BlendableInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlendableInterface.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\HitProxies.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\HitProxies.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Scene.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Scene.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\UnrealClient.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\UnrealClient.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Curves/KeyHandle.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KeyHandle.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlags.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlags.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportClient.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ScriptViewportClient.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ScriptViewportClient.generated.h
@@ -802,45 +802,45 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TitleSafeZone.
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportDelegates.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DebugDisplayProperty.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugDisplayProperty.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\StereoRendering.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StereoRendering.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameViewportClient.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Curves/IndexedCurve.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\IndexedCurve.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ConvexVolume.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SceneView.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SceneInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SceneUtils.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ConvexVolume.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneView.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneInterface.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneUtils.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ProfilingDebugging/RealtimeGPUProfiler.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\FinalPostProcessSettings.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\BlendableManager.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\FinalPostProcessSettings.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BlendableManager.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Renderer\Public\GlobalDistanceFieldParameters.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\DebugViewModeHelpers.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DebugViewModeHelpers.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\rendercore\public\VirtualTexturing.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\VirtualTexturing.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Curves/RichCurve.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Curves/RealCurve.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RealCurve.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RichCurve.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Engine.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/EngineSubsystem.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/EngineSubsystem.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineSubsystem.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Engine.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\PrimitiveUniformShaderParameters.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\LightmapUniformShaderParameters.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\PrimitiveViewRelevance.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\PrimitiveSceneProxy.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PrimitiveUniformShaderParameters.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\LightmapUniformShaderParameters.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PrimitiveViewRelevance.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PrimitiveSceneProxy.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInterface.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialLayersFunctions.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialLayersFunctions.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\MaterialSceneTextureId.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MaterialSceneTextureId.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialSceneTextureId.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInterface.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\MaterialShared.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\StaticParameterSet.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MaterialShared.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StaticParameterSet.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/FortniteMainBranchObjectVersion.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/ReleaseObjectVersion.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticParameterSet.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Components.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Components.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Components.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/MeshMerging.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/InstancedStaticMeshComponent.h
@@ -850,59 +850,59 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/StaticMesh
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/MeshComponent.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/PrimitiveComponent.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/BodyInstance.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\PhysxUserData.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysicsInterfaceCore.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PhysxUserData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceCore.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsCore.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysicsInterfacePhysX.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\EngineGlobals.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfacePhysX.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineGlobals.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/ConstraintTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ConstraintTypes.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\physics\PhysicsInterfaceTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics\PhysicsInterfaceTypes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/BodySetupEnums.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BodySetupEnums.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceTypesCore.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/CollisionFilterData.h
-d:\epic games\ue_4.24\engine\source\runtime\experimental\chaos\public\chaos\ChaosArchive.h
-d:\epic games\ue_4.24\engine\source\runtime\experimental\chaos\public\chaos\Serializable.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ChaosArchive.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Serializable.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/DestructionObjectVersion.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\physics\GenericPhysicsInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysScene_PhysX.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\PhysicsPublic.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\LocalVertexFactory.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\DynamicMeshBuilder.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SceneManagement.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics\GenericPhysicsInterface.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysScene_PhysX.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PhysicsPublic.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\LocalVertexFactory.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DynamicMeshBuilder.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneManagement.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TextureLightProfile.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Texture2D.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Texture.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TextureDefines.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureDefines.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\TextureResource.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\TextureResource.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/StreamableRenderAsset.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StreamableRenderAsset.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\RenderAssetUpdate.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\RenderAssetUpdate.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture2D.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureLightProfile.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\BatchedElements.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BatchedElements.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\StaticBoundShaderState.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\PipelineStateCache.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\MeshBatch.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\VT/RuntimeVirtualTextureEnum.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MeshBatch.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VT/RuntimeVirtualTextureEnum.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RuntimeVirtualTextureEnum.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\DynamicBufferAllocator.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/SkyAtmosphereCommonData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/SkyAtmosphereCommonData.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsPublicCore.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/Experimental/PhysScene_ImmediatePhysX.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysScene_ImmediatePhysX.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BodyInstance.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavRelevantInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\AI/NavigationModifier.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AI/NavigationModifier.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavLinkDefinition.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavLinkDefinition.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavRelevantInterface.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PrimitiveComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MeshComponent.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\RawIndexBuffer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\RawIndexBuffer.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime/Launch/Resources/Version.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InstancedStaticMeshComponent.generated.h
@@ -919,52 +919,52 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/PackageRe
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CurveBase.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CurveFloat.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/StaticMesh.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\StaticMeshResources.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/ColorVertexBuffer.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/StaticMeshVertexBuffer.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\StaticMeshVertexData.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/StaticMeshVertexDataInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/PositionVertexBuffer.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\WeightedRandomSampler.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\PerPlatformProperties.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StaticMeshResources.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/ColorVertexBuffer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexBuffer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StaticMeshVertexData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexDataInterface.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/PositionVertexBuffer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\WeightedRandomSampler.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PerPlatformProperties.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Algo/Find.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Algo/Impl/RangePointerType.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PerPlatformProperties.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\MeshDescription\Public\MeshTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshDescription\MeshTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMesh.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ReferenceSkeleton.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ReferenceSkeleton.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AnimationCore\Public\BoneIndices.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\GPUSkinPublicDefs.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\GPUSkinPublicDefs.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimTypes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimLinkableElement.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimLinkableElement.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimEnums.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimEnums.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimTypes.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\BoneContainer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BoneContainer.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoneContainer.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/PreviewAssetAttachComponent.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PreviewAssetAttachComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/SkeletalMesh.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\SkeletalMeshSampling.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\SkeletalMeshSampling.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSampling.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\SkeletalMeshLODSettings.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SkeletalMeshReductionSettings.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\SkeletalMeshLODSettings.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SkeletalMeshReductionSettings.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshReductionSettings.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\DataAsset.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\DataAsset.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\AssetBundleData.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\AssetBundleData.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataAsset.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshLODSettings.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/NodeMappingProviderInterface.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/NodeMappingProviderInterface.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NodeMappingProviderInterface.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/SkinWeightProfile.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/SkinWeightVertexBuffer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/SkinWeightProfile.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/SkinWeightVertexBuffer.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkinWeightProfile.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMesh.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimationAsset.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\AnimInterpFilter.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AnimInterpFilter.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_PreviewMeshProvider.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Interface_PreviewMeshProvider.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimationAsset.generated.h
@@ -978,19 +978,19 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Smart
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/AssetUserData.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AssetUserData.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Skeleton.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimCurveTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimCurveTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimCurveTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimSequenceBase.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimNotifyQueue.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimNotifyQueue.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimNotifyQueue.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimSequenceBase.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimSequence.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimCompressionTypes.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\BonePose.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\CustomBoneIndexArray.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimStats.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimMTStats.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimMTStats.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimCompressionTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BonePose.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CustomBoneIndexArray.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimStats.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimMTStats.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimMTStats.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Base64.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/MappedFileHandle.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformFilemanager.h
@@ -999,21 +999,21 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimS
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/GenericOctreePublic.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/OnlineReplStructs.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\OnlineReplStructs.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Audio.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\AudioDefines.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Audio.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioDefines.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundClass.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\IAudioExtensionPlugin.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\IAmbisonicsMixer.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\IAudioExtensionPlugin.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\IAmbisonicsMixer.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundEffectBase.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AudioPlatformConfiguration\Public\AudioResampler.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundEffectPreset.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundEffectPreset.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\IAmbisonicsMixer.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\CanvasTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CanvasTypes.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\IAudioExtensionPlugin.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraph.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\BlueprintUtilities.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BlueprintUtilities.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EdGraph.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundClass.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundAttenuation.h
@@ -1026,12 +1026,12 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundSubmixSend
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSubmixSend.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundSourceBusSend.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSourceBusSend.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Tickable.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\TimerManager.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\MaterialExpressionIO.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Tickable.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\TimerManager.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MaterialExpressionIO.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialExpression.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialExpression.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\AlphaBlend.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AlphaBlend.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AlphaBlend.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialExpressionMaterialFunctionCall.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialExpressionMaterialFunctionCall.generated.h
@@ -1069,7 +1069,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Stats/StatsHierarchical.
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimNodeBase.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimBlueprintGeneratedClass.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Model.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Model.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\GlobalShader.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraTypes.generated.h
@@ -1085,7 +1085,7 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialIns
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInstanceBasePropertyOverrides.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInstanceBasePropertyOverrides.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInstance.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\UnrealEngine.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\UnrealEngine.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Controller.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Controller.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Camera/CameraShake.h
@@ -1111,46 +1111,46 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Player.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Player.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Kismet/BlueprintFunctionLibrary.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintFunctionLibrary.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\EngineStats.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineStats.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/GenericOctree.h
-d:\epic games\ue_4.24\engine\source\runtime\core\public\math\GenericOctree.inl
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math\GenericOctree.inl
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SkinnedMeshComponent.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkinnedMeshComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/NetDriver.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\Channel.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\Channel.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Channel.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Net\Core\Public\Net/Core/Misc/DDoSDetection.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Net/NetAnalyticsTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net/NetAnalyticsTypes.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetDriver.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/NetConnection.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Net/DataBunch.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Net/NetPacketNotify.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\net\Util/ResizableCircularQueue.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\net\Util/SequenceNumber.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\net\Util/SequenceHistory.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net/DataBunch.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net/NetPacketNotify.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net\Util/ResizableCircularQueue.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net\Util/SequenceNumber.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Net\Util/SequenceHistory.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/CircularBuffer.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\ReplicationDriver.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\ReplicationDriver.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ReplicationDriver.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Analytics/EngineNetAnalytics.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Analytics/EngineNetAnalytics.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Net\Core\Public\Net/Core/Analytics/NetAnalytics.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NetConnection.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SkeletalMeshComponent.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SkeletalMeshTypes.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ComponentReregisterContext.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SkeletalMeshTypes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ComponentReregisterContext.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemBase.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemBase.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ContentStreaming.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\ClothSimData.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\SingleAnimationPlayData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ContentStreaming.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ClothSimData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SingleAnimationPlayData.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SingleAnimationPlayData.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/PoseSnapshot.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/PoseSnapshot.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PoseSnapshot.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSystemRuntimeTypes.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulationInterface.h
-d:\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothingSimulationContext.h
-d:\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothingSimulation.h
-d:\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothCollisionData.h
-d:\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothCollisionPrim.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulationContext.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulation.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothCollisionData.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothCollisionPrim.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface\ClothCollisionPrim.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface\ClothCollisionData.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulationFactory.h
@@ -1183,7 +1183,7 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Physi
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshComponent.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimCompositeBase.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimCompositeBase.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\MaterialShaderType.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MaterialShaderType.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimMontage.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/TimeStretchCurve.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TimeStretchCurve.generated.h
@@ -1192,9 +1192,9 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimInstanc
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimNotifies/AnimNotify.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimNotify.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimInstance.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\MeshMaterialShaderType.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MeshMaterialShaderType.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/LocalPlayerSubsystem.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/LocalPlayerSubsystem.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalPlayerSubsystem.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LocalPlayer.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ChildConnection.h
@@ -1202,7 +1202,7 @@ D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Child
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DeveloperSettings.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DeveloperSettings.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundBase.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\classes\sound\SoundConcurrency.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound\SoundConcurrency.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundConcurrency.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundBase.generated.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h
@@ -1212,5 +1212,5 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\AudioMixerCore\Public\AudioMixerType
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\AudioPlatformConfiguration\Public\AudioCompressionSettings.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration\AudioCompressionSettings.generated.h
 D:\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundWave.generated.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\TextureLayout3d.h
-d:\epic games\ue_4.24\engine\source\runtime\engine\public\TextureLayout.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\TextureLayout3d.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\TextureLayout.h

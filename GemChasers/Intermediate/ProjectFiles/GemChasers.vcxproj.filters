@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GemChasers.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0CCD96AB-A3AC-41AD-8C6E-EA686FF71786}</UniqueIdentifier>
+      <UniqueIdentifier>{9FE768F3-C176-4B4F-9496-62E0C2E7A030}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GemChasers.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,12 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{2FBB2149-D9A5-4F3A-A34F-21D564F2B099}</UniqueIdentifier>
+      <UniqueIdentifier>{6EC2B09A-2F11-462D-88A7-BE93E3712166}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorSettings.ini">
       <Filter>Config</Filter>
     </None>
     <None Include="..\..\Config\DefaultEngine.ini">
@@ -24,12 +27,18 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GemChasers">
-      <UniqueIdentifier>{83D4D8DE-9DE6-4E62-AC7A-DAA89B1D25B9}</UniqueIdentifier>
+      <UniqueIdentifier>{AC363291-CE02-4813-8905-46263A5BF5D6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GemChasers\BattleArea.cpp">
       <Filter>Source\GemChasers</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GemChasers\BattleArea.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GemChasers\EnemySpawner.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\EnemySpawner.h">
       <Filter>Source\GemChasers</Filter>
     </ClInclude>
     <None Include="..\..\Source\GemChasers\GemChasers.Build.cs">
@@ -47,14 +56,32 @@
     <ClInclude Include="..\..\Source\GemChasers\GemChasersGameModeBase.h">
       <Filter>Source\GemChasers</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\GemChasers\TestEnemy.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\GemChasers\TestEnemy.h">
       <Filter>Source\GemChasers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\GemChasers\TestEnemy.cpp">
+    <ClInclude Include="..\..\Source\GemChasers\MainPlayerController.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GemChasers\PlayerPawn.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GemChasers\MainGamemode.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GemChasers\MainPlayerController.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GemChasers\PlayerPawn.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GemChasers\MainGamemode.cpp">
       <Filter>Source\GemChasers</Filter>
     </ClCompile>
   </ItemGroup>
