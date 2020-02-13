@@ -19,11 +19,5 @@ protected:
 	virtual void BeginPlay() override;
 public:
 	virtual void SetupInputComponent() override;
-
-	UFUNCTION()
-	void MoveForward(float f);
-
-	UFUNCTION()
-	void MoveRight(float f);
 	
 };

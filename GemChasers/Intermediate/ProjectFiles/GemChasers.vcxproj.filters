@@ -73,6 +73,12 @@
     <ClInclude Include="..\..\Source\GemChasers\MainGamemode.h">
       <Filter>Source\GemChasers</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GemChasers\BattleAreaSpawnPoint.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\GemChasers\GemChasersInstance.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GemChasers\MainPlayerController.cpp">
@@ -82,6 +88,12 @@
       <Filter>Source\GemChasers</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GemChasers\MainGamemode.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GemChasers\BattleAreaSpawnPoint.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GemChasers\GemChasersInstance.cpp">
       <Filter>Source\GemChasers</Filter>
     </ClCompile>
   </ItemGroup>

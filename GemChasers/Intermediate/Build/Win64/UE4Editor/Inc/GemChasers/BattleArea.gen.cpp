@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
+	GEMCHASERS_API UClass* Z_Construct_UClass_ATestEnemy_NoRegister();
 // End Cross Module References
 	void ABattleArea::StaticRegisterNativesABattleArea()
 	{
@@ -123,6 +125,27 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_initiate_MetaData[];
+#endif
+		static void NewProp_initiate_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_initiate;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerPositions_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_playerPositions;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerPositions_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_enemyPositions_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_enemyPositions;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_enemyPositions_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_enemies_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_enemies;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_enemies_Inner;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -139,6 +162,48 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 		{ "ModuleRelativePath", "BattleArea.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate_MetaData[] = {
+		{ "ModuleRelativePath", "BattleArea.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate_SetBit(void* Obj)
+	{
+		((ABattleArea*)Obj)->initiate = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate = { "initiate", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ABattleArea), &Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "BattleArea.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions = { "playerPositions", nullptr, (EPropertyFlags)0x0010008000000008, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattleArea, playerPositions), METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions_Inner = { "playerPositions", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "BattleArea.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions = { "enemyPositions", nullptr, (EPropertyFlags)0x0010008000000008, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattleArea, enemyPositions), METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions_Inner = { "enemyPositions", nullptr, (EPropertyFlags)0x0000000000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_USceneComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies_MetaData[] = {
+		{ "ModuleRelativePath", "BattleArea.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies = { "enemies", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattleArea, enemies), METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies_Inner = { "enemies", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_ATestEnemy_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABattleArea_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_initiate,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_playerPositions_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPositions_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies_Inner,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABattleArea_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABattleArea>::IsAbstract,
 	};
@@ -148,11 +213,11 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_ABattleArea_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::PropPointers),
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::Class_MetaDataParams))
@@ -166,7 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABattleArea, 3421600249);
+	IMPLEMENT_CLASS(ABattleArea, 347457790);
 	template<> GEMCHASERS_API UClass* StaticClass<ABattleArea>()
 	{
 		return ABattleArea::StaticClass();

@@ -2,28 +2,21 @@
 #include "TestEnemy.h"
 #include "Engine/World.h"
 #include "Engine.h"
+#include <GemChasers\GemChasersInstance.h>
 
-//Variables for spawning objects
-UObject* SpawnActor = NULL;
-UBlueprint* GeneratedBP = NULL;
-UClass* SpawnClass = NULL;
 FTimerHandle spawnerTimer;
 
 // Sets default values
 AEnemySpawner::AEnemySpawner()
 {
 	PrimaryActorTick.bCanEverTick = true;
-	//Gets Blueprint for enemy1
-	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_TestEnemy.BP_TestEnemy'")));
-	GeneratedBP = Cast<UBlueprint>(SpawnActor);
-	SpawnClass = SpawnActor->StaticClass();
 }
 
 // Called when the game starts or when spawned
 void AEnemySpawner::BeginPlay()
 {
 	Super::BeginPlay();
-
+	instance = Cast<UGemChasersInstance>(GetGameInstance());
 	Start();
 	
 }
@@ -43,7 +36,7 @@ void AEnemySpawner::SpawnEnemy()
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 	//Spawns enemy
-	ATestEnemy* e = GetWorld()->SpawnActor<ATestEnemy>(GeneratedBP->GeneratedClass, Location, Rotation, SpawnInfo);
+	ATestEnemy* e = GetWorld()->SpawnActor<ATestEnemy>(instance->enemy1BP->GeneratedClass, Location, Rotation, SpawnInfo);
 }
 
 void AEnemySpawner::Start()

@@ -24,13 +24,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UPROPERTY()
-	AActor* enemyToSpawn = NULL;
-
-	UPROPERTY()
 		bool isActive = false;
 	
 	UPROPERTY()
 		float speed = 1.0;
+
+	UPROPERTY()
+		class UGemChasersInstance* instance;
 
 	UFUNCTION()
 		void SpawnEnemy();

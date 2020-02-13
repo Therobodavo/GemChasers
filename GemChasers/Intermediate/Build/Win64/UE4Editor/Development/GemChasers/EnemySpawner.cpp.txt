@@ -671,3 +671,5 @@ D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Widgets/Input/SComboBox
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Framework/Application/SlateUser.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\SlateScope.h
 D:\Epic Games\UE_4.24\Engine\Source\Runtime\Slate\Public\Framework/Docking/LayoutService.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\GemChasersInstance.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\GemChasersInstance.generated.h

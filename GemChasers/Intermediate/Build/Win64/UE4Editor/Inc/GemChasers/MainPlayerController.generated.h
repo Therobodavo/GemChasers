@@ -14,48 +14,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GEMCHASERS_MainPlayerController_generated_h
 
 #define GemChasers_Source_GemChasers_MainPlayerController_h_15_SPARSE_DATA
-#define GemChasers_Source_GemChasers_MainPlayerController_h_15_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execMoveRight) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_f); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->MoveRight(Z_Param_f); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execMoveForward) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_f); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->MoveForward(Z_Param_f); \
-		P_NATIVE_END; \
-	}
-
-
-#define GemChasers_Source_GemChasers_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execMoveRight) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_f); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->MoveRight(Z_Param_f); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execMoveForward) \
-	{ \
-		P_GET_PROPERTY(UFloatProperty,Z_Param_f); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		P_THIS->MoveForward(Z_Param_f); \
-		P_NATIVE_END; \
-	}
-
-
+#define GemChasers_Source_GemChasers_MainPlayerController_h_15_RPC_WRAPPERS
+#define GemChasers_Source_GemChasers_MainPlayerController_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define GemChasers_Source_GemChasers_MainPlayerController_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainPlayerController(); \

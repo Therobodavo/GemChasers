@@ -20,7 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 	GEMCHASERS_API UFunction* Z_Construct_UFunction_AEnemySpawner_SpawnEnemy();
 	GEMCHASERS_API UFunction* Z_Construct_UFunction_AEnemySpawner_Start();
 	GEMCHASERS_API UFunction* Z_Construct_UFunction_AEnemySpawner_Stop();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	GEMCHASERS_API UClass* Z_Construct_UClass_UGemChasersInstance_NoRegister();
 // End Cross Module References
 	void AEnemySpawner::StaticRegisterNativesAEnemySpawner()
 	{
@@ -110,6 +110,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_instance_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_instance;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_speed_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_speed;
@@ -118,10 +122,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 #endif
 		static void NewProp_isActive_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isActive;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_enemyToSpawn_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_enemyToSpawn;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -142,6 +142,12 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance_MetaData[] = {
+		{ "ModuleRelativePath", "EnemySpawner.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance = { "instance", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawner, instance), Z_Construct_UClass_UGemChasersInstance_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::NewProp_speed_MetaData[] = {
 		{ "ModuleRelativePath", "EnemySpawner.h" },
 	};
@@ -157,16 +163,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 		((AEnemySpawner*)Obj)->isActive = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AEnemySpawner_Statics::NewProp_isActive = { "isActive", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AEnemySpawner), &Z_Construct_UClass_AEnemySpawner_Statics::NewProp_isActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_isActive_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_isActive_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemySpawner_Statics::NewProp_enemyToSpawn_MetaData[] = {
-		{ "ModuleRelativePath", "EnemySpawner.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemySpawner_Statics::NewProp_enemyToSpawn = { "enemyToSpawn", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEnemySpawner, enemyToSpawn), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_enemyToSpawn_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemySpawner_Statics::NewProp_enemyToSpawn_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemySpawner_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_instance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_speed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_isActive,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemySpawner_Statics::NewProp_enemyToSpawn,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemySpawner_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AEnemySpawner>::IsAbstract,
@@ -195,7 +195,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemySpawner() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEnemySpawner, 3095337532);
+	IMPLEMENT_CLASS(AEnemySpawner, 3829224165);
 	template<> GEMCHASERS_API UClass* StaticClass<AEnemySpawner>()
 	{
 		return AEnemySpawner::StaticClass();

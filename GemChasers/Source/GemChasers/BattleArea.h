@@ -25,4 +25,14 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY()
+		TArray<class ATestEnemy*> enemies;
+	UPROPERTY()
+		TArray<USceneComponent*> enemyPositions;
+	UPROPERTY()
+		TArray<USceneComponent*> playerPositions;
+
+	UPROPERTY()
+		bool initiate = false;
 };

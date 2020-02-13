@@ -17,81 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 	GEMCHASERS_API UClass* Z_Construct_UClass_AMainPlayerController();
 	ENGINE_API UClass* Z_Construct_UClass_APlayerController();
 	UPackage* Z_Construct_UPackage__Script_GemChasers();
-	GEMCHASERS_API UFunction* Z_Construct_UFunction_AMainPlayerController_MoveForward();
-	GEMCHASERS_API UFunction* Z_Construct_UFunction_AMainPlayerController_MoveRight();
 // End Cross Module References
 	void AMainPlayerController::StaticRegisterNativesAMainPlayerController()
 	{
-		UClass* Class = AMainPlayerController::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "MoveForward", &AMainPlayerController::execMoveForward },
-			{ "MoveRight", &AMainPlayerController::execMoveRight },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics
-	{
-		struct MainPlayerController_eventMoveForward_Parms
-		{
-			float f;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_f;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::NewProp_f = { "f", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainPlayerController_eventMoveForward_Parms, f), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::NewProp_f,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MainPlayerController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainPlayerController, nullptr, "MoveForward", nullptr, nullptr, sizeof(MainPlayerController_eventMoveForward_Parms), Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainPlayerController_MoveForward()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainPlayerController_MoveForward_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics
-	{
-		struct MainPlayerController_eventMoveRight_Parms
-		{
-			float f;
-		};
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_f;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::NewProp_f = { "f", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MainPlayerController_eventMoveRight_Parms, f), METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::NewProp_f,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "MainPlayerController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMainPlayerController, nullptr, "MoveRight", nullptr, nullptr, sizeof(MainPlayerController_eventMoveRight_Parms), Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_AMainPlayerController_MoveRight()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMainPlayerController_MoveRight_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_AMainPlayerController_NoRegister()
 	{
@@ -100,7 +28,6 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 	struct Z_Construct_UClass_AMainPlayerController_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -110,10 +37,6 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 	UObject* (*const Z_Construct_UClass_AMainPlayerController_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_APlayerController,
 		(UObject* (*)())Z_Construct_UPackage__Script_GemChasers,
-	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_AMainPlayerController_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMainPlayerController_MoveForward, "MoveForward" }, // 811492615
-		{ &Z_Construct_UFunction_AMainPlayerController_MoveRight, "MoveRight" }, // 2997337031
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainPlayerController_Statics::Class_MetaDataParams[] = {
@@ -131,11 +54,11 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		UE_ARRAY_COUNT(FuncInfo),
+		0,
 		0,
 		0,
 		0x009002A4u,
@@ -150,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeMainPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainPlayerController, 1247054063);
+	IMPLEMENT_CLASS(AMainPlayerController, 1030464923);
 	template<> GEMCHASERS_API UClass* StaticClass<AMainPlayerController>()
 	{
 		return AMainPlayerController::StaticClass();

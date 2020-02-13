@@ -8,15 +8,19 @@
 //Main code for creating battles and taking care of enemies/players
 //Programmed by David Knolls
 
-
-ATestEnemy* enemies[3] = {NULL,NULL,NULL};
-FVector EnemyPositions[3];
-
+bool hasInitiated = false;
 // Sets default values
 ABattleArea::ABattleArea()
 {
 	PrimaryActorTick.bCanEverTick = true;
-	TArray<UStaticMeshComponent> StaticComps;
+
+	enemyPositions.SetNum(3,false);
+	enemyPositions = { NULL,NULL,NULL };
+
+	playerPositions.SetNum(3,false);
+	playerPositions = { NULL,NULL,NULL };
+	enemies.SetNum(3,false);
+	enemies = { NULL,NULL,NULL };
 }
 
 void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
@@ -30,7 +34,8 @@ void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * Other
 			{
 				ATestEnemy* enemy = Cast<ATestEnemy>(OtherActor);
 				enemies[i] = enemy;
-				enemy->SetActorLocation(EnemyPositions[i]);
+				enemy->SetActorLocation(enemyPositions[i]->GetComponentLocation());
+				enemy->SetActorRotation(enemyPositions[i]->GetComponentRotation());
 				enemy->inBattle = true;
 				foundSpot = true;
 				break;
@@ -55,15 +60,27 @@ void ABattleArea::BeginPlay()
 	{
 		if (part->GetName() == "E1")
 		{
-			EnemyPositions[0] = part->GetComponentLocation();
+			enemyPositions[0] = part;
 		}
 		if (part->GetName() == "E2")
 		{
-			EnemyPositions[1] = part->GetComponentLocation();
+			enemyPositions[1] = part;
 		}
 		if (part->GetName() == "E3")
 		{
-			EnemyPositions[2] = part->GetComponentLocation();
+			enemyPositions[2] = part;
+		}
+		if (part->GetName() == "P1")
+		{
+			playerPositions[0] = part;
+		}
+		if (part->GetName() == "P2")
+		{
+			playerPositions[1] = part;
+		}
+		if (part->GetName() == "P3")
+		{
+			playerPositions[2] = part;
 		}
 		if (part->GetName() == "AreaCollision") 
 		{
@@ -72,17 +89,28 @@ void ABattleArea::BeginPlay()
 		}
 	}
 
+	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorLocation(playerPositions[0]->GetComponentLocation());
+	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorRotation(playerPositions[0]->GetComponentRotation());
+
+
 }
 
 // Called every frame
 void ABattleArea::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
+	Super::Tick(DeltaTime); 
+	if (initiate && !hasInitiated) 
+	{
+		for (int i = 0; i < 3; i++) 
+		{
+			if (enemies[i]) 
+			{
+				enemies[i]->SetActorLocation(enemyPositions[i]->GetComponentLocation());
+				enemies[i]->SetActorRotation(enemyPositions[i]->GetComponentRotation());
+			}
+			
 
-}
-
-void onEnter() 
-{
-
+		}
+	}
 }
 

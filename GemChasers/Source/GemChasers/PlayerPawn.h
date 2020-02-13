@@ -25,5 +25,20 @@ public:
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	UFUNCTION(BlueprintCallable, Category = "BattleArea")
+		void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+	UStaticMeshComponent* collider = NULL;
+	UFUNCTION()
+		void MoveForward(float f);
 
+	UFUNCTION()
+		void MoveRight(float r);
+
+	UFUNCTION()
+		void CreateBattleArea(class ABattleAreaSpawnPoint* spawnPoint);
+	UPROPERTY()
+		class UGemChasersInstance* instance;
+
+	UPROPERTY()
+		class ABattleArea* currentBattleArea;
 };
