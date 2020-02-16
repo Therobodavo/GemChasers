@@ -1,0 +1,931 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>BF8C8A1D4C0A474FA63AD19DD84A1A46</ExecutionGuid>
+<CrashGUID>UE4CC-Windows-1555B13D45E89ABD9A767AB42BD5AFBC_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000038</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<ProcessId>19616</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE4-GemChasers</GameName>
+<ExecutableName>GemChasers</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<Symbols>**UE4*Release-4.24-CL-11100242-Win64-Development</Symbols>
+<PlatformName>WindowsNoEditor</PlatformName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>4.24.2-11100242+++UE4+Release-4.24</EngineVersion>
+<CommandLine> ../../../GemChasers/GemChasers.uproject /Game/Maps/TestMap -stdout -abslog=&quot;D:\Roaming\Unreal Engine\AutomationTool\Logs\D+Epic+Games+UE_4.24\Client.log&quot; -Messaging -Windowed -CrashForUAT -SessionId=19B582C7443856C9348EDFAF8DB236B2 -SessionOwner=Thero -SessionName=&quot;Launch On Device&quot;</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE4+Release-4.24-CL-11100242</BuildVersion>
+<IsUE4Release>false</IsUE4Release>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>D:/College Stuff/Unity/GemChasers/GemChasers/Saved/StagedBuilds/WindowsNoEditor/GemChasers/Binaries/Win64/</BaseDir>
+<RootDir>D:/College Stuff/Unity/GemChasers/GemChasers/Saved/StagedBuilds/WindowsNoEditor/</RootDir>
+<MachineId>46C6A3E24F7D125ED21C98A37ED60501</MachineId>
+<LoginId>46c6a3e24f7d125ed21c98a37ed60501</LoginId>
+<EpicAccountId>290f3d66e74c46de8d4d22961a688ef2</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>4</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+<Misc.CPUBrand>Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz</Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>Intel(R) HD Graphics 530</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 10 (Release 1903)</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<MemoryStats.TotalPhysical>17086115840</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>2</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+GemChasers  0x00000000ba740000 + 3bd5069 
+GemChasers  0x00000000ba740000 + 351881b 
+GemChasers  0x00000000ba740000 + 3391933 
+GemChasers  0x00000000ba740000 + 390f6b  
+GemChasers  0x00000000ba740000 + 3a330c  
+GemChasers  0x00000000ba740000 + 3a33ca  
+GemChasers  0x00000000ba740000 + 3b37ff  
+GemChasers  0x00000000ba740000 + 4bfd02e 
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</PCallStack>
+<PCallStackHash>C2E754BE9D6B412A2CDF9CAF9FC99D6923968669</PCallStackHash>
+<Threads><Thread><CallStack>ntdll         0x00000000d9980000 + 9c144   
+KERNELBASE    0x00000000d7340000 + 38ba3   
+GemChasers    0x00000000ba740000 + db8fad  
+GemChasers    0x00000000ba740000 + 4c09a9e 
+VCRUNTIME140  0x00000000c97a0000 + dfc0    
+ntdll         0x00000000d9980000 + a121f   
+ntdll         0x00000000d9980000 + 6a289   
+ntdll         0x00000000d9980000 + 9fe8e   
+GemChasers    0x00000000ba740000 + 950d05  
+GemChasers    0x00000000ba740000 + 3ba9e08 
+GemChasers    0x00000000ba740000 + 3bd5069 
+GemChasers    0x00000000ba740000 + 351881b 
+GemChasers    0x00000000ba740000 + 3391933 
+GemChasers    0x00000000ba740000 + 390f6b  
+GemChasers    0x00000000ba740000 + 3a330c  
+GemChasers    0x00000000ba740000 + 3a33ca  
+GemChasers    0x00000000ba740000 + 3b37ff  
+GemChasers    0x00000000ba740000 + 4bfd02e 
+KERNEL32      0x00000000d7a30000 + 17bd4   
+ntdll         0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>16260</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11276</ThreadID>
+<ThreadName>TaskGraphThreadNP 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18908</ThreadID>
+<ThreadName>TaskGraphThreadNP 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19304</ThreadID>
+<ThreadName>TaskGraphThreadNP 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4172</ThreadID>
+<ThreadName>TaskGraphThreadNP 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19284</ThreadID>
+<ThreadName>TaskGraphThreadNP 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3452</ThreadID>
+<ThreadName>TaskGraphThreadNP 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14284</ThreadID>
+<ThreadName>TaskGraphThreadHP 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17528</ThreadID>
+<ThreadName>TaskGraphThreadHP 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18852</ThreadID>
+<ThreadName>TaskGraphThreadHP 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6348</ThreadID>
+<ThreadName>TaskGraphThreadHP 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12256</ThreadID>
+<ThreadName>TaskGraphThreadHP 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19900</ThreadID>
+<ThreadName>TaskGraphThreadHP 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12344</ThreadID>
+<ThreadName>TaskGraphThreadBP 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17792</ThreadID>
+<ThreadName>TaskGraphThreadBP 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14608</ThreadID>
+<ThreadName>TaskGraphThreadBP 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1744</ThreadID>
+<ThreadName>TaskGraphThreadBP 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18352</ThreadID>
+<ThreadName>TaskGraphThreadBP 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 98fa09  
+GemChasers  0x00000000ba740000 + 990cfd  
+GemChasers  0x00000000ba740000 + 997edb  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7332</ThreadID>
+<ThreadName>TaskGraphThreadBP 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 990683  
+GemChasers  0x00000000ba740000 + 990c83  
+GemChasers  0x00000000ba740000 + c64ced  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13040</ThreadID>
+<ThreadName>StatsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12864</ThreadID>
+<ThreadName>PoolThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16688</ThreadID>
+<ThreadName>PoolThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9112</ThreadID>
+<ThreadName>PoolThread 2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>464</ThreadID>
+<ThreadName>PoolThread 3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1032</ThreadID>
+<ThreadName>PoolThread 4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1800</ThreadID>
+<ThreadName>PoolThread 5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19548</ThreadID>
+<ThreadName>PoolThread 6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11528</ThreadID>
+<ThreadName>PoolThread 7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c744   
+KERNELBASE  0x00000000d7340000 + 46931   
+GemChasers  0x00000000ba740000 + ba47a5  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13548</ThreadID>
+<ThreadName>FAsyncWriter_Client</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 2e4893c 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>11600</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c744   
+KERNELBASE  0x00000000d7340000 + 46931   
+GemChasers  0x00000000ba740000 + 22e2dbd 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18788</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 6cc2a6  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12524</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3636</ThreadID>
+<ThreadName>PoolThread 8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14592</ThreadID>
+<ThreadName>PoolThread 9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19572</ThreadID>
+<ThreadName>PoolThread 10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16456</ThreadID>
+<ThreadName>PoolThread 11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 990683  
+GemChasers  0x00000000ba740000 + 990c83  
+GemChasers  0x00000000ba740000 + 26fcd14 
+GemChasers  0x00000000ba740000 + 270200f 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>20300</ThreadID>
+<ThreadName>RenderThread 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c744   
+KERNELBASE  0x00000000d7340000 + 46931   
+GemChasers  0x00000000ba740000 + dbd93a  
+GemChasers  0x00000000ba740000 + 2702147 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>492</ThreadID>
+<ThreadName>RTHeartBeat 1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 1603d9a 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15188</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c744   
+KERNELBASE  0x00000000d7340000 + 46931   
+GemChasers  0x00000000ba740000 + dbd93a  
+GemChasers  0x00000000ba740000 + 562678  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3188</ThreadID>
+<ThreadName>FTcpMessageTransport</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 57fc78  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18684</ThreadID>
+<ThreadName>FUdpMessageProcessor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 57fb7f  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>9444</ThreadID>
+<ThreadName>FUdpMessageBeacon</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 57ff1d  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18124</ThreadID>
+<ThreadName>FUdpMessageProcessor.Sender</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+mswsock     0x00000000d60c0000 + 82ed    
+mswsock     0x00000000d60c0000 + f07a    
+WS2_32      0x00000000d7de0000 + 11f7c   
+GemChasers  0x00000000ba740000 + 18887c9 
+GemChasers  0x00000000ba740000 + 188e84a 
+GemChasers  0x00000000ba740000 + 584a51  
+GemChasers  0x00000000ba740000 + 57fe70  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>14432</ThreadID>
+<ThreadName>UdpMessageMulticastReceiver</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+mswsock     0x00000000d60c0000 + 82ed    
+mswsock     0x00000000d60c0000 + f07a    
+WS2_32      0x00000000d7de0000 + 11f7c   
+GemChasers  0x00000000ba740000 + 18887c9 
+GemChasers  0x00000000ba740000 + 188e84a 
+GemChasers  0x00000000ba740000 + 584a51  
+GemChasers  0x00000000ba740000 + 57fe70  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5740</ThreadID>
+<ThreadName>UdpMessageUnicastReceiver</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 4401cc3 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15112</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10052</ThreadID>
+<ThreadName>PoolThread 12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>17780</ThreadID>
+<ThreadName>PoolThread 13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19980</ThreadID>
+<ThreadName>PoolThread 14</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2428</ThreadID>
+<ThreadName>PoolThread 15</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>904</ThreadID>
+<ThreadName>PoolThread 16</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + a8700e  
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15980</ThreadID>
+<ThreadName>PoolThread 17</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c744   
+KERNELBASE  0x00000000d7340000 + 46931   
+GemChasers  0x00000000ba740000 + dbd93a  
+GemChasers  0x00000000ba740000 + 3c401f1 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>15240</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 2b7f620 
+GemChasers  0x00000000ba740000 + 2b7f41e 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13864</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll       0x00000000d9980000 + 9c144   
+KERNELBASE  0x00000000d7340000 + 38ba3   
+GemChasers  0x00000000ba740000 + dc0c1f  
+GemChasers  0x00000000ba740000 + 990683  
+GemChasers  0x00000000ba740000 + 990c83  
+GemChasers  0x00000000ba740000 + 30a574d 
+GemChasers  0x00000000ba740000 + dc1f6f  
+GemChasers  0x00000000ba740000 + dc1da4  
+KERNEL32    0x00000000d7a30000 + 17bd4   
+ntdll       0x00000000d9980000 + 6ced1   
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>18716</ThreadID>
+<ThreadName>AudioThread</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>true</IsRunningOnBattery>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+</PlatformProperties>
+<EngineData>
+<RHI.RHIName>D3D11</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce GTX 970M</RHI.AdapterName>
+<RHI.UserDriverVersion>Unknown</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>Unknown</RHI.InternalDriverVersion>
+<RHI.DriverDate>Unknown</RHI.DriverDate>
+<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+<Platform.AppHasFocus>true</Platform.AppHasFocus>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>

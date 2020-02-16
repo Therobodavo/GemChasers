@@ -25,12 +25,13 @@ ABattleArea::ABattleArea()
 
 void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
-	if (OtherActor->GetRootComponent()->ComponentHasTag("Enemy")) 
+
+	if (OtherActor->GetRootComponent()->ComponentHasTag("Enemy") && !(enemies.Contains(OtherActor)))
 	{
 		bool foundSpot = false;
 		for (int i = 0; i < 3;i++) 
 		{
-			if (enemies[i] == NULL) 
+			if (!enemies[i])
 			{
 				ATestEnemy* enemy = Cast<ATestEnemy>(OtherActor);
 				enemies[i] = enemy;

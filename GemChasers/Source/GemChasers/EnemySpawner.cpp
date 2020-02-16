@@ -3,6 +3,7 @@
 #include "Engine/World.h"
 #include "Engine.h"
 #include <GemChasers\GemChasersInstance.h>
+#include "PathToFollow.h"
 
 FTimerHandle spawnerTimer;
 
@@ -17,6 +18,15 @@ void AEnemySpawner::BeginPlay()
 {
 	Super::BeginPlay();
 	instance = Cast<UGemChasersInstance>(GetGameInstance());
+
+	for (TActorIterator<APathToFollow> I(GetWorld()); I; ++I) 
+	{
+		if (I->GetName() == "Test_Path") 
+		{
+			spawnerPath = *I;
+			break;
+		}
+	}
 	Start();
 	
 }
@@ -32,8 +42,10 @@ void AEnemySpawner::SpawnEnemy()
 	//Get spawning info 
 	FVector Location = GetActorLocation();
 	FRotator Rotation = GetActorRotation();
-	FActorSpawnParameters SpawnInfo;
+	
+	FActorSpawnParameters SpawnInfo {};
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnInfo.Owner = this;
 
 	//Spawns enemy
 	ATestEnemy* e = GetWorld()->SpawnActor<ATestEnemy>(instance->enemy1BP->GeneratedClass, Location, Rotation, SpawnInfo);

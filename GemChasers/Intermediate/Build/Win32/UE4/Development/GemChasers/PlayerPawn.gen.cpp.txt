@@ -1,0 +1,5 @@
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win32\UE4\Development\GemChasers\Definitions.GemChasers.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/PlayerPawn.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win32\UE4\Inc\GemChasers\PlayerPawn.generated.h

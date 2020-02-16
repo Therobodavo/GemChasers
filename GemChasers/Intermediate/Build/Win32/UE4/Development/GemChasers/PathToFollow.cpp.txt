@@ -1,0 +1,3 @@
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win32\UE4\Development\GemChasers\Definitions.GemChasers.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\PathToFollow.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win32\UE4\Inc\GemChasers\PathToFollow.generated.h

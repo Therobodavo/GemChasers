@@ -1,0 +1,5 @@
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4\Development\GemChasers\Definitions.GemChasers.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleAreaSpawnPoint.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4\Inc\GemChasers\BattleAreaSpawnPoint.generated.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4\Inc\GemChasers\BattleArea.generated.h

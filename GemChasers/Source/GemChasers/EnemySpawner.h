@@ -27,10 +27,10 @@ public:
 		bool isActive = false;
 	
 	UPROPERTY()
-		float speed = 1.0;
+		float speed = 8.0;
 
 	UPROPERTY()
-		class UGemChasersInstance* instance;
+		class UGemChasersInstance* instance = NULL;
 
 	UFUNCTION()
 		void SpawnEnemy();
@@ -38,4 +38,7 @@ public:
 		void Start();
 	UFUNCTION()
 		void Stop();
+	UPROPERTY()
+		class APathToFollow* spawnerPath = NULL;
+
 };

@@ -87,7 +87,7 @@ void APlayerPawn::MoveForward(float f)
 {
 	if (!currentBattleArea) 
 	{
-		SetActorLocation(GetActorLocation() + (GetActorForwardVector() * f * 30));
+		SetActorLocation(GetActorLocation() + (GetActorForwardVector() * f * 20));
 	}
 	
 }
@@ -96,7 +96,7 @@ void APlayerPawn::MoveRight(float r)
 {
 	if (!currentBattleArea) 
 	{
-		SetActorLocation(GetActorLocation() + (GetActorRightVector() * r * 30));
+		SetActorLocation(GetActorLocation() + (GetActorRightVector() * r * 20));
 	}
 }
 
