@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UPrimitiveComponent;
 class AActor;
+class UPrimitiveComponent;
 struct FHitResult;
 #ifdef GEMCHASERS_BattleArea_generated_h
 #error "BattleArea.generated.h already included, missing '#pragma once' in BattleArea.h"
@@ -18,6 +18,17 @@ struct FHitResult;
 
 #define GemChasers_Source_GemChasers_BattleArea_h_12_SPARSE_DATA
 #define GemChasers_Source_GemChasers_BattleArea_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetActorToSpot) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_a); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_i); \
+		P_GET_UBOOL(Z_Param_t); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetActorToSpot(Z_Param_a,Z_Param_i,Z_Param_t); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlap) \
 	{ \
@@ -35,6 +46,17 @@ struct FHitResult;
 
 
 #define GemChasers_Source_GemChasers_BattleArea_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetActorToSpot) \
+	{ \
+		P_GET_OBJECT(AActor,Z_Param_a); \
+		P_GET_PROPERTY(UIntProperty,Z_Param_i); \
+		P_GET_UBOOL(Z_Param_t); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetActorToSpot(Z_Param_a,Z_Param_i,Z_Param_t); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlap) \
 	{ \
@@ -71,7 +93,7 @@ public: \
 
 #define GemChasers_Source_GemChasers_BattleArea_h_12_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ABattleArea(const FObjectInitializer& ObjectInitializer); \
+	NO_API ABattleArea(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABattleArea) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABattleArea); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABattleArea); \
@@ -90,7 +112,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ABattleArea); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABattleArea); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABattleArea)
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABattleArea)
 
 
 #define GemChasers_Source_GemChasers_BattleArea_h_12_PRIVATE_PROPERTY_OFFSET

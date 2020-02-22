@@ -1,0 +1,1649 @@
+﻿Log file open, 02/21/20 16:43:43
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GemChasers
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 14.010839
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11100242
+LogInit: Engine Version: 4.24.2-11100242+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Jan 24 2020 02:05:53
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.21-21.43.48:136][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.21-21.43.48:137][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:147][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.21-21.43.48:147][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.21-21.43.48:148][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.21-21.43.48:148][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.21-21.43.48:148][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:148][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:220][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.21-21.43.48:220][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.21-21.43.48:221][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.21-21.43.48:232][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.21-21.43.48:232][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.21-21.43.48:346][  0]LogHAL: Display: Platform has ~ 16 GB [17086115840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.21-21.43.48:346][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.21-21.43.48:346][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.21-21.43.48:347][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.02.21-21.43.48:348][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.21-21.43.48:364][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.21-21.43.48:364][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.21-21.43.48:364][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.02.21-21.43.48:390][  0]LogInit: Computer: DAVIDSMSILAPTOP
+[2020.02.21-21.43.48:390][  0]LogInit: User: Thero
+[2020.02.21-21.43.48:390][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.21-21.43.48:390][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.21-21.43.48:391][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.02.21-21.43.48:391][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.21-21.43.48:391][  0]LogMemory: Process Physical Memory: 105.52 MB used, 105.53 MB peak
+[2020.02.21-21.43.48:391][  0]LogMemory: Process Virtual Memory: 100.59 MB used, 100.59 MB peak
+[2020.02.21-21.43.48:391][  0]LogMemory: Physical Memory: 6531.01 MB used,  9763.58 MB free, 16294.59 MB total
+[2020.02.21-21.43.48:391][  0]LogMemory: Virtual Memory: 5137.52 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.02.21-21.43.48:402][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.02.21-21.43.49:436][  0]LogInit: Using OS detected language (en-US).
+[2020.02.21-21.43.49:436][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.21-21.43.49:477][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.21-21.43.50:302][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.21-21.43.51:107][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.21-21.43.51:107][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.21-21.43.57:839][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.21-21.43.57:839][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.02.21-21.43.57:839][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.02.21-21.43.57:839][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.21-21.43.57:922][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2020.02.21-21.43.57:922][  0]LogD3D11RHI:       3032/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.21-21.43.57:938][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.02.21-21.43.57:938][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.02.21-21.43.57:941][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.21-21.43.57:941][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.21-21.43.57:941][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.21-21.43.58:000][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.21-21.43.58:000][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.21-21.43.58:000][  0]LogWindows: EnumDisplayDevices:
+[2020.02.21-21.43.58:000][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.02.21-21.43.58:000][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.02.21-21.43.58:001][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.02.21-21.43.58:001][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.02.21-21.43.58:001][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2020.02.21-21.43.58:001][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.02.21-21.43.58:001][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.02.21-21.43.58:001][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2020.02.21-21.43.58:057][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.02.21-21.43.58:057][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.21-21.43.58:318][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.21-21.43.59:306][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.02.21-21.43.59:452][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.02.21-21.43.59:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.02.21-21.43.59:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.02.21-21.43.59:660][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.21-21.43.59:701][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.02.21-21.43.59:731][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.02.21-21.43.59:766][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.02.21-21.43.59:799][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.02.21-21.43.59:834][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.02.21-21.43.59:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.02.21-21.43.59:909][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.02.21-21.43.59:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.02.21-21.43.59:960][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.02.21-21.44.00:018][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.21-21.44.00:057][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.02.21-21.44.00:108][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.02.21-21.44.00:145][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.02.21-21.44.00:145][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.21-21.44.00:403][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.21-21.44.01:251][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../College Stuff/Unity/GemChasers/GemChasers/Intermediate/Shaders/WorkingDirectory/11304/).
+[2020.02.21-21.44.01:251][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thero/AppData/Local/Temp/UnrealShaderWorkingDir/145B319E4CECED29F96D7C8E07FDEF5C/'.
+[2020.02.21-21.44.01:252][  0]LogXGEController: Cleaning working directory: C:/Users/Thero/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.02.21-21.44.01:252][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.21-21.44.01:252][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.21-21.44.01:252][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.21-21.44.09:019][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.21-21.44.09:163][  0]LogDerivedDataCache: Loaded boot cache 0.14s 87MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.21-21.44.09:163][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.02.21-21.44.09:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../College Stuff/Unity/GemChasers/GemChasers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.21-21.44.09:163][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.21-21.44.09:163][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../College Stuff/Unity/GemChasers/GemChasers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.21-21.44.09:163][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.21-21.44.09:250][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.21-21.44.09:250][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.21-21.44.09:250][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.21-21.44.09:252][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thero/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.21-21.44.09:252][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.21-21.44.09:252][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.21-21.44.09:323][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.21-21.44.09:455][  0]LogSlate: Using FreeType 2.10.0
+[2020.02.21-21.44.09:573][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.21-21.44.11:519][  0]LogAssetRegistry: FAssetRegistry took 0.0088 seconds to start up
+[2020.02.21-21.44.16:599][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.21-21.44.18:418][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.21-21.44.18:418][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.21-21.44.18:418][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.21-21.44.18:418][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.21-21.44.18:418][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.21-21.44.18:862][  0]LogNetVersion: GemChasers 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 569320847)
+[2020.02.21-21.44.47:454][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.117824 seconds
+[2020.02.21-21.44.47:485][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.02.21-21.44.47:485][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.02.21-21.44.47:485][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.21-21.44.52:749][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.21-21.44.52:809][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.21-21.44.54:361][  0]SourceControl: Source control is disabled
+[2020.02.21-21.44.54:380][  0]SourceControl: Source control is disabled
+[2020.02.21-21.44.54:570][  0]SourceControl: Source control is disabled
+[2020.02.21-21.44.54:610][  0]SourceControl: Source control is disabled
+[2020.02.21-21.44.54:668][  0]SourceControl: Source control is disabled
+[2020.02.21-21.44.56:657][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.21-21.44.56:923][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.21-21.44.56:923][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.02.21-21.44.57:731][  0]LogOcInput: OculusInput pre-init called
+[2020.02.21-21.44.57:909][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.02.21-21.44.57:909][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.02.21-21.44.58:952][  0]LogEngine: Initializing Engine...
+[2020.02.21-21.44.58:972][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.02.21-21.44.59:045][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.021 s
+[2020.02.21-21.45.00:219][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.21-21.45.00:671][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.21-21.45.00:866][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.21-21.45.00:866][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.21-21.45.00:887][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.21-21.45.00:887][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: Channel Order:
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.21-21.45.00:938][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.02.21-21.45.01:033][  0]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.21-21.45.01:063][  0]LogInit: FAudioDevice initialized.
+[2020.02.21-21.45.01:064][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.21-21.45.01:123][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.02.21-21.45.01:129][  0]LogInit: Texture streaming: Enabled
+[2020.02.21-21.45.01:349][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.21-21.45.01:349][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.02.21-21.45.01:351][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.02.21-21.45.01:618][  0]LogInit: Transaction tracking system initialized
+[2020.02.21-21.45.02:004][  0]BlueprintLog: New page: Editor Load
+[2020.02.21-21.45.03:179][  0]LocalizationService: Localization service is disabled
+[2020.02.21-21.45.07:914][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Content/' took 0.01s
+[2020.02.21-21.45.07:914][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.21-21.45.07:914][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.21-21.45.13:216][  0]SourceControl: Source control is disabled
+[2020.02.21-21.45.13:243][  0]Cmd: MAP LOAD FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.21-21.45.13:301][  0]LightingResults: New page: Lighting Build
+[2020.02.21-21.45.13:405][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-21.45.13:419][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-21.45.13:430][  0]MapCheck: New page: Map Check
+[2020.02.21-21.45.13:430][  0]LightingResults: New page: Lighting Build
+[2020.02.21-21.45.13:657][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2020.02.21-21.45.14:410][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.02.21-21.45.14:998][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.21-21.45.15:108][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2020.02.21-21.45.15:108][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.21-21.45.15:120][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 11.174ms to complete.
+[2020.02.21-21.45.15:120][  0]LogFileHelpers: Loading map 'TestMap' took 1.886
+[2020.02.21-21.45.16:600][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-21.45.16:621][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-21.45.16:629][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-21.45.16:636][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.21-21.45.16:710][  0]LogCollectionManager: Loaded 0 collections in 0.001063 seconds
+[2020.02.21-21.45.16:850][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Collections/' took 0.00s
+[2020.02.21-21.45.16:850][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Content/Developers/Thero/Collections/' took 0.00s
+[2020.02.21-21.45.16:850][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Content/Collections/' took 0.00s
+[2020.02.21-21.45.16:850][  0]LogContentBrowser: Native class hierarchy populated in 0.0631 seconds. Added 3025 classes and 719 folders.
+[2020.02.21-21.45.16:901][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.21-21.45.18:413][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.02.21-21.45.18:482][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.02.21-21.45.19:134][  0]LogSlate: Took 0.041019 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.21-21.45.19:218][  0]LogSlate: Took 0.059838 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.21-21.45.19:261][  0]LogSlate: Took 0.016101 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.21-21.45.19:740][  0]LogRenderer: Reallocating scene render targets to support 792x376 Format 10 NumSamples 1 (Frame:1).
+[2020.02.21-21.45.20:232][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.21-21.45.20:232][  0]LogLoad: (Engine Initialization) Total time: 127.68 seconds
+[2020.02.21-21.45.20:232][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.21-21.45.20:510][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.21-21.45.20:623][  0]LogSlate: Took 0.018966 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.21-21.45.22:912][ 33]LogAssetRegistry: Asset discovery search completed in 71.3943 seconds
+[2020.02.21-21.45.22:937][ 33]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000018 seconds (updated 0 objects)
+[2020.02.21-21.49.24:079][297]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.21-21.49.24:117][297]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/GemChasers.BattleArea
+[2020.02.21-21.53.49:422][110]Candidate modules for hot reload:
+[2020.02.21-21.53.49:422][110]  GemChasers
+[2020.02.21-21.53.49:422][110]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,292 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-21.53.49:426][110]Warning: Starting HotReload took  0.1s.
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 11:57:05 AM
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-21.57.05:038][821]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: Reflection code generated for GemChasersEditor in 34.7917576 seconds
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-21.57.05:038][821]CompilerResultsLog: [Upgrade]
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: [Upgrade]
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [1/8] GemChasers.init.gen.cpp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [2/8] BattleAreaSpawnPoint.cpp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [3/8] BattleArea.gen.cpp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [4/8] BattleArea.cpp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [5/8] PlayerPawn.cpp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [6/8] UE4Editor-GemChasers-0292.lib
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0292.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0292.exp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [7/8] UE4Editor-GemChasers-0292.dll
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0292.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0292.suppressed.exp
+[2020.02.21-21.57.05:039][821]CompilerResultsLog:   [8/8] GemChasersEditor.target
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: Total time in Parallel executor: 157.71 seconds
+[2020.02.21-21.57.05:039][821]CompilerResultsLog: Total execution time: 195.47 seconds
+[2020.02.21-21.57.05:039][821]LogMainFrame: MainFrame: Module compiling took 195.653 seconds
+[2020.02.21-21.57.05:066][821]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2020.02.21-21.57.05:080][821]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-21.57.05:081][821]Display: HotReload took 195.7s.
+[2020.02.21-21.58.33:915][955]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-21.58.34:564][955]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 121 classes and 0 folders.
+[2020.02.21-21.58.36:582][955]LogSlate: Took 0.020783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.21-21.58.39:589][ 93]LogSlate: Took 0.036464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.21-21.58.46:463][459]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-21.58.46:485][459]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-21.58.46:485][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-21.58.47:535][506]Candidate modules for hot reload:
+[2020.02.21-21.58.47:535][506]  GemChasers
+[2020.02.21-21.58.47:535][506]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,5498 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-21.58.47:539][506]Warning: Starting HotReload took  0.0s.
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 11:58:57 AM
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-21.58.57:858][576]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: Reflection code generated for GemChasersEditor in 7.4488703 seconds
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade]
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: [Upgrade]
+[2020.02.21-21.58.57:858][576]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.21-21.58.57:858][576]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-5498.lib
+[2020.02.21-21.58.57:858][576]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5498.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5498.exp
+[2020.02.21-21.58.57:858][576]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-5498.dll
+[2020.02.21-21.58.57:859][576]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5498.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5498.suppressed.exp
+[2020.02.21-21.58.57:859][576]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.21-21.58.57:859][576]CompilerResultsLog: Total time in Parallel executor: 1.20 seconds
+[2020.02.21-21.58.57:859][576]CompilerResultsLog: Total execution time: 10.01 seconds
+[2020.02.21-21.58.57:859][576]LogMainFrame: MainFrame: Module compiling took 10.334 seconds
+[2020.02.21-21.58.57:901][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.29ms
+[2020.02.21-21.58.57:925][576]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.21-21.58.57:925][576]LogClass: Function OnOverlap is new.
+[2020.02.21-21.58.57:952][576]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-21.58.57:954][576]LogClass: Warning: Array Inner Type mismatch in enemyPositions of enemyPositions - Previous (ObjectProperty) Current(StructProperty) for package:  FObjectReader
+[2020.02.21-21.58.57:954][576]LogClass: Warning: Array Inner Type mismatch in playerPositions of playerPositions - Previous (ObjectProperty) Current(StructProperty) for package:  FObjectReader
+[2020.02.21-21.58.58:561][576]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2020.02.21-21.58.58:565][576]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.21-21.58.58:659][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2020.02.21-21.58.58:676][576]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-21.58.58:676][576]Display: HotReload took 11.2s.
+[2020.02.21-21.59.02:162][629]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-21.59.14:075][285]LogEditorTransaction: Undo Insert Child
+[2020.02.21-22.00.04:878][617]LogUObjectHash: Compacting FUObjectHashTables data took   4.90ms
+[2020.02.21-22.00.04:879][617]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.107
+[2020.02.21-22.00.25:588][769]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.00.25:595][769]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.00.25:595][769]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.00.26:658][827]Candidate modules for hot reload:
+[2020.02.21-22.00.26:658][827]  GemChasers
+[2020.02.21-22.00.26:658][827]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,7822 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.00.26:663][827]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:00:59 PM
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.9444871 seconds
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.00.59:414][776]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [1/8] BattleAreaSpawnPoint.cpp
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [2/8] GemChasers.init.gen.cpp
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [3/8] BattleArea.gen.cpp
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [4/8] PlayerPawn.cpp
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [5/8] BattleArea.cpp
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [6/8] UE4Editor-GemChasers-7822.lib
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7822.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7822.exp
+[2020.02.21-22.00.59:414][776]CompilerResultsLog:   [7/8] UE4Editor-GemChasers-7822.dll
+[2020.02.21-22.00.59:416][776]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7822.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7822.suppressed.exp
+[2020.02.21-22.00.59:416][776]CompilerResultsLog:   [8/8] GemChasersEditor.target
+[2020.02.21-22.00.59:416][776]CompilerResultsLog: Total time in Parallel executor: 22.09 seconds
+[2020.02.21-22.00.59:416][776]CompilerResultsLog: Total execution time: 32.63 seconds
+[2020.02.21-22.00.59:416][776]LogMainFrame: MainFrame: Module compiling took 32.768 seconds
+[2020.02.21-22.00.59:505][776]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.02.21-22.00.59:532][776]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.21-22.00.59:533][776]LogClass: Function OnOverlap is new.
+[2020.02.21-22.00.59:558][776]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-22.00.59:560][776]LogClass: Warning: Array Inner Type mismatch in enemyPositions of enemyPositions - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2020.02.21-22.00.59:560][776]LogClass: Warning: Array Inner Type mismatch in playerPositions of playerPositions - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2020.02.21-22.00.59:941][776]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.02.21-22.00.59:946][776]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.21-22.01.00:052][776]LogUObjectHash: Compacting FUObjectHashTables data took   3.77ms
+[2020.02.21-22.01.00:069][776]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-22.01.00:069][776]Display: HotReload took 33.4s.
+[2020.02.21-22.01.03:991][989]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.01.09:135][250]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.01.09:143][250]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.01.09:143][250]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.01.10:169][307]Candidate modules for hot reload:
+[2020.02.21-22.01.10:169][307]  GemChasers
+[2020.02.21-22.01.10:169][307]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,2960 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.01.10:173][307]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:01:21 PM
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.01.21:000][688]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: Reflection code generated for GemChasersEditor in 7.9770041 seconds
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-22.01.21:000][688]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-22.01.21:001][688]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.01.21:001][688]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.21-22.01.21:001][688]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-2960.lib
+[2020.02.21-22.01.21:001][688]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2960.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2960.exp
+[2020.02.21-22.01.21:001][688]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-2960.dll
+[2020.02.21-22.01.21:001][688]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2960.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2960.suppressed.exp
+[2020.02.21-22.01.21:001][688]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.21-22.01.21:001][688]CompilerResultsLog: Total time in Parallel executor: 1.26 seconds
+[2020.02.21-22.01.21:001][688]CompilerResultsLog: Total execution time: 10.69 seconds
+[2020.02.21-22.01.21:001][688]LogMainFrame: MainFrame: Module compiling took 10.841 seconds
+[2020.02.21-22.01.21:117][688]LogUObjectHash: Compacting FUObjectHashTables data took   5.77ms
+[2020.02.21-22.01.21:163][688]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.02.21-22.01.21:168][688]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.02.21-22.01.21:328][688]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.02.21-22.01.21:346][688]LogContentBrowser: Native class hierarchy populated in 0.0094 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-22.01.21:346][688]Display: HotReload took 11.2s.
+[2020.02.21-22.01.24:000][820]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.01.29:841][114]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.01.29:849][114]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.01.29:849][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.02.36:267][496]Candidate modules for hot reload:
+[2020.02.21-22.02.36:267][496]  GemChasers
+[2020.02.21-22.02.36:267][496]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,4233 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.02.36:271][496]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.02.45:833][ 55]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:02:45 PM
+[2020.02.21-22.02.45:833][ 55]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.02.45:833][ 55]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.02.45:833][ 55]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.02.45:833][ 55]CompilerResultsLog: Error: D:/College Stuff/Unity/GemChasers/GemChasers/Source/GemChasers/BattleArea.h(33)  : Error: Missing '*' in Expected a pointer type
+[2020.02.21-22.02.45:833][ 55]LogMainFrame: MainFrame: Module compiling took 9.574 seconds
+[2020.02.21-22.02.45:833][ 55]Warning: HotReload failed, recompile failed
+[2020.02.21-22.02.50:617][336]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-22.02.50:623][336]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-22.03.10:827][482]Candidate modules for hot reload:
+[2020.02.21-22.03.10:827][482]  GemChasers
+[2020.02.21-22.03.10:827][482]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,3506 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.03.10:831][482]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.03.21:063][774]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:03:21 PM
+[2020.02.21-22.03.21:063][774]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.03.21:063][774]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.03.21:063][774]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.03.21:063][774]CompilerResultsLog: Error: D:/College Stuff/Unity/GemChasers/GemChasers/Source/GemChasers/BattleArea.h(33)  : Error: Inappropriate '*' on variable of type 'FTransform', cannot have an exposed pointer to this type.
+[2020.02.21-22.03.21:063][774]LogMainFrame: MainFrame: Module compiling took 10.244 seconds
+[2020.02.21-22.03.21:063][774]Warning: HotReload failed, recompile failed
+[2020.02.21-22.03.34:876][597]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-22.03.34:884][597]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-22.03.42:036][699]Candidate modules for hot reload:
+[2020.02.21-22.03.42:036][699]  GemChasers
+[2020.02.21-22.03.42:036][699]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,7106 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.03.42:040][699]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:04:06 PM
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.04.06:768][166]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.7751625 seconds
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-22.04.06:768][166]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-22.04.06:769][166]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-22.04.06:769][166]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.04.06:769][166]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [1/8] BattleAreaSpawnPoint.cpp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [2/8] GemChasers.init.gen.cpp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [3/8] BattleArea.gen.cpp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [4/8] BattleArea.cpp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [5/8] PlayerPawn.cpp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [6/8] UE4Editor-GemChasers-7106.lib
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7106.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7106.exp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [7/8] UE4Editor-GemChasers-7106.dll
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7106.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7106.suppressed.exp
+[2020.02.21-22.04.06:769][166]CompilerResultsLog:   [8/8] GemChasersEditor.target
+[2020.02.21-22.04.06:769][166]CompilerResultsLog: Total time in Parallel executor: 14.19 seconds
+[2020.02.21-22.04.06:769][166]CompilerResultsLog: Total execution time: 24.60 seconds
+[2020.02.21-22.04.06:769][166]LogMainFrame: MainFrame: Module compiling took 24.742 seconds
+[2020.02.21-22.04.06:871][166]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2020.02.21-22.04.06:899][166]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.21-22.04.06:899][166]LogClass: Function OnOverlap is new.
+[2020.02.21-22.04.06:927][166]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-22.04.06:931][166]LogClass: Warning: Array Inner Type mismatch in enemyPositions of enemyPositions - Previous (ObjectProperty) Current(StructProperty) for package:  FObjectReader
+[2020.02.21-22.04.06:931][166]LogClass: Warning: Array Inner Type mismatch in playerPositions of playerPositions - Previous (ObjectProperty) Current(StructProperty) for package:  FObjectReader
+[2020.02.21-22.04.07:487][166]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0005 seconds. Added 10 classes and 2 folders.
+[2020.02.21-22.04.07:493][166]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.21-22.04.07:693][166]LogUObjectHash: Compacting FUObjectHashTables data took   5.08ms
+[2020.02.21-22.04.07:713][166]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-22.04.07:713][166]Display: HotReload took 25.7s.
+[2020.02.21-22.04.09:573][251]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.04.21:335][887]LogEditorTransaction: Undo Insert Child
+[2020.02.21-22.10.05:613][622]LogUObjectHash: Compacting FUObjectHashTables data took   5.16ms
+[2020.02.21-22.10.05:614][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.115
+[2020.02.21-22.20.06:345][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.02.21-22.20.06:351][ 62]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.071
+[2020.02.21-22.23.20:929][777]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.23.20:952][777]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.23.20:952][777]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.23.22:105][837]Candidate modules for hot reload:
+[2020.02.21-22.23.22:105][837]  GemChasers
+[2020.02.21-22.23.22:105][837]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,2724 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.23.22:110][837]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.23.32:797][462]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:23:32 PM
+[2020.02.21-22.23.32:797][462]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.23.32:797][462]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.23.32:798][462]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.23.32:798][462]CompilerResultsLog: Error: D:/College Stuff/Unity/GemChasers/GemChasers/Source/GemChasers/BattleArea.h(33)  : Error: Missing '>' in 'class limitor'
+[2020.02.21-22.23.32:798][462]LogMainFrame: MainFrame: Module compiling took 10.703 seconds
+[2020.02.21-22.23.32:798][462]Warning: HotReload failed, recompile failed
+[2020.02.21-22.23.53:133][851]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-22.23.53:138][851]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-22.23.55:034][930]Candidate modules for hot reload:
+[2020.02.21-22.23.55:034][930]  GemChasers
+[2020.02.21-22.23.55:034][930]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,7383 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.23.55:038][930]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.24.27:688][236]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:24:27 PM
+[2020.02.21-22.24.27:688][236]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.24.27:688][236]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.24.27:688][236]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.563976 seconds
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [1/8] GemChasers.init.gen.cpp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [2/8] BattleAreaSpawnPoint.cpp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [3/8] BattleArea.gen.cpp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [4/8] PlayerPawn.cpp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [5/8] BattleArea.cpp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [6/8] UE4Editor-GemChasers-7383.lib
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7383.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7383.exp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [7/8] UE4Editor-GemChasers-7383.dll
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7383.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-7383.suppressed.exp
+[2020.02.21-22.24.27:689][236]CompilerResultsLog:   [8/8] GemChasersEditor.target
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: Total time in Parallel executor: 22.19 seconds
+[2020.02.21-22.24.27:689][236]CompilerResultsLog: Total execution time: 32.30 seconds
+[2020.02.21-22.24.27:689][236]LogMainFrame: MainFrame: Module compiling took 32.664 seconds
+[2020.02.21-22.24.28:202][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2020.02.21-22.24.28:223][236]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.21-22.24.28:223][236]LogClass: Function OnOverlap is new.
+[2020.02.21-22.24.28:251][236]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-22.24.28:254][236]LogClass: Warning: Array Inner Type mismatch in enemyPositions of enemyPositions - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2020.02.21-22.24.28:254][236]LogClass: Warning: Array Inner Type mismatch in playerPositions of playerPositions - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2020.02.21-22.24.28:665][236]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0005 seconds. Added 10 classes and 2 folders.
+[2020.02.21-22.24.28:670][236]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.21-22.24.28:787][236]LogUObjectHash: Compacting FUObjectHashTables data took   3.66ms
+[2020.02.21-22.24.28:807][236]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-22.24.28:807][236]Display: HotReload took 33.8s.
+[2020.02.21-22.24.47:192][399]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.28.03:215][395]LogSlate: Took 0.016998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.21-22.30.12:856][916]LogUObjectHash: Compacting FUObjectHashTables data took   8.79ms
+[2020.02.21-22.30.12:858][916]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.148
+[2020.02.21-22.30.12:901][916]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BPs/BP_BattleArea] ([1] browsable assets)...
+[2020.02.21-22.30.12:953][916]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea]
+[2020.02.21-22.30.12:953][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPs/BP_BattleArea]
+[2020.02.21-22.30.12:953][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2020.02.21-22.30.13:294][916]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleArea_Auto121C80D5540C2F48EF884E1A3CBD43D2E.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto1.uasset'
+[2020.02.21-22.30.13:319][916]LogFileHelpers: Auto-saving content packages took 0.460
+[2020.02.21-22.32.06:341][364]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.32.06:347][364]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.32.06:347][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.32.11:592][668]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.33.58:630][877]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.33.58:637][877]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.33.58:638][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.34.08:457][447]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/GemChasers.GemChasersInstance
+[2020.02.21-22.36.20:265][490]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.21-22.36.20:266][490]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.02.21-22.37.01:622][847]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.21-22.37.31:075][582]LogAssetEditorSubsystem: Opening Asset editor for LevelScriptBlueprint /Game/Maps/TestMap.TestMap:PersistentLevel.TestMap
+[2020.02.21-22.37.47:239][484]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.21-22.38.42:923][807]LogSlate: Window 'TestMap' being destroyed
+[2020.02.21-22.38.42:963][807]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.38.42:963][807]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.38.46:552][ 16]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.21-22.38.46:552][ 16]LogSlate: WidgetSwitcher ('None') active index changed to 0
+[2020.02.21-22.39.30:319][582]LogSlate: Window 'Add C++ Class' being destroyed
+[2020.02.21-22.52.45:753][305]LogUObjectHash: Compacting FUObjectHashTables data took   4.06ms
+[2020.02.21-22.52.45:819][305]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset" SILENT=true
+[2020.02.21-22.52.45:848][305]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleArea7076ABE5402EE565E94F5FACFB4383CD.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset'
+[2020.02.21-22.52.45:883][305]AssetCheck: New page: Asset Save: BP_BattleArea
+[2020.02.21-22.52.45:883][305]LogContentValidation: Display: Validating Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.52.48:228][441]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.58.09:560][588]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-22.58.09:590][588]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-22.58.09:590][588]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-22.58.23:277][384]LogUObjectHash: Compacting FUObjectHashTables data took   3.83ms
+[2020.02.21-22.58.47:468][384]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.21-22.58.52:428][384]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-22.58.54:110][384]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.02.21-22.58.54:492][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2020.02.21-22.58.54:526][384]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2020.02.21-22.58.54:558][384]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2020.02.21-22.59.14:034][704]Candidate modules for hot reload:
+[2020.02.21-22.59.14:034][704]  GemChasers
+[2020.02.21-22.59.14:034][704]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,1733 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-22.59.14:037][704]Warning: Starting HotReload took  0.0s.
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 12:59:45 PM
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-22.59.45:518][236]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: Reflection code generated for GemChasersEditor in 10.7005207 seconds
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: [Upgrade]
+[2020.02.21-22.59.45:518][236]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.21-22.59.45:518][236]CompilerResultsLog:   [1/8] BattleAreaSpawnPoint.cpp
+[2020.02.21-22.59.45:518][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-22.59.45:518][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-22.59.45:518][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-22.59.45:518][236]CompilerResultsLog:   [2/8] BattleArea.gen.cpp
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200) : error C2039: 'collider': is not a member of 'ABattleArea'
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(10): note: see declaration of 'ABattleArea'
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200) : error C2618: illegal member designator in offsetof
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:   [3/8] GemChasers.init.gen.cpp
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:   [4/8] PlayerPawn.cpp
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:   [5/8] BattleArea.cpp
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-22.59.45:519][236]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.cpp(27) : error C2065: 'collider': undeclared identifier
+[2020.02.21-22.59.45:519][236]LogMainFrame: MainFrame: Module compiling took 31.495 seconds
+[2020.02.21-22.59.45:519][236]Warning: HotReload failed, recompile failed
+[2020.02.21-23.03.58:979][637]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.03.58:983][637]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.04.01:269][684]Candidate modules for hot reload:
+[2020.02.21-23.04.01:269][684]  GemChasers
+[2020.02.21-23.04.01:269][684]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,8702 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.04.01:272][684]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.04.12:626][350]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:04:12 PM
+[2020.02.21-23.04.12:626][350]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.04.12:626][350]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.04.12:626][350]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.04.12:626][350]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.5409614 seconds
+[2020.02.21-23.04.12:626][350]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.04.12:626][350]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.21-23.04.12:627][350]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-8702.lib
+[2020.02.21-23.04.12:627][350]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8702.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8702.exp
+[2020.02.21-23.04.12:627][350]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-8702.dll
+[2020.02.21-23.04.12:627][350]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8702.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8702.suppressed.exp
+[2020.02.21-23.04.12:627][350]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: Total time in Parallel executor: 1.34 seconds
+[2020.02.21-23.04.12:627][350]CompilerResultsLog: Total execution time: 11.23 seconds
+[2020.02.21-23.04.12:627][350]LogMainFrame: MainFrame: Module compiling took 11.367 seconds
+[2020.02.21-23.04.12:662][350]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2020.02.21-23.04.12:690][350]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.21-23.04.12:690][350]LogClass: Function OnOverlap is new.
+[2020.02.21-23.04.12:716][350]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-23.04.12:914][350]LogLinker: Warning: Failed to load '/Game/BPs/BP_BattleArea': Can't find file.
+[2020.02.21-23.04.12:914][350]LogLinker: Warning: Failed to load '/Game/BPs/BP_BattleArea': Can't find file.
+[2020.02.21-23.04.12:914][350]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/BPs/BP_BattleArea.BP_BattleArea'
+[2020.02.21-23.04.12:916][350]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.02.21-23.04.12:923][350]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.21-23.04.13:031][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.02.21-23.04.13:053][350]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-23.04.13:054][350]Display: HotReload took 11.8s.
+[2020.02.21-23.04.32:719][482]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.21-23.04.32:719][482]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.21-23.04.39:636][884]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.04.40:193][884]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.21-23.04.40:202][884]LogActor: Warning: BP_BattleArea_C /Engine/Transient.World_14:PersistentLevel.BP_BattleArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.21-23.08.42:369][483]BlueprintLog: New page: Compile BP_BattleArea
+[2020.02.21-23.08.42:374][483]LogActor: Warning: BP_BattleArea_C /Engine/Transient.World_14:PersistentLevel.BP_BattleArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.21-23.08.42:748][483]LogUObjectHash: Compacting FUObjectHashTables data took   5.04ms
+[2020.02.21-23.08.53:281][101]BlueprintLog: New page: Compile BP_BattleArea
+[2020.02.21-23.08.53:287][101]LogActor: Warning: BP_BattleArea_C /Engine/Transient.World_14:PersistentLevel.BP_BattleArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.21-23.08.53:614][101]LogUObjectHash: Compacting FUObjectHashTables data took   4.25ms
+[2020.02.21-23.09.04:285][688]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset" SILENT=true
+[2020.02.21-23.09.04:308][688]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleAreaA11CFFEE48EB43B2BEEA92B58D627E32.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset'
+[2020.02.21-23.09.04:330][688]AssetCheck: New page: Asset Save: BP_BattleArea
+[2020.02.21-23.09.04:330][688]LogContentValidation: Display: Validating Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.09.06:112][795]BlueprintLog: New page: Compile BP_BattleArea
+[2020.02.21-23.09.06:117][795]LogActor: Warning: BP_BattleArea_C /Engine/Transient.World_14:PersistentLevel.BP_BattleArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.21-23.09.06:330][795]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2020.02.21-23.10.47:431][368]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-23.10.47:466][368]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-23.10.47:466][368]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-23.10.52:597][663]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2020.02.21-23.10.57:210][663]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.21-23.10.57:881][663]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.10.58:368][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2020.02.21-23.10.58:403][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.02.21-23.10.58:437][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.02.21-23.11.01:297][827]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/GemChasers.BattleArea
+[2020.02.21-23.16.55:372][ 82]Candidate modules for hot reload:
+[2020.02.21-23.16.55:372][ 82]  GemChasers
+[2020.02.21-23.16.55:372][ 82]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,1921 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.16.55:376][ 82]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.17.06:699][748]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:17:06 PM
+[2020.02.21-23.17.06:699][748]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.17.06:699][748]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.17.06:699][748]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.17.06:699][748]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.4263469 seconds
+[2020.02.21-23.17.06:699][748]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.21-23.17.06:700][748]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-1921.lib
+[2020.02.21-23.17.06:700][748]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1921.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1921.exp
+[2020.02.21-23.17.06:700][748]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-1921.dll
+[2020.02.21-23.17.06:700][748]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1921.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1921.suppressed.exp
+[2020.02.21-23.17.06:700][748]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: Total time in Parallel executor: 1.34 seconds
+[2020.02.21-23.17.06:700][748]CompilerResultsLog: Total execution time: 11.19 seconds
+[2020.02.21-23.17.06:700][748]LogMainFrame: MainFrame: Module compiling took 11.339 seconds
+[2020.02.21-23.17.06:733][748]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.02.21-23.17.06:788][748]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0005 seconds. Added 10 classes and 2 folders.
+[2020.02.21-23.17.06:794][748]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.02.21-23.17.06:897][748]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2020.02.21-23.17.06:915][748]LogContentBrowser: Native class hierarchy populated in 0.0096 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-23.17.06:916][748]Display: HotReload took 11.6s.
+[2020.02.21-23.17.10:972][960]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.21-23.17.10:972][960]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.21-23.17.18:790][419]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.17.19:437][419]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.21-23.17.19:444][419]LogActor: Warning: BP_BattleArea_C /Engine/Transient.World_15:PersistentLevel.BP_BattleArea_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2020.02.21-23.17.40:859][609]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-23.17.40:867][609]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-23.17.40:868][609]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-23.17.44:753][830]LogUObjectHash: Compacting FUObjectHashTables data took   4.37ms
+[2020.02.21-23.17.46:610][830]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.21-23.17.47:249][830]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.17.47:753][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2020.02.21-23.19.33:643][359]Candidate modules for hot reload:
+[2020.02.21-23.19.33:644][359]  GemChasers
+[2020.02.21-23.19.33:644][359]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,3444 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.19.33:647][359]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.19.54:858][969]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:19:54 PM
+[2020.02.21-23.19.54:858][969]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.19.54:858][969]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.19.54:858][969]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: Reflection code generated for GemChasersEditor in 7.7189634 seconds
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: Building 7 actions with 8 processes...
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [1/7] BattleAreaSpawnPoint.cpp
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [2/7] BattleArea.gen.cpp
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [3/7] BattleArea.cpp
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [4/7] PlayerPawn.cpp
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [5/7] UE4Editor-GemChasers-3444.lib
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-3444.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-3444.exp
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [6/7] UE4Editor-GemChasers-3444.dll
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-3444.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-3444.suppressed.exp
+[2020.02.21-23.19.54:859][969]CompilerResultsLog:   [7/7] GemChasersEditor.target
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: Total time in Parallel executor: 11.22 seconds
+[2020.02.21-23.19.54:859][969]CompilerResultsLog: Total execution time: 21.09 seconds
+[2020.02.21-23.19.54:859][969]LogMainFrame: MainFrame: Module compiling took 21.226 seconds
+[2020.02.21-23.19.54:891][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2020.02.21-23.19.54:936][969]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-23.19.55:113][969]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.02.21-23.19.55:118][969]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.02.21-23.19.55:218][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.02.21-23.19.55:236][969]LogContentBrowser: Native class hierarchy populated in 0.0098 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-23.19.55:236][969]Display: HotReload took 21.6s.
+[2020.02.21-23.20.03:956][465]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.21-23.20.03:956][465]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.21-23.20.09:443][786]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.20.10:003][786]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.21-23.22.41:210][ 72]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-23.22.41:215][ 72]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.21-23.22.41:233][ 72]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2020.02.21-23.22.41:233][ 72]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.21-23.22.45:756][238]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2020.02.21-23.22.47:944][238]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.21-23.22.48:599][238]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.22.49:121][238]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2020.02.21-23.22.50:652][317]Candidate modules for hot reload:
+[2020.02.21-23.22.50:652][317]  GemChasers
+[2020.02.21-23.22.50:652][317]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,6043 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.22.50:656][317]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:23:09 PM
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.23.09:969][394]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: Reflection code generated for GemChasersEditor in 7.4563264 seconds
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.23.09:969][394]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.23.09:970][394]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   [1/8] BattleAreaSpawnPoint.cpp
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   [2/8] BattleArea.gen.cpp
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200) : error C2039: 'collider': is not a member of 'ABattleArea'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(10): note: see declaration of 'ABattleArea'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200) : error C2618: illegal member designator in offsetof
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   [3/8] GemChasers.init.gen.cpp
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   [4/8] BattleArea.cpp
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.cpp(18) : error C2065: 'collider': undeclared identifier
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.cpp(19) : error C2065: 'collider': undeclared identifier
+[2020.02.21-23.23.09:970][394]CompilerResultsLog:   [5/8] PlayerPawn.cpp
+[2020.02.21-23.23.09:970][394]LogMainFrame: MainFrame: Module compiling took 19.328 seconds
+[2020.02.21-23.23.09:971][394]Warning: HotReload failed, recompile failed
+[2020.02.21-23.23.41:606][680]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.23.41:609][680]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.23.43:183][741]Candidate modules for hot reload:
+[2020.02.21-23.23.43:183][741]  GemChasers
+[2020.02.21-23.23.43:183][741]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,4777 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.23.43:186][741]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.24.01:317][737]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:24:01 PM
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.5112548 seconds
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.24.01:318][737]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:   [1/6] BattleAreaSpawnPoint.cpp
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:   [2/6] BattleArea.gen.cpp
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200) : error C2039: 'collider': is not a member of 'ABattleArea'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers/BattleArea.h(10): note: see declaration of 'ABattleArea'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200) : error C2618: illegal member designator in offsetof
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Inc\GemChasers\BattleArea.gen.cpp(200): note: offsetof has a builtin meaning; use /Zc:offsetof- to revert to old, non-conforming definition
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:   [3/6] BattleArea.cpp
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2143: syntax error: missing ';' before '*'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(38) : error C2238: unexpected token(s) preceding ';'
+[2020.02.21-23.24.01:318][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.cpp(19) : error C2065: 'collider': undeclared identifier
+[2020.02.21-23.24.01:319][737]CompilerResultsLog:    D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.cpp(20) : error C2065: 'collider': undeclared identifier
+[2020.02.21-23.24.01:319][737]LogMainFrame: MainFrame: Module compiling took 18.147 seconds
+[2020.02.21-23.24.01:319][737]Warning: HotReload failed, recompile failed
+[2020.02.21-23.24.06:178][912]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.24.06:186][912]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.25.44:112][349]Candidate modules for hot reload:
+[2020.02.21-23.25.44:112][349]  GemChasers
+[2020.02.21-23.25.44:112][349]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,27 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.25.44:117][349]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:26:02 PM
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: Reflection code generated for GemChasersEditor in 7.2675304 seconds
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.26.02:386][497]CompilerResultsLog: Building 7 actions with 8 processes...
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   [1/7] BattleAreaSpawnPoint.cpp
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   [2/7] BattleArea.gen.cpp
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   [3/7] BattleArea.cpp
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:    D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(106) : error C2027: use of undefined type 'ABattleArea::UStaticMeshComponent'
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.h(29): note: see declaration of 'ABattleArea::UStaticMeshComponent'
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BattleArea.cpp(21): note: see reference to function template instantiation 'TReturnType *UObject::CreateDefaultSubobject<ABattleArea::UStaticMeshComponent>(FName,bool)' being compiled
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:           with
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:           [
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:               TReturnType=ABattleArea::UStaticMeshComponent
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:           ]
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:    D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(107) : error C2440: 'static_cast': cannot convert from 'UObject *' to 'TReturnType *'
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:           with
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:           [
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:               TReturnType=ABattleArea::UStaticMeshComponent
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:           ]
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   D:\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/Object.h(107): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+[2020.02.21-23.26.02:386][497]CompilerResultsLog:   [4/7] PlayerPawn.cpp
+[2020.02.21-23.26.02:386][497]LogMainFrame: MainFrame: Module compiling took 18.284 seconds
+[2020.02.21-23.26.02:387][497]Warning: HotReload failed, recompile failed
+[2020.02.21-23.27.22:011][341]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.27.22:016][341]LogSlate: Window 'Message Log' being destroyed
+[2020.02.21-23.27.25:849][506]Candidate modules for hot reload:
+[2020.02.21-23.27.25:849][506]  GemChasers
+[2020.02.21-23.27.25:849][506]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,5023 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.27.25:853][506]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.27.26:817][549]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:27:26 PM
+[2020.02.21-23.27.26:817][549]CompilerResultsLog: ERROR: A conflicting instance of UnrealBuildTool is already running.
+[2020.02.21-23.27.26:817][549]LogMainFrame: MainFrame: Module compiling took 0.977 seconds
+[2020.02.21-23.27.26:817][549]Warning: HotReload failed, recompile failed
+[2020.02.21-23.33.24:623][852]Candidate modules for hot reload:
+[2020.02.21-23.33.24:623][852]  GemChasers
+[2020.02.21-23.33.24:623][852]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,9707 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.33.24:627][852]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:33:35 PM
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.33.35:711][502]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.3489431 seconds
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.33.35:711][502]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.21-23.33.35:712][502]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-9707.lib
+[2020.02.21-23.33.35:712][502]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-9707.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-9707.exp
+[2020.02.21-23.33.35:712][502]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-9707.dll
+[2020.02.21-23.33.35:712][502]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-9707.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-9707.suppressed.exp
+[2020.02.21-23.33.35:712][502]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.21-23.33.35:712][502]CompilerResultsLog: Total time in Parallel executor: 1.29 seconds
+[2020.02.21-23.33.35:712][502]CompilerResultsLog: Total execution time: 10.94 seconds
+[2020.02.21-23.33.35:712][502]LogMainFrame: MainFrame: Module compiling took 11.099 seconds
+[2020.02.21-23.33.35:750][502]LogUObjectHash: Compacting FUObjectHashTables data took   3.38ms
+[2020.02.21-23.33.35:781][502]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.21-23.33.35:781][502]LogClass: Function OnOverlap is new.
+[2020.02.21-23.33.35:809][502]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.21-23.33.36:002][502]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.02.21-23.33.36:007][502]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.21-23.33.36:113][502]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.02.21-23.33.36:131][502]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-23.33.36:131][502]Display: HotReload took 11.5s.
+[2020.02.21-23.38.31:798][721]Candidate modules for hot reload:
+[2020.02.21-23.38.31:798][721]  GemChasers
+[2020.02.21-23.38.31:798][721]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,8176 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.21-23.38.31:803][721]Warning: Starting HotReload took  0.0s.
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 1:38:50 PM
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.21-23.38.50:960][151]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.0544103 seconds
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.21-23.38.50:960][151]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: [Upgrade]
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.02.21-23.38.50:961][151]CompilerResultsLog:   [1/4] BattleArea.cpp
+[2020.02.21-23.38.50:961][151]CompilerResultsLog:   [2/4] UE4Editor-GemChasers-8176.lib
+[2020.02.21-23.38.50:961][151]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8176.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8176.exp
+[2020.02.21-23.38.50:961][151]CompilerResultsLog:   [3/4] UE4Editor-GemChasers-8176.dll
+[2020.02.21-23.38.50:961][151]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8176.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-8176.suppressed.exp
+[2020.02.21-23.38.50:961][151]CompilerResultsLog:   [4/4] GemChasersEditor.target
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: Total time in Parallel executor: 9.52 seconds
+[2020.02.21-23.38.50:961][151]CompilerResultsLog: Total execution time: 18.82 seconds
+[2020.02.21-23.38.50:961][151]LogMainFrame: MainFrame: Module compiling took 19.173 seconds
+[2020.02.21-23.38.51:079][151]LogUObjectHash: Compacting FUObjectHashTables data took   6.43ms
+[2020.02.21-23.38.51:142][151]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 10 classes and 2 folders.
+[2020.02.21-23.38.51:147][151]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2020.02.21-23.38.51:293][151]LogUObjectHash: Compacting FUObjectHashTables data took   5.07ms
+[2020.02.21-23.38.51:315][151]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 3027 classes and 722 folders.
+[2020.02.21-23.38.51:315][151]Display: HotReload took 19.5s.
+[2020.02.21-23.39.05:818][568]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.21-23.39.05:818][568]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.21-23.39.11:642][907]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.21-23.39.12:265][907]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.21-23.39.57:263][589]LogUObjectHash: Compacting FUObjectHashTables data took   6.25ms
+[2020.02.21-23.39.57:264][589]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.114
+[2020.02.21-23.39.57:265][589]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/BPs/BP_BattleArea] ([1] browsable assets)...
+[2020.02.21-23.39.57:265][589]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPs/BP_BattleArea]
+[2020.02.21-23.39.57:265][589]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2020.02.21-23.39.57:283][589]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleArea_Auto2BC5ABC7D4416D7A1036F9E8695EE73DA.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto2.uasset'
+[2020.02.21-23.39.57:285][589]LogFileHelpers: Auto-saving content packages took 0.020
+[2020.02.22-00.04.39:777][299]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.04.39:782][299]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.04.39:782][299]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.04.39:782][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.04.42:720][431]LogUObjectHash: Compacting FUObjectHashTables data took   3.79ms
+[2020.02.22-00.04.44:299][431]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.22-00.04.44:796][431]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.04.45:242][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2020.02.22-00.04.47:723][570]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2020.02.22-00.04.49:728][686]Candidate modules for hot reload:
+[2020.02.22-00.04.49:729][686]  GemChasers
+[2020.02.22-00.04.49:729][686]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,701 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.22-00.04.49:733][686]Warning: Starting HotReload took  0.0s.
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 2:05:10 PM
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.1465463 seconds
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade]
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: [Upgrade]
+[2020.02.22-00.05.10:590][816]CompilerResultsLog: Building 8 actions with 8 processes...
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [1/8] GemChasers.init.gen.cpp
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [2/8] BattleAreaSpawnPoint.cpp
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [3/8] BattleArea.gen.cpp
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [4/8] BattleArea.cpp
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [5/8] PlayerPawn.cpp
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [6/8] UE4Editor-GemChasers-0701.lib
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0701.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0701.exp
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:   [7/8] UE4Editor-GemChasers-0701.dll
+[2020.02.22-00.05.10:590][816]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0701.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0701.suppressed.exp
+[2020.02.22-00.05.10:591][816]CompilerResultsLog:   [8/8] GemChasersEditor.target
+[2020.02.22-00.05.10:591][816]CompilerResultsLog: Total time in Parallel executor: 11.20 seconds
+[2020.02.22-00.05.10:591][816]CompilerResultsLog: Total execution time: 20.70 seconds
+[2020.02.22-00.05.10:591][816]LogMainFrame: MainFrame: Module compiling took 20.871 seconds
+[2020.02.22-00.05.10:619][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.02.22-00.05.10:639][816]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 3027 classes and 722 folders.
+[2020.02.22-00.05.10:639][816]Display: HotReload took 20.9s.
+[2020.02.22-00.05.18:338][ 23]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.22-00.05.18:338][ 23]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.22-00.05.24:175][364]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.05.24:806][364]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.22-00.05.29:973][645]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.05.29:982][645]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.05.29:982][645]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.05.33:057][820]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
+[2020.02.22-00.05.34:504][820]LogSlate: Window 'Delete Assets' being destroyed
+[2020.02.22-00.05.35:151][820]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.05.35:663][820]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2020.02.22-00.06.50:506][289]Candidate modules for hot reload:
+[2020.02.22-00.06.50:506][289]  GemChasers
+[2020.02.22-00.06.50:506][289]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,5212 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.22-00.06.50:510][289]Warning: Starting HotReload took  0.0s.
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 2:07:01 PM
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.22-00.07.01:493][934]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.3135421 seconds
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: [Upgrade]
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.22-00.07.01:493][934]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.22-00.07.01:494][934]CompilerResultsLog: [Upgrade]
+[2020.02.22-00.07.01:494][934]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.22-00.07.01:494][934]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-5212.lib
+[2020.02.22-00.07.01:494][934]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5212.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5212.exp
+[2020.02.22-00.07.01:494][934]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-5212.dll
+[2020.02.22-00.07.01:494][934]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5212.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5212.suppressed.exp
+[2020.02.22-00.07.01:494][934]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.22-00.07.01:494][934]CompilerResultsLog: Total time in Parallel executor: 1.24 seconds
+[2020.02.22-00.07.01:494][934]CompilerResultsLog: Total execution time: 10.85 seconds
+[2020.02.22-00.07.01:494][934]LogMainFrame: MainFrame: Module compiling took 10.997 seconds
+[2020.02.22-00.07.01:524][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2020.02.22-00.07.01:546][934]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.22-00.07.01:546][934]LogClass: Function OnOverlap is new.
+[2020.02.22-00.07.01:573][934]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.22-00.07.01:748][934]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0003 seconds. Added 10 classes and 2 folders.
+[2020.02.22-00.07.01:752][934]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.22-00.07.01:855][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.02.22-00.07.01:874][934]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 3027 classes and 722 folders.
+[2020.02.22-00.07.01:874][934]Display: HotReload took 11.4s.
+[2020.02.22-00.07.08:437][299]LogSlate: WidgetSwitcher ('None') active index changed to -1
+[2020.02.22-00.07.08:437][299]LogSlate: WidgetSwitcher ('None') active index changed to 1
+[2020.02.22-00.07.13:509][596]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.07.14:153][596]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2020.02.22-00.07.55:690][ 23]LogUObjectHash: Compacting FUObjectHashTables data took   4.27ms
+[2020.02.22-00.07.55:733][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset" SILENT=true
+[2020.02.22-00.07.55:759][ 23]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleAreaE3432559494314006B59A7ADAB524013.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset'
+[2020.02.22-00.07.55:790][ 23]AssetCheck: New page: Asset Save: BP_BattleArea
+[2020.02.22-00.07.55:790][ 23]LogContentValidation: Display: Validating Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.08.02:756][436]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.08.02:762][436]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.08.02:762][436]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.08.09:016][804]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_PlayerPawn.BP_PlayerPawn
+[2020.02.22-00.08.14:665][ 79]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/BasicShapes/Cube.Cube
+[2020.02.22-00.08.16:808][ 80]LogRenderer: Reallocating scene render targets to support 952x604 Format 10 NumSamples 1 (Frame:1).
+[2020.02.22-00.08.38:988][342]LogSlate: Window 'Save Asset As' being destroyed
+[2020.02.22-00.08.39:181][342]LogStaticMesh: Building static mesh BasicCubeMesh...
+[2020.02.22-00.08.39:356][342]LogStaticMesh: Built static mesh [0.19s] /Game/Materials/BasicCubeMesh.BasicCubeMesh
+[2020.02.22-00.08.39:507][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/BasicCubeMesh" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/Materials/BasicCubeMesh.uasset" SILENT=true
+[2020.02.22-00.08.39:559][342]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BasicCubeMesh1E8A6F73499B15314382A9865A426232.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/Materials/BasicCubeMesh.uasset'
+[2020.02.22-00.08.39:619][342]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Materials/BasicCubeMesh.BasicCubeMesh
+[2020.02.22-00.08.40:047][342]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.08.40:047][342]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.08.40:090][342]AssetCheck: New page: Asset Save: BasicCubeMesh
+[2020.02.22-00.08.40:090][342]LogContentValidation: Display: Validating StaticMesh /Game/Materials/BasicCubeMesh.BasicCubeMesh
+[2020.02.22-00.08.40:936][363]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.08.40:936][363]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.08.43:516][508]LogSlate: Window 'BP_PlayerPawn' being destroyed
+[2020.02.22-00.08.43:531][508]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.08.43:531][508]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.08.44:385][550]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.08.48:428][738]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.08.48:436][738]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.08.48:436][738]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.08.48:532][738]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.09.24:795][802]LogPhysics: Warning: Scale for /Engine/Transient.World_24:PersistentLevel.BP_BattleArea_C_0.Floor has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.02.22-00.09.25:244][829]LogPhysics: Warning: Scale for /Engine/Transient.World_24:PersistentLevel.BP_BattleArea_C_0.Floor has a component set to zero, which will result in a bad body instance. Scale:X=1.000 Y=1.000 Z=0.000
+[2020.02.22-00.11.09:567][ 23]LogEditorTransaction: Undo Edit Absolute Scale
+[2020.02.22-00.11.09:900][ 27]Cmd: TRANSACTION UNDO
+[2020.02.22-00.11.09:900][ 27]LogEditorTransaction: Undo Edit Absolute Scale
+[2020.02.22-00.11.10:333][ 45]Cmd: TRANSACTION UNDO
+[2020.02.22-00.11.10:333][ 45]LogEditorTransaction: Undo Edit Absolute Location
+[2020.02.22-00.11.10:751][ 67]Cmd: TRANSACTION UNDO
+[2020.02.22-00.11.10:751][ 67]LogEditorTransaction: Undo Edit Absolute Location
+[2020.02.22-00.11.11:094][ 87]Cmd: TRANSACTION UNDO
+[2020.02.22-00.11.11:094][ 87]LogEditorTransaction: Undo Edit Z
+[2020.02.22-00.11.11:508][111]Cmd: TRANSACTION UNDO
+[2020.02.22-00.11.11:508][111]LogEditorTransaction: Undo Edit Y
+[2020.02.22-00.11.13:525][218]LogEditorTransaction: Undo Edit X
+[2020.02.22-00.11.14:289][263]LogEditorTransaction: Undo Edit Z
+[2020.02.22-00.11.14:821][294]LogEditorTransaction: Undo Modify Component(s)
+[2020.02.22-00.11.15:612][340]LogEditorTransaction: Undo Edit Z
+[2020.02.22-00.11.16:637][400]LogEditorTransaction: Redo Edit Z
+[2020.02.22-00.11.16:953][418]LogEditorTransaction: Redo Modify Component(s)
+[2020.02.22-00.11.17:504][450]LogEditorTransaction: Redo Edit Z
+[2020.02.22-00.11.45:790][ 62]LogEditorTransaction: Undo Set Vector Property
+[2020.02.22-00.18.07:341][860]LogUObjectHash: Compacting FUObjectHashTables data took  10.89ms
+[2020.02.22-00.18.07:344][860]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.264
+[2020.02.22-00.18.07:345][860]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BPs/BP_BattleArea] ([1] browsable assets)...
+[2020.02.22-00.18.07:375][860]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea]
+[2020.02.22-00.18.07:375][860]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPs/BP_BattleArea]
+[2020.02.22-00.18.07:375][860]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2020.02.22-00.18.07:406][860]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleArea_Auto3EF5D06F043254A5C53262DB2DC233FE7.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto3.uasset'
+[2020.02.22-00.18.07:406][860]LogFileHelpers: Auto-saving content packages took 0.061
+[2020.02.22-00.20.20:226][827]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2020.02.22-00.28.07:782][713]LogUObjectHash: Compacting FUObjectHashTables data took   9.06ms
+[2020.02.22-00.28.07:796][713]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/TestMap' took 0.137
+[2020.02.22-00.28.07:797][713]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BPs/BP_BattleArea] ([1] browsable assets)...
+[2020.02.22-00.28.07:827][713]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea]
+[2020.02.22-00.28.07:827][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/BPs/BP_BattleArea]
+[2020.02.22-00.28.07:828][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto4.uasset" SILENT=false AUTOSAVING=true
+[2020.02.22-00.28.07:865][713]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleArea_Auto4C9F5ABBA45BECCA6D0A16FB5A9DAA1E0.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/Autosaves/Game/BPs/BP_BattleArea_Auto4.uasset'
+[2020.02.22-00.28.07:866][713]LogFileHelpers: Auto-saving content packages took 0.069
+[2020.02.22-00.28.25:625][100]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2020.02.22-00.28.25:668][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset" SILENT=true
+[2020.02.22-00.28.25:690][100]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleArea86FD2AC641661F65D4DE9B89FDBCCC1C.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset'
+[2020.02.22-00.28.25:712][100]AssetCheck: New page: Asset Save: BP_BattleArea
+[2020.02.22-00.28.25:712][100]LogContentValidation: Display: Validating Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.28.27:331][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset" SILENT=true
+[2020.02.22-00.28.27:349][186]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleAreaA42EC2CC4F752DA1B97E4C8829F29896.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset'
+[2020.02.22-00.28.27:364][186]AssetCheck: New page: Asset Save: BP_BattleArea
+[2020.02.22-00.28.27:364][186]LogContentValidation: Display: Validating Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.28.28:075][228]BlueprintLog: New page: Compile BP_BattleArea
+[2020.02.22-00.28.28:394][228]LogUObjectHash: Compacting FUObjectHashTables data took   3.94ms
+[2020.02.22-00.28.31:924][434]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.28.31:961][434]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.28.31:961][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.33.14:619][472]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.38.31:586][923]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2020.02.22-00.38.31:652][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BP_BattleArea" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset" SILENT=true
+[2020.02.22-00.38.31:688][923]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BP_BattleAreaBEFAF0224CFBA5F1E4728998E785E81B.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BP_BattleArea.uasset'
+[2020.02.22-00.38.31:705][923]AssetCheck: New page: Asset Save: BP_BattleArea
+[2020.02.22-00.38.31:705][923]LogContentValidation: Display: Validating Blueprint /Game/BPs/BP_BattleArea.BP_BattleArea
+[2020.02.22-00.38.41:034][460]LogSlate: Window 'BP_BattleArea' being destroyed
+[2020.02.22-00.38.41:066][460]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2020.02.22-00.38.41:066][460]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.02.22-00.53.51:644][  0]Candidate modules for hot reload:
+[2020.02.22-00.53.51:644][  0]  GemChasers
+[2020.02.22-00.53.51:645][  0]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,5655 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.02.22-00.53.51:649][  0]Warning: Starting HotReload took  0.0s.
+[2020.02.22-00.54.02:659][646]CompilerResultsLog: New page: Compilation - Feb 21, 2020, 2:54:02 PM
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.02.22-00.54.02:660][646]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Reflection code generated for GemChasersEditor in 8.3325524 seconds
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Building GemChasersEditor...
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade]
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: [Upgrade]
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.02.22-00.54.02:660][646]CompilerResultsLog:   [1/3] UE4Editor-GemChasers-5655.lib
+[2020.02.22-00.54.02:660][646]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5655.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5655.exp
+[2020.02.22-00.54.02:660][646]CompilerResultsLog:   [2/3] UE4Editor-GemChasers-5655.dll
+[2020.02.22-00.54.02:660][646]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5655.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5655.suppressed.exp
+[2020.02.22-00.54.02:660][646]CompilerResultsLog:   [3/3] GemChasersEditor.target
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Total time in Parallel executor: 1.24 seconds
+[2020.02.22-00.54.02:660][646]CompilerResultsLog: Total execution time: 10.90 seconds
+[2020.02.22-00.54.02:661][646]LogMainFrame: MainFrame: Module compiling took 11.027 seconds
+[2020.02.22-00.54.02:753][646]LogUObjectHash: Compacting FUObjectHashTables data took   5.81ms
+[2020.02.22-00.54.02:782][646]LogClass: Could not find existing class BattleArea in package /Script/GemChasers for HotReload, assuming new class
+[2020.02.22-00.54.02:782][646]LogClass: Function OnOverlap is new.
+[2020.02.22-00.54.02:782][646]LogClass: Function SetActorToSpot is new.
+[2020.02.22-00.54.02:816][646]LogHotReload: Re-instancing BattleArea after hot-reload.
+[2020.02.22-00.54.03:189][646]LogHotReload: Re-instancing GemChasersInstance after hot-reload.
+[2020.02.22-00.54.03:397][646]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2020.02.22-00.54.03:402][646]Display: HotReload successful (8 functions remapped  0 scriptstructs remapped)
+[2020.02.22-00.54.03:498][646]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.02.22-00.54.03:524][646]LogContentBrowser: Native class hierarchy populated in 0.0129 seconds. Added 3027 classes and 722 folders.
+[2020.02.22-00.54.03:524][646]Display: HotReload took 11.9s.
+[2020.02.22-00.54.25:023][604]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.02.22-00.54.26:779][705]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.22-00.54.26:925][705]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap.TestMap:PersistentLevel.TestMap'
+[2020.02.22-00.54.27:010][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.22-00.54.27:019][705]PIE: New page: PIE session: TestMap (Feb 21, 2020, 2:54:27 PM)
+[2020.02.22-00.54.27:176][705]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.02.22-00.54.27:178][705]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.02.22-00.54.27:198][705]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.02.22-00.54.27:289][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090989s)
+[2020.02.22-00.54.27:371][705]LogAIModule: Creating AISystem for world TestMap
+[2020.02.22-00.54.27:395][705]LogPlayLevel: PIE: World Init took: (0.105334s)
+[2020.02.22-00.54.27:395][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.196780s)
+[2020.02.22-00.54.27:455][705]LogUObjectHash: Compacting FUObjectHashTables data took   3.64ms
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.02.22-00.54.27:482][705]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.02.22-00.54.27:482][705]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.02.22-00.54.27:497][705]LogAudio: Display: Using built-in audio occlusion.
+[2020.02.22-00.54.27:497][705]LogAudioMixer: Display: Initializing audio mixer.
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Is Default: Yes
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Sample Rate: 48000
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Channel Count Used: 2
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Device Channel Count: 2
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: Channel Order:
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: 0: FrontLeft
+[2020.02.22-00.54.27:516][705]LogAudioMixer: Display: 1: FrontRight
+[2020.02.22-00.54.27:546][705]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.02.22-00.54.27:587][705]LogInit: FAudioDevice initialized.
+[2020.02.22-00.54.27:736][705]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.02.22-00.54.27:898][705]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.02.21-19.54.27
+[2020.02.22-00.54.27:899][705]LogWorld: Bringing up level for play took: 0.002003
+[2020.02.22-00.54.27:957][705]LogOnline: OSS: Creating online subsystem instance for: :Context_27
+[2020.02.22-00.54.28:133][705]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.22-00.54.28:189][705]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 1.076
+[2020.02.22-00.54.28:189][705]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/Maps/TestMap.TestMap_C' with ClassGeneratedBy '/Game/Maps/TestMap.TestMap:PersistentLevel.TestMap'

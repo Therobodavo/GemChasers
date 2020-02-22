@@ -13,7 +13,7 @@ class GEMCHASERS_API ABattleArea : public AActor
 	
 public:	
 	// Sets default values for this actor's properties
-	ABattleArea();
+	ABattleArea(const FObjectInitializer& OI);
 
 	UFUNCTION(BlueprintCallable, Category = "EnergyCollector")
 		void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
@@ -28,11 +28,32 @@ public:
 
 	UPROPERTY()
 		TArray<class ATestEnemy*> enemies;
-	UPROPERTY()
-		TArray<USceneComponent*> enemyPositions;
-	UPROPERTY()
-		TArray<USceneComponent*> playerPositions;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* enemyPos1 = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* enemyPos2 = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* enemyPos3 = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* playerPos1 = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* playerPos2 = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* playerPos3 = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UBoxComponent* collider = NULL;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UStaticMeshComponent* floor = NULL;
+	UFUNCTION()
+		void SetActorToSpot(AActor* a, int i, bool t);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Battle Settings")
 		bool initiate = false;
 };

@@ -3,6 +3,7 @@
 #include "Math/Vector.h"
 #include "Engine/World.h"
 #include "Engine.h"
+#include "UObject/UObjectGlobals.h"
 
 //BattleArea.cpp File
 //Main code for creating battles and taking care of enemies/players
@@ -10,19 +11,33 @@
 
 bool hasInitiated = false;
 // Sets default values
-ABattleArea::ABattleArea()
+ABattleArea::ABattleArea(const FObjectInitializer& OI) : Super(OI)
 {
 	PrimaryActorTick.bCanEverTick = true;
 
-	enemyPositions.SetNum(3,false);
-	enemyPositions = { NULL,NULL,NULL };
+	collider = OI.CreateDefaultSubobject<UBoxComponent>(this,TEXT("Collider"));
+	SetRootComponent(collider);
 
-	playerPositions.SetNum(3,false);
-	playerPositions = { NULL,NULL,NULL };
+	enemyPos1 = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("E1"));
+	enemyPos1->SetupAttachment(collider);
+	enemyPos2 = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("E2"));
+	enemyPos2->SetupAttachment(collider);
+	enemyPos3 = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("E3"));
+	enemyPos3->SetupAttachment(collider);
+
+	playerPos1 = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("P1"));
+	playerPos1->SetupAttachment(collider);
+	playerPos2 = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("P2"));
+	playerPos2->SetupAttachment(collider);
+	playerPos3 = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("P3"));
+	playerPos3->SetupAttachment(collider);
+	
+	floor = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("Floor"));
+	floor->SetupAttachment(collider);
+
 	enemies.SetNum(3,false);
 	enemies = { NULL,NULL,NULL };
 }
-
 void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
 
@@ -34,10 +49,10 @@ void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * Other
 			if (!enemies[i])
 			{
 				ATestEnemy* enemy = Cast<ATestEnemy>(OtherActor);
-				enemies[i] = enemy;
-				enemy->SetActorLocation(enemyPositions[i]->GetComponentLocation());
-				enemy->SetActorRotation(enemyPositions[i]->GetComponentRotation());
 				enemy->inBattle = true;
+				enemies[i] = enemy;
+
+				SetActorToSpot(enemy, i, false);
 				foundSpot = true;
 				break;
 			}
@@ -54,45 +69,12 @@ void ABattleArea::BeginPlay()
 {
 	Super::BeginPlay();
 
-	TArray<USceneComponent*> allComponents;
-	GetRootComponent()->GetChildrenComponents(true, allComponents);
-	
-	for (USceneComponent* part : allComponents)
+	if (collider) 
 	{
-		if (part->GetName() == "E1")
-		{
-			enemyPositions[0] = part;
-		}
-		if (part->GetName() == "E2")
-		{
-			enemyPositions[1] = part;
-		}
-		if (part->GetName() == "E3")
-		{
-			enemyPositions[2] = part;
-		}
-		if (part->GetName() == "P1")
-		{
-			playerPositions[0] = part;
-		}
-		if (part->GetName() == "P2")
-		{
-			playerPositions[1] = part;
-		}
-		if (part->GetName() == "P3")
-		{
-			playerPositions[2] = part;
-		}
-		if (part->GetName() == "AreaCollision") 
-		{
-			UBoxComponent* mainCollider = Cast<UBoxComponent>(part);
-			mainCollider->OnComponentBeginOverlap.AddDynamic(this, &ABattleArea::OnOverlap);
-		}
+		collider->OnComponentBeginOverlap.AddDynamic(this, &ABattleArea::OnOverlap);
 	}
 
-	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorLocation(playerPositions[0]->GetComponentLocation());
-	GetWorld()->GetFirstPlayerController()->GetPawn()->SetActorRotation(playerPositions[0]->GetComponentRotation());
-
+	SetActorToSpot(GetWorld()->GetFirstPlayerController()->GetPawn(), 0, true);
 
 }
 
@@ -106,12 +88,53 @@ void ABattleArea::Tick(float DeltaTime)
 		{
 			if (enemies[i]) 
 			{
-				enemies[i]->SetActorLocation(enemyPositions[i]->GetComponentLocation());
-				enemies[i]->SetActorRotation(enemyPositions[i]->GetComponentRotation());
+				SetActorToSpot(enemies[i],i,false);
 			}
 			
 
 		}
+	}
+}
+//Actor to move, index for spot, and if player or enemy
+void ABattleArea::SetActorToSpot(AActor* a, int i, bool t)
+{
+	USceneComponent* spot = NULL;
+
+	//If player
+	if (t) 
+	{
+		if (i == 0)
+		{
+			spot = playerPos1;
+		}
+		else if (i == 1)
+		{
+			spot = playerPos2;
+		}
+		else if (i == 2)
+		{
+			spot = playerPos3;
+		}
+	}
+	else 
+	{
+		if (i == 0)
+		{
+			spot = enemyPos1;
+		}
+		else if (i == 1)
+		{
+			spot = enemyPos2;
+		}
+		else if (i == 2)
+		{
+			spot = enemyPos3;
+		}
+	}
+	if (spot && a)
+	{
+		a->SetActorLocation(spot->GetComponentLocation());
+		a->SetActorRotation(spot->GetComponentRotation());
 	}
 }
 

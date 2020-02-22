@@ -3,7 +3,7 @@
   Creating makefile for GemChasersEditor (no existing makefile)
   Parsing headers for GemChasersEditor
     Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GemChasersEditor in 8.5786364 seconds
+  Reflection code generated for GemChasersEditor in 7.3595941 seconds
   Building GemChasersEditor...
   Using Visual Studio 2019 14.25.28508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\VC\Tools\MSVC\14.25.28508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -17,31 +17,31 @@
     [1/27] Default.rc2
     [2/27] SharedPCH.Engine.cpp
     [3/27] GemChasers.cpp
-    [4/27] BattleAreaSpawnPoint.cpp
+    [4/27] MainPlayerController.cpp
     [5/27] GemChasersInstance.cpp
-    [6/27] MainPlayerController.cpp
-    [7/27] MainGamemode.cpp
-    [8/27] GemChasersGameModeBase.cpp
+    [6/27] BattleAreaSpawnPoint.cpp
+    [7/27] GemChasersGameModeBase.cpp
+    [8/27] MainGamemode.cpp
     [9/27] PathToFollow.cpp
-    [10/27] GemChasers.init.gen.cpp
+    [10/27] BattleArea.gen.cpp
     [11/27] EnemySpawner.gen.cpp
-    [12/27] BattleArea.gen.cpp
+    [12/27] GemChasers.init.gen.cpp
     [13/27] GemChasersGameModeBase.gen.cpp
     [14/27] GemChasersInstance.gen.cpp
-    [15/27] PathToFollow.gen.cpp
-    [16/27] PlayerPawn.gen.cpp
+    [15/27] MainGamemode.gen.cpp
+    [16/27] PathToFollow.gen.cpp
     [17/27] MainPlayerController.gen.cpp
-    [18/27] MainGamemode.gen.cpp
+    [18/27] PlayerPawn.gen.cpp
     [19/27] TestEnemy.gen.cpp
-    [20/27] TestEnemy.cpp
-    [21/27] BattleAreaSpawnPoint.gen.cpp
-    [22/27] BattleArea.cpp
-    [23/27] EnemySpawner.cpp
-    [24/27] PlayerPawn.cpp
+    [20/27] BattleAreaSpawnPoint.gen.cpp
+    [21/27] BattleArea.cpp
+    [22/27] EnemySpawner.cpp
+    [23/27] PlayerPawn.cpp
+    [24/27] TestEnemy.cpp
     [25/27] UE4Editor-GemChasers-0001.lib
        Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0001.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0001.exp
     [26/27] UE4Editor-GemChasers-0001.dll
        Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0001.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0001.suppressed.exp
     [27/27] GemChasersEditor.target
-  Total time in Parallel executor: 37.76 seconds
-  Total execution time: 62.87 seconds
+  Total time in Parallel executor: 42.92 seconds
+  Total execution time: 53.30 seconds

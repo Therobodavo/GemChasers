@@ -60,7 +60,7 @@ void APlayerPawn::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherAc
 		{
 			if (points->GetRootComponent()->ComponentHasTag("BattleAreaSpawnPoint")) 
 			{
-				if (closest == NULL)
+				if (!closest)
 				{
 					closest = *points;
 				}
@@ -70,9 +70,9 @@ void APlayerPawn::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherAc
 				}
 			}
 		}
-		if (closest != NULL)
+		if (closest)
 		{
-			if (closest->currentBattle == NULL) 
+			if (!closest->currentBattle) 
 			{
 				//Create Battle at this point
 				CreateBattleArea(closest);
@@ -107,12 +107,13 @@ void APlayerPawn::CreateBattleArea(ABattleAreaSpawnPoint* point)
 	FRotator Rotation = point->GetActorRotation();
 	FActorSpawnParameters SpawnInfo;
 	SpawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+	SpawnInfo.Owner = point;
 
 	//Spawns battle area
-	ABattleArea* battleArea = GetWorld()->SpawnActor<ABattleArea>(instance->battleArea->GeneratedClass, Location, Rotation, SpawnInfo);
+	ABattleArea* battleArea = NULL;
+	battleArea = GetWorld()->SpawnActor<ABattleArea>(instance->battleArea->GeneratedClass, Location, Rotation, SpawnInfo);
 	point->currentBattle = battleArea;
-	point->activeBattle = true;
-
 	currentBattleArea = battleArea;
+	point->activeBattle = true;
 }
 
