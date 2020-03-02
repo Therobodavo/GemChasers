@@ -2,20 +2,34 @@
 
 
 #include "GemChasersInstance.h"
-
+#include "Blueprint/UserWidget.h"
+#include "ConstructorHelpers.h"
+#include "BattleUIWidget.h"
+#include "WanderingUIWidget.h"
 UGemChasersInstance::UGemChasersInstance() 
 {
-	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_EnemySpawner.BP_EnemySpawner'")));
-	enemySpawnerBP = Cast<UBlueprint>(SpawnActor);
+	enemySpawnerBP = Cast<UBlueprint>(Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_EnemySpawner.BP_EnemySpawner'"))));
+	enemy1BP = Cast<UBlueprint>(Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_TestEnemy.BP_TestEnemy'"))));
+	battleArea = Cast<UBlueprint>(Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_BattleArea.BP_BattleArea'"))));
+	
+	ConstructorHelpers::FClassFinder<UBattleUIWidget> battleWidgetFinder(TEXT("WidgetBlueprint'/Game/BPs/BattleUI'"));
+	
+	if (battleWidgetFinder.Succeeded())
+	{
+		battleUI = battleWidgetFinder.Class;
+	}
 
-	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_TestEnemy.BP_TestEnemy'")));
-	enemy1BP = Cast<UBlueprint>(SpawnActor);
+	ConstructorHelpers::FClassFinder<UWanderingUIWidget> wanderingWidgetFinder(TEXT("WidgetBlueprint'/Game/BPs/WanderingUI'"));
 
-	SpawnActor = Cast<UObject>(StaticLoadObject(UObject::StaticClass(), NULL, TEXT("Blueprint'/Game/BPs/BP_BattleArea.BP_BattleArea'")));
-	battleArea = Cast<UBlueprint>(SpawnActor);
+	if (wanderingWidgetFinder.Succeeded()) 
+	{
+		wanderingUI = wanderingWidgetFinder.Class;
+	}
 }
 
 void UGemChasersInstance::Init()
 {
 	Super::Init();
+	
+	
 }

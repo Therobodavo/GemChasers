@@ -19,5 +19,11 @@ protected:
 	virtual void BeginPlay() override;
 public:
 	virtual void SetupInputComponent() override;
+
+	UPROPERTY()
+		class UUserWidget* battleUIWidget;
+		class UUserWidget* wanderingUIWidget;
+	UPROPERTY()
+		class UGemChasersInstance* instance;
 	
 };

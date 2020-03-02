@@ -18,9 +18,6 @@ public:
 	void Init();
 
 	UPROPERTY()
-	UObject* SpawnActor = NULL;
-
-	UPROPERTY()
 	UBlueprint* enemySpawnerBP;
 
 	UPROPERTY()
@@ -28,5 +25,11 @@ public:
 
 	UPROPERTY()
 	UBlueprint* battleArea;
+
+	UPROPERTY()
+	TSubclassOf<UUserWidget> battleUI;
+
+	UPROPERTY()
+	TSubclassOf<UUserWidget> wanderingUI;
 	
 };

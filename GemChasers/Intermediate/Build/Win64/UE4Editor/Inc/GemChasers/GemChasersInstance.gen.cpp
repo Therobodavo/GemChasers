@@ -17,8 +17,9 @@ void EmptyLinkFunctionForGeneratedCodeGemChasersInstance() {}
 	GEMCHASERS_API UClass* Z_Construct_UClass_UGemChasersInstance();
 	ENGINE_API UClass* Z_Construct_UClass_UGameInstance();
 	UPackage* Z_Construct_UPackage__Script_GemChasers();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	UMG_API UClass* Z_Construct_UClass_UUserWidget_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprint_NoRegister();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
 	void UGemChasersInstance::StaticRegisterNativesUGemChasersInstance()
 	{
@@ -34,6 +35,14 @@ void EmptyLinkFunctionForGeneratedCodeGemChasersInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_wanderingUI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_wanderingUI;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_battleUI_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_battleUI;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_battleArea_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_battleArea;
@@ -45,10 +54,6 @@ void EmptyLinkFunctionForGeneratedCodeGemChasersInstance() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_enemySpawnerBP_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_enemySpawnerBP;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpawnActor_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpawnActor;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -64,6 +69,18 @@ void EmptyLinkFunctionForGeneratedCodeGemChasersInstance() {}
 		{ "ModuleRelativePath", "GemChasersInstance.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_wanderingUI_MetaData[] = {
+		{ "ModuleRelativePath", "GemChasersInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_wanderingUI = { "wanderingUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGemChasersInstance, wanderingUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_wanderingUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_wanderingUI_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleUI_MetaData[] = {
+		{ "ModuleRelativePath", "GemChasersInstance.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleUI = { "battleUI", nullptr, (EPropertyFlags)0x0014000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGemChasersInstance, battleUI), Z_Construct_UClass_UUserWidget_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleUI_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleUI_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleArea_MetaData[] = {
 		{ "ModuleRelativePath", "GemChasersInstance.h" },
@@ -82,17 +99,12 @@ void EmptyLinkFunctionForGeneratedCodeGemChasersInstance() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_enemySpawnerBP = { "enemySpawnerBP", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGemChasersInstance, enemySpawnerBP), Z_Construct_UClass_UBlueprint_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_enemySpawnerBP_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_enemySpawnerBP_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_SpawnActor_MetaData[] = {
-		{ "ModuleRelativePath", "GemChasersInstance.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_SpawnActor = { "SpawnActor", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UGemChasersInstance, SpawnActor), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_SpawnActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_SpawnActor_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UGemChasersInstance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_wanderingUI,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleUI,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_battleArea,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_enemy1BP,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_enemySpawnerBP,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UGemChasersInstance_Statics::NewProp_SpawnActor,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UGemChasersInstance_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UGemChasersInstance>::IsAbstract,
@@ -121,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeGemChasersInstance() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UGemChasersInstance, 2718080163);
+	IMPLEMENT_CLASS(UGemChasersInstance, 356556458);
 	template<> GEMCHASERS_API UClass* StaticClass<UGemChasersInstance>()
 	{
 		return UGemChasersInstance::StaticClass();

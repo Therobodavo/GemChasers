@@ -4,7 +4,11 @@
 #include "Engine/World.h"
 #include "Engine.h"
 #include "UObject/UObjectGlobals.h"
-
+#include "Kismet/GameplayStatics.h"
+#include "MainPlayerController.h"
+#include "BattleUIWidget.h"
+#include "PlayerPawn.h"
+#include "BattleAreaSpawnPoint.h"
 //BattleArea.cpp File
 //Main code for creating battles and taking care of enemies/players
 //Programmed by David Knolls
@@ -14,6 +18,7 @@ bool hasInitiated = false;
 ABattleArea::ABattleArea(const FObjectInitializer& OI) : Super(OI)
 {
 	PrimaryActorTick.bCanEverTick = true;
+	playerController = Cast<AMainPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
 
 	collider = OI.CreateDefaultSubobject<UBoxComponent>(this,TEXT("Collider"));
 	SetRootComponent(collider);
@@ -37,6 +42,8 @@ ABattleArea::ABattleArea(const FObjectInitializer& OI) : Super(OI)
 
 	enemies.SetNum(3,false);
 	enemies = { NULL,NULL,NULL };
+
+	//spawnPoint = Cast<ABattleAreaSpawnPoint>(GetOwner());
 }
 void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
@@ -68,6 +75,8 @@ void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * Other
 void ABattleArea::BeginPlay()
 {
 	Super::BeginPlay();
+	
+	playerController->battleUIWidget->AddToViewport();
 
 	if (collider) 
 	{
@@ -94,6 +103,25 @@ void ABattleArea::Tick(float DeltaTime)
 
 		}
 	}
+}
+void ABattleArea::Destroyed()
+{
+	if (playerController) 
+	{
+		playerController->battleUIWidget->RemoveFromViewport();
+	}
+	for (int i = 0; i < 3; i++) 
+	{
+		if (enemies[i]) 
+		{
+			enemies[i]->Destroy();
+			enemies[i] = NULL;
+		}
+	}
+	//if (spawnPoint->currentBattle == this)
+	//{
+	//	spawnPoint->currentBattle = NULL;
+	//}
 }
 //Actor to move, index for spot, and if player or enemy
 void ABattleArea::SetActorToSpot(AActor* a, int i, bool t)

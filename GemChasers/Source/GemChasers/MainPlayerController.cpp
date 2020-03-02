@@ -3,6 +3,10 @@
 
 #include "MainPlayerController.h"
 #include "PlayerPawn.h"
+#include "GameFramework/HUD.h"
+#include "BattleUIWidget.h"
+#include "GemChasersInstance.h"
+#include "WanderingUIWidget.h"
 
 AMainPlayerController::AMainPlayerController() 
 {
@@ -11,6 +15,12 @@ AMainPlayerController::AMainPlayerController()
 void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
+	instance = Cast<UGemChasersInstance>(GetGameInstance());
+
+	battleUIWidget = Cast<UBattleUIWidget>(CreateWidget<UUserWidget>(GetWorld(), instance->battleUI));
+	wanderingUIWidget = Cast<UWanderingUIWidget>(CreateWidget<UUserWidget>(GetWorld(), instance->wanderingUI));
+	//battleUIWidget->AddToViewport();
+	wanderingUIWidget->AddToViewport();
 }
 
 void AMainPlayerController::SetupInputComponent()

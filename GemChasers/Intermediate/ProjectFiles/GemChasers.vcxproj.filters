@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GemChasers.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AAFBF95B-0649-48BD-A3CA-BDFBCADD7167}</UniqueIdentifier>
+      <UniqueIdentifier>{91154328-4041-4EBF-9881-167AB51CB229}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GemChasers.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{5ED9603E-15D2-48AB-8703-DF779DD8EA31}</UniqueIdentifier>
+      <UniqueIdentifier>{433D7A8A-03BD-4B06-84B6-8F814294C108}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GemChasers">
-      <UniqueIdentifier>{FFD5BD3A-B52C-4AA8-A944-29A42DF64539}</UniqueIdentifier>
+      <UniqueIdentifier>{2569F331-5EDC-42DC-8A78-0DC929770EBA}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GemChasers\BattleArea.cpp">
       <Filter>Source\GemChasers</Filter>
@@ -42,6 +42,12 @@
       <Filter>Source\GemChasers</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GemChasers\BattleAreaSpawnPoint.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GemChasers\BattleUIWidget.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\BattleUIWidget.h">
       <Filter>Source\GemChasers</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\GemChasers\EnemySpawner.cpp">
@@ -99,6 +105,12 @@
       <Filter>Source\GemChasers</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\GemChasers\TestEnemy.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GemChasers\WanderingUIWidget.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\WanderingUIWidget.h">
       <Filter>Source\GemChasers</Filter>
     </ClInclude>
   </ItemGroup>
