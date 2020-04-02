@@ -1,0 +1,40 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GemChasers-5843.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BaseBuff.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BaseGem.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleArea.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleAreaSpawnPoint.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleUIWidget.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\EnemySpawner.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasers.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasersGameModeBase.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasersInstance.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\MainGamemode.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\MainPlayerController.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\PathToFollow.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\PlayerPawn.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\TestEnemy.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\WanderingUIWidget.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleArea.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleAreaSpawnPoint.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleUIWidget.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\EnemySpawner.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasers.init.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasersGameModeBase.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\GemChasersInstance.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\MainGamemode.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\MainPlayerController.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\PathToFollow.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\PlayerPawn.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\TestEnemy.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\WanderingUIWidget.gen.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\Default.rc2.res"
+/OUT:"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-5843.lib"
+/INCLUDE:IMPLEMENT_MODULE_GemChasers

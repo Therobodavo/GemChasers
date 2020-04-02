@@ -39,6 +39,10 @@ void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 	Super::NativeTick(MyGeometry, InDeltaTime);
 	UOverlay* innerWheel = Cast<UOverlay>(GetWidgetFromName(FName("InnerWheel")));
 	UOverlay* outerWheel = Cast<UOverlay>(GetWidgetFromName(FName("OuterWheel")));
+	UOverlay* mainWheel = Cast<UOverlay>(GetWidgetFromName(FName("WheelUI")));
+	UOverlay* moveOverlay = Cast<UOverlay>(GetWidgetFromName(FName("MoveOverlay")));
+	UImage* hoverImage = Cast<UImage>(GetWidgetFromName(FName("Hover")));
+	UImage* selectedImage = Cast<UImage>(GetWidgetFromName(FName("Selected")));
 
 	if (isRotating)
 	{
@@ -83,17 +87,63 @@ void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 	GEngine->GameViewport->GetViewportSize(viewportSize);
 	int32 X = FGenericPlatformMath::FloorToInt(viewportSize.X);
 	int32 Y = FGenericPlatformMath::FloorToInt(viewportSize.Y);
-	float scale = GetDefault<UUserInterfaceSettings>(UUserInterfaceSettings::StaticClass())->GetDPIScaleBasedOnSize(FIntPoint(X, Y));
+	float dpi = GetDefault<UUserInterfaceSettings>(UUserInterfaceSettings::StaticClass())->GetDPIScaleBasedOnSize(FIntPoint(X, Y));
+	if (mainWheel) 
+	{
+		GetWorld()->GetFirstPlayerController()->GetMousePosition(mousePos.X, mousePos.Y);
+		UCanvasPanelSlot* wheelSlot = Cast<UCanvasPanelSlot>(mainWheel->Slot);
+		FVector2D wheelPosition = wheelSlot->GetPosition();
+		FVector2D wheelSize = wheelSlot->GetSize();
+		FVector2D wheelScale = mainWheel->RenderTransform.Scale;
 
-	GetWorld()->GetFirstPlayerController()->GetMousePosition(mousePos.X,mousePos.Y);
-	UCanvasPanelSlot* wheelSlot = Cast<UCanvasPanelSlot>(outerWheel->Slot);
-	FVector2D w = wheelSlot->GetPosition();
-	FVector2D wheelSize = wheelSlot->GetSize();
-	w.Set(w.X + ((wheelSize.X * scale) / 2), w.Y + ((wheelSize.Y * scale) / 2));
-	FVector2D currentPoint = (mousePos - w);
-	currentPoint.Normalize();
-	float angle = FMath::RadiansToDegrees(acosf(FVector2D::DotProduct(currentPoint, FVector2D(1,0))));
-	GLog->Log(FString::FromInt(angle));
+		//Scales wheel size and position
+		//position based off middle
+		wheelSize.Set(wheelSize.X * dpi * wheelScale.X, wheelSize.Y * dpi * wheelScale.Y);
+		wheelPosition.Set((wheelPosition.X * dpi * wheelScale.X) + (wheelSize.X / 2), (wheelPosition.Y * dpi * wheelScale.Y) + (wheelSize.Y / 2));
+
+		FVector2D currentPoint = (mousePos - wheelPosition);
+		currentPoint.Normalize();
+		float dir = FVector2D::DotProduct(currentPoint, FVector2D(1, 0));
+		float angle = FMath::RadiansToDegrees(acosf(dir));
+
+		bool isHovering = false;
+
+		if (!isRotating && moveOverlay && hoverImage && selectedImage && mousePos.Y <= wheelPosition.Y && (mousePos - wheelPosition).Size() <= (wheelSize.X / 2))
+		{
+			isHovering = true;
+			//Hit left triangle
+			if (angle >= 120 && angle <= 180) 
+			{
+				//GLog->Log("Hit Left");
+				moveOverlay->SetRenderTransformAngle(-60);
+			}
+			//Hit middle triangle
+			else if (angle >= 60 && angle < 120) 
+			{
+				//GLog->Log("Hit Middle");
+				moveOverlay->SetRenderTransformAngle(0);
+			}
+			//Hit right triangle
+			else if (angle >= 0 && angle < 60) 
+			{
+				//GLog->Log("Hit Right");
+				moveOverlay->SetRenderTransformAngle(60);
+			}
+		}
+		if (isHovering && hoverImage && selectedImage) 
+		{
+			hoverImage->SetRenderOpacity(1);
+			selectedImage->SetRenderOpacity(0);
+		}
+		else 
+		{
+			hoverImage->SetRenderOpacity(0);
+		}
+		//GLog->Log("Distance: " + FString::SanitizeFloat((mousePos - wheelPosition).Size()));
+		//GLog->Log("Half Circle: " + FString::SanitizeFloat(wheelSize.X / 2));
+		//GLog->Log("Current Mouse: " + FString::FromInt(mousePos.X) + ", " + FString::FromInt(mousePos.Y));
+		GLog->Log("Angle: " + FString::FromInt(angle));
+	}
 }
 
 void UBattleUIWidget::StartRotation()

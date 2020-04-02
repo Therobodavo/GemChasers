@@ -1,9 +1,4 @@
-﻿  Cleaning GemChasersEditor and UnrealHeaderTool binaries...
-  Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
-  Creating makefile for GemChasersEditor (no existing makefile)
-  Parsing headers for GemChasersEditor
-    Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for GemChasersEditor in 7.3301373 seconds
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
   Building GemChasersEditor...
   Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -13,41 +8,12 @@
   [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
   [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
   [Upgrade]
-  Building 33 actions with 8 processes...
-    [1/33] Default.rc2
-    [2/33] SharedPCH.Engine.cpp
-    [3/33] MainGamemode.cpp
-    [4/33] PathToFollow.cpp
-    [5/33] GemChasersGameModeBase.cpp
-    [6/33] BattleAreaSpawnPoint.cpp
-    [7/33] BaseGem.cpp
-    [8/33] BaseBuff.cpp
-    [9/33] GemChasersInstance.cpp
-    [10/33] MainPlayerController.cpp
-    [11/33] TestEnemy.gen.cpp
-    [12/33] PlayerPawn.gen.cpp
-    [13/33] WanderingUIWidget.cpp
-    [14/33] PathToFollow.gen.cpp
-    [15/33] WanderingUIWidget.gen.cpp
-    [16/33] MainPlayerController.gen.cpp
-    [17/33] BattleArea.gen.cpp
-    [18/33] MainGamemode.gen.cpp
-    [19/33] GemChasersGameModeBase.gen.cpp
-    [20/33] GemChasers.init.gen.cpp
-    [21/33] TestEnemy.cpp
-    [22/33] EnemySpawner.gen.cpp
-    [23/33] BattleAreaSpawnPoint.gen.cpp
-    [24/33] GemChasers.cpp
-    [25/33] GemChasersInstance.gen.cpp
-    [26/33] EnemySpawner.cpp
-    [27/33] PlayerPawn.cpp
-    [28/33] BattleUIWidget.gen.cpp
-    [29/33] BattleArea.cpp
-    [30/33] BattleUIWidget.cpp
-    [31/33] UE4Editor-GemChasers.lib
-       Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers.exp
-    [32/33] UE4Editor-GemChasers.dll
-       Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers.suppressed.exp
-    [33/33] GemChasersEditor.target
-  Total time in Parallel executor: 46.95 seconds
-  Total execution time: 57.21 seconds
+  Building 4 actions with 8 processes...
+    [1/4] BattleUIWidget.cpp
+    [2/4] UE4Editor-GemChasers-0056.lib
+       Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0056.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0056.exp
+    [3/4] UE4Editor-GemChasers-0056.dll
+       Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0056.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-0056.suppressed.exp
+    [4/4] GemChasersEditor.target
+  Total time in Parallel executor: 15.81 seconds
+  Total execution time: 16.89 seconds

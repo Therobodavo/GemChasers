@@ -1,0 +1,932 @@
+﻿Log file open, 04/02/20 08:18:55
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GemChasers
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 8.327501
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:292][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.02-12.18.59:292][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.02-12.18.59:293][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:293][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:295][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.02-12.18.59:296][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.02-12.18.59:297][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.02-12.18.59:297][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.02-12.18.59:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.02-12.18.59:422][  0]LogHAL: Display: Platform has ~ 16 GB [17086115840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.02-12.18.59:422][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.02-12.18.59:422][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.02-12.18.59:422][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.02-12.18.59:423][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.02-12.18.59:452][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.02-12.18.59:452][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.02-12.18.59:452][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-12.18.59:452][  0]LogInit: Computer: DAVIDSMSILAPTOP
+[2020.04.02-12.18.59:452][  0]LogInit: User: Thero
+[2020.04.02-12.18.59:452][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.02-12.18.59:452][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.02-12.18.59:452][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.02-12.18.59:452][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.02-12.18.59:452][  0]LogMemory: Process Physical Memory: 111.56 MB used, 114.14 MB peak
+[2020.04.02-12.18.59:452][  0]LogMemory: Process Virtual Memory: 100.36 MB used, 100.36 MB peak
+[2020.04.02-12.18.59:452][  0]LogMemory: Physical Memory: 5994.34 MB used,  10300.25 MB free, 16294.59 MB total
+[2020.04.02-12.18.59:452][  0]LogMemory: Virtual Memory: 5137.57 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.04.02-12.18.59:460][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.02-12.19.00:178][  0]LogInit: Using OS detected language (en-US).
+[2020.04.02-12.19.00:178][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.02-12.19.00:188][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.02-12.19.00:898][  0]LogInit: Setting process to per monitor DPI aware
+[2020.04.02-12.19.01:236][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.02-12.19.01:236][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.02-12.19.06:787][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.02-12.19.06:787][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.02-12.19.06:787][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.02-12.19.06:787][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.02-12.19.07:014][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2020.04.02-12.19.07:015][  0]LogD3D11RHI:       3032/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.02-12.19.07:033][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.04.02-12.19.07:034][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.02-12.19.07:037][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.02-12.19.07:037][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.02-12.19.07:037][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.02-12.19.07:085][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.02-12.19.07:085][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.02-12.19.07:085][  0]LogWindows: EnumDisplayDevices:
+[2020.04.02-12.19.07:085][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.04.02-12.19.07:086][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.02-12.19.07:086][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.02-12.19.07:086][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.04.02-12.19.07:086][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2020.04.02-12.19.07:086][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.04.02-12.19.07:086][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.04.02-12.19.07:086][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2020.04.02-12.19.07:139][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.02-12.19.07:140][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.02-12.19.07:182][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.02-12.19.08:734][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.04.02-12.19.08:847][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.04.02-12.19.08:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.04.02-12.19.08:977][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.04.02-12.19.09:022][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.04.02-12.19.09:072][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.04.02-12.19.09:103][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.04.02-12.19.09:137][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.04.02-12.19.09:166][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.04.02-12.19.09:198][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.04.02-12.19.09:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.04.02-12.19.09:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.04.02-12.19.09:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.04.02-12.19.09:307][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.04.02-12.19.09:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.02-12.19.09:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.02-12.19.09:418][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.02-12.19.09:453][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.02-12.19.09:453][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.02-12.19.09:735][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.02-12.19.10:600][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../College Stuff/Unity/GemChasers/GemChasers/Intermediate/Shaders/WorkingDirectory/16264/).
+[2020.04.02-12.19.10:600][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thero/AppData/Local/Temp/UnrealShaderWorkingDir/337FFC4C496A29DD515E9399D4BF0719/'.
+[2020.04.02-12.19.10:600][  0]LogXGEController: Cleaning working directory: C:/Users/Thero/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2020.04.02-12.19.10:601][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.02-12.19.10:601][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.02-12.19.10:601][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.02-12.19.16:796][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.02-12.19.16:907][  0]LogDerivedDataCache: Loaded boot cache 0.11s 78MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.02-12.19.16:907][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.02-12.19.16:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../College Stuff/Unity/GemChasers/GemChasers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.02-12.19.16:907][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.02-12.19.16:907][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../College Stuff/Unity/GemChasers/GemChasers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.02-12.19.16:907][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.02-12.19.16:962][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.02-12.19.16:963][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.02-12.19.16:963][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.02-12.19.16:964][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thero/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.02-12.19.16:964][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.02-12.19.16:964][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.02-12.19.16:997][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.02-12.19.17:000][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.02-12.19.17:055][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.02-12.19.18:622][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.04.02-12.19.21:488][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.02-12.19.23:079][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.02-12.19.23:079][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.02-12.19.23:079][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.02-12.19.23:079][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.02-12.19.23:079][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.02-12.19.23:369][  0]LogNetVersion: GemChasers 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 569320847)
+[2020.04.02-12.20.04:427][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.097463 seconds
+[2020.04.02-12.20.04:435][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.04.02-12.20.04:435][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.04.02-12.20.04:435][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.02-12.20.09:634][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.02-12.20.09:890][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.02-12.20.10:383][  0]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.20.10:383][  0]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.20.10:579][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.20.10:579][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.20.10:581][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__SKEL_BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.20.10:581][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__SKEL_BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.20.11:367][  0]SourceControl: Source control is disabled
+[2020.04.02-12.20.11:368][  0]SourceControl: Source control is disabled
+[2020.04.02-12.20.11:507][  0]SourceControl: Source control is disabled
+[2020.04.02-12.20.11:593][  0]SourceControl: Source control is disabled
+[2020.04.02-12.20.11:632][  0]SourceControl: Source control is disabled
+[2020.04.02-12.20.13:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.02-12.20.13:909][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.02-12.20.13:909][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.02-12.20.14:499][  0]LogOcInput: OculusInput pre-init called
+[2020.04.02-12.20.14:579][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.04.02-12.20.14:579][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.04.02-12.20.14:981][  0]LogEngine: Initializing Engine...
+[2020.04.02-12.20.14:982][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.02-12.20.14:983][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.02-12.20.16:145][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.02-12.20.16:193][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.20.16:230][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.20.16:230][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.20.16:231][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.20.16:231][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Name: Speakers (Realtek High Definition Audio)
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.20.16:260][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.20.16:417][  0]LogAudioMixer: Display: Using Audio Device Speakers (Realtek High Definition Audio)
+[2020.04.02-12.20.16:420][  0]LogInit: FAudioDevice initialized.
+[2020.04.02-12.20.16:420][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.02-12.20.16:499][  0]LogDerivedDataCache: Saved boot cache 0.08s 120MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.02-12.20.16:504][  0]LogInit: Texture streaming: Enabled
+[2020.04.02-12.20.16:652][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.04.02-12.20.16:652][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.04.02-12.20.16:654][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.04.02-12.20.17:205][  0]LogInit: Transaction tracking system initialized
+[2020.04.02-12.20.17:485][  0]BlueprintLog: New page: Editor Load
+[2020.04.02-12.20.18:477][  0]LocalizationService: Localization service is disabled
+[2020.04.02-12.20.22:487][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Content/' took 0.01s
+[2020.04.02-12.20.22:487][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.04.02-12.20.22:487][  0]LogCook: Display: Mobile HDR setting 1
+[2020.04.02-12.20.28:226][  0]SourceControl: Source control is disabled
+[2020.04.02-12.20.28:226][  0]Cmd: MAP LOAD FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/Maps/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.04.02-12.20.28:361][  0]LightingResults: New page: Lighting Build
+[2020.04.02-12.20.28:362][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.20.28:362][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.20.28:362][  0]MapCheck: New page: Map Check
+[2020.04.02-12.20.28:362][  0]LightingResults: New page: Lighting Build
+[2020.04.02-12.20.28:393][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2020.04.02-12.20.29:458][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.20.29:516][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.04.02-12.20.29:559][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2020.04.02-12.20.29:559][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.04.02-12.20.29:559][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.108ms to complete.
+[2020.04.02-12.20.29:559][  0]LogFileHelpers: Loading map 'TestMap' took 1.333
+[2020.04.02-12.20.30:119][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.20.30:129][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.20.30:137][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.20.30:146][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.20.30:199][  0]LogCollectionManager: Loaded 0 collections in 0.001586 seconds
+[2020.04.02-12.20.30:218][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Collections/' took 0.00s
+[2020.04.02-12.20.30:218][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Content/Developers/Thero/Collections/' took 0.00s
+[2020.04.02-12.20.30:218][  0]LogFileCache: Scanning file cache for directory 'D:/College Stuff/Unity/GemChasers/GemChasers/Content/Collections/' took 0.00s
+[2020.04.02-12.20.30:218][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 3027 classes and 719 folders.
+[2020.04.02-12.20.30:221][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2020.04.02-12.20.31:561][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.04.02-12.20.31:608][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 2 classes and 3 folders.
+[2020.04.02-12.20.31:724][  0]LogSlate: Took 0.038517 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.04.02-12.20.31:739][  0]LogSlate: Took 0.011549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.04.02-12.20.31:793][  0]LogSlate: Took 0.046413 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.04.02-12.20.32:132][  0]LogRenderer: Reallocating scene render targets to support 804x364 Format 10 NumSamples 1 (Frame:1).
+[2020.04.02-12.20.32:307][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.04.02-12.20.32:308][  0]LogLoad: (Engine Initialization) Total time: 129.90 seconds
+[2020.04.02-12.20.32:308][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.02-12.20.32:381][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.02-12.20.32:500][  0]LogSlate: Took 0.064598 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.02-12.20.34:529][ 31]LogAssetRegistry: Asset discovery search completed in 75.9089 seconds
+[2020.04.02-12.20.34:533][ 31]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2020.04.02-12.22.15:140][435]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.04.02-12.22.15:174][435]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Images/Center_Piece.Center_Piece
+[2020.04.02-12.22.15:220][435]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2020.04.02-12.22.46:595][290]LogSlate: Window 'Center_Piece' being destroyed
+[2020.04.02-12.22.50:999][537]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Images/Center_Piece.Center_Piece
+[2020.04.02-12.23.03:887][249]LogSlate: Window 'Editor Preferences' being destroyed
+[2020.04.02-12.23.04:811][295]LogSlate: Window 'Center_Piece' being destroyed
+[2020.04.02-12.23.08:179][492]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.23.08:500][492]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.04.02-12.23.09:869][492]LogSlate: Took 0.018831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.04.02-12.24.55:515][703]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.24.56:260][703]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI7A1CC0F44FFD242FF36C7A86F789BB2A.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.24.56:285][703]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.24.56:285][703]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.25.09:005][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.25.09:033][461]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI5D30954E423D33ACDEBFBE9A0B9FCC1C.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.25.09:052][461]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.25.09:052][461]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.25.29:609][542]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2020.04.02-12.25.30:473][590]LogSlate: Window 'BattleUI' being destroyed
+[2020.04.02-12.25.30:488][590]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.25.30:488][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.25.30:519][590]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.25.30:519][590]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.25.32:632][709]LogUObjectHash: Compacting FUObjectHashTables data took   4.35ms
+[2020.04.02-12.26.24:484][254]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.26.35:382][863]LogEditorTransaction: Undo Edit Angle
+[2020.04.02-12.27.06:188][681]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.27.06:220][681]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI49ABB6D646EB0FC5FE24199D332DC891.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.27.06:237][681]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.27.06:237][681]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.27.28:544][ 14]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.27.28:576][ 14]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUIC73FB12B421485C7DDDE0794F78B7B95.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.27.28:591][ 14]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.27.28:591][ 14]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.27.31:353][179]LogSlate: Window 'BattleUI' being destroyed
+[2020.04.02-12.27.31:363][179]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.27.31:363][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.27.31:370][179]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.27.31:370][179]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.27.37:021][501]LogAssetEditorSubsystem: Opening Asset editor for Class /Script/GemChasers.BattleUIWidget
+[2020.04.02-12.34.37:829][833]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.34.51:189][586]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.34.51:246][586]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI8C9106AD4946CBBB0493B1A0398B771D.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.34.51:268][586]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.34.51:268][586]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.35.01:685][201]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.35.01:721][201]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI14AE376B49BA776EF92AAA814190D694.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.35.01:739][201]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.35.01:739][201]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.35.03:097][282]LogSlate: Window 'BattleUI' being destroyed
+[2020.04.02-12.35.03:105][282]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.35.03:106][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.35.03:110][282]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.35.03:110][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.39.43:325][476]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.40.00:235][450]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.40.00:278][450]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI43A02CF64EE66E5B00C7788120AAB7AC.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.40.00:298][450]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.40.00:299][450]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.40.02:243][561]LogSlate: Window 'BattleUI' being destroyed
+[2020.04.02-12.40.02:255][561]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.40.02:255][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.40.02:305][561]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.40.02:305][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.40.04:296][670]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2020.04.02-12.40.37:164][931]Candidate modules for hot reload:
+[2020.04.02-12.40.37:165][931]  GemChasers
+[2020.04.02-12.40.37:165][931]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,1853 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.04.02-12.40.37:341][931]Warning: Starting HotReload took  0.4s.
+[2020.04.02-12.40.58:562][193]LogSlate: Took 0.046698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.02-12.41.19:864][818]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{53f47ba3-69e5-49e5-8024-7c9de60b60fc}.
+[2020.04.02-12.41.19:864][818]LogTemp: Resetting audio stream to device id 
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: New page: Compilation - Apr 2, 2020, 4:46:15 AM
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Creating makefile for GemChasersEditor (no existing makefile)
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.04.02-12.46.15:471][203]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Reflection code generated for GemChasersEditor in 30.3989578 seconds
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Building GemChasersEditor...
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: Building 9 actions with 8 processes...
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [1/9] GemChasers.init.gen.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [2/9] MainPlayerController.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [3/9] BattleUIWidget.gen.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [4/9] GemChasersInstance.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [5/9] BattleArea.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [6/9] BattleUIWidget.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [7/9] UE4Editor-GemChasers-1853.lib
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.exp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [8/9] UE4Editor-GemChasers-1853.dll
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.suppressed.exp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [9/9] GemChasersEditor.target
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: Total time in Parallel executor: 290.63 seconds
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: Total execution time: 337.75 seconds
+[2020.04.02-12.46.15:472][203]LogMainFrame: MainFrame: Module compiling took 338.424 seconds
+[2020.04.02-12.46.15:504][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.04.02-12.46.15:566][203]LogClass: Could not find existing class BattleUIWidget in package /Script/GemChasers for HotReload, assuming new class
+[2020.04.02-12.46.15:566][203]LogClass: Function StartRotation is new.
+[2020.04.02-12.46.15:601][203]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.46.15:601][203]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.46.15:608][203]LogHotReload: Re-instancing BattleUIWidget after hot-reload.
+[2020.04.02-12.46.16:665][203]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 12 classes and 2 folders.
+[2020.04.02-12.46.16:678][203]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2020.04.02-12.46.16:856][203]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.04.02-12.46.16:878][203]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3030 classes and 724 folders.
+[2020.04.02-12.46.16:898][203]Display: HotReload took 339.9s.
+[2020.04.02-12.46.24:588][353]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-12.46.24:767][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-12.46.24:787][353]PIE: New page: PIE session: TestMap (Apr 2, 2020, 4:46:24 AM)
+[2020.04.02-12.46.24:848][353]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.02-12.46.24:850][353]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.02-12.46.24:879][353]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.46.24:930][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051022s)
+[2020.04.02-12.46.24:953][353]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.46.24:965][353]LogPlayLevel: PIE: World Init took: (0.034229s)
+[2020.04.02-12.46.24:965][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.086077s)
+[2020.04.02-12.46.25:038][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.46.25:066][353]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.46.25:066][353]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.46.25:097][353]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-12.46.25:106][353]LogInit: FAudioDevice initialized.
+[2020.04.02-12.46.25:307][353]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-12.46.25:311][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.04.02-08.46.25
+[2020.04.02-12.46.25:334][353]LogWorld: Bringing up level for play took: 0.024004
+[2020.04.02-12.46.25:355][353]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.04.02-12.46.25:554][353]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.04.02-12.46.25:751][353]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 1.786
+[2020.04.02-12.47.38:884][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.38:884][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.38:971][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.47.38:971][652]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.47.38:983][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.38:992][652]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.47.38:993][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.47.39:014][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-12.47.39:039][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.47.39:121][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.39:137][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.47.39:214][652]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2020.04.02-12.47.39:251][653]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.02-12.49.07:600][ 21]Candidate modules for hot reload:
+[2020.04.02-12.49.07:600][ 21]  GemChasers
+[2020.04.02-12.49.07:601][ 21]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,2892 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.04.02-12.49.07:612][ 21]Warning: Starting HotReload took  0.0s.
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: New page: Compilation - Apr 2, 2020, 4:49:24 AM
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: Building GemChasersEditor...
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [1/5] MainPlayerController.cpp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [2/5] BattleUIWidget.cpp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [3/5] UE4Editor-GemChasers-2892.lib
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.exp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [4/5] UE4Editor-GemChasers-2892.dll
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.suppressed.exp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [5/5] GemChasersEditor.target
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: Total time in Parallel executor: 14.94 seconds
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: Total execution time: 16.29 seconds
+[2020.04.02-12.49.24:032][896]LogMainFrame: MainFrame: Module compiling took 16.441 seconds
+[2020.04.02-12.49.24:064][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.04.02-12.49.24:113][896]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.49.24:113][896]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.49.24:118][896]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 12 classes and 2 folders.
+[2020.04.02-12.49.24:122][896]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.04.02-12.49.24:220][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.04.02-12.49.24:238][896]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 3030 classes and 724 folders.
+[2020.04.02-12.49.24:238][896]Display: HotReload took 16.7s.
+[2020.04.02-12.49.28:491][126]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-12.49.28:514][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-12.49.28:514][126]PIE: New page: PIE session: TestMap (Apr 2, 2020, 4:49:28 AM)
+[2020.04.02-12.49.28:514][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.49.28:518][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003757s)
+[2020.04.02-12.49.28:520][126]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.49.28:558][126]LogPlayLevel: PIE: World Init took: (0.039875s)
+[2020.04.02-12.49.28:558][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.043919s)
+[2020.04.02-12.49.28:629][126]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.49.28:630][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.49.28:630][126]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.49.28:663][126]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-12.49.28:665][126]LogInit: FAudioDevice initialized.
+[2020.04.02-12.49.28:679][126]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-12.49.28:682][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.04.02-08.49.28
+[2020.04.02-12.49.28:682][126]LogWorld: Bringing up level for play took: 0.001424
+[2020.04.02-12.49.28:682][126]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.04.02-12.49.28:692][126]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.727
+[2020.04.02-12.50.22:562][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:562][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:562][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.22:562][346]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.50.22:562][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:562][346]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.22:563][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.22:571][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-12.50.22:575][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.22:606][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:613][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.22:618][346]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.04.02-12.50.22:672][349]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.04.02-12.50.26:996][442]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.50.37:942][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.50.37:994][ 39]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI253F6C7C4DBE020ABF838188C8EDCBC2.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.50.38:017][ 39]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.50.38:017][ 39]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.50.45:198][465]LogSlate: Window 'BattleUI' being destroyed
+[2020.04.02-12.50.45:208][465]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.45:208][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.45:212][465]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.45:212][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.48:205][637]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-12.50.48:224][637]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.04.02-12.50.48:226][637]LogPlayLevel: [PlayLevel] Compiling BattleUI before play...
+[2020.04.02-12.50.48:459][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.04.02-12.50.48:460][637]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2020.04.02-12.50.48:460][637]PIE: New page: PIE session: TestMap (Apr 2, 2020, 4:50:48 AM)
+[2020.04.02-12.50.48:460][637]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.50.48:464][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003415s)
+[2020.04.02-12.50.48:465][637]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.50.48:466][637]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2020.04.02-12.50.48:466][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.005428s)
+[2020.04.02-12.50.48:503][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.50.48:504][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.50.48:504][637]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.50.48:542][637]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-12.50.48:544][637]LogInit: FAudioDevice initialized.
+[2020.04.02-12.50.48:556][637]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-12.50.48:558][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.04.02-08.50.48
+[2020.04.02-12.50.48:559][637]LogWorld: Bringing up level for play took: 0.001475
+[2020.04.02-12.50.48:559][637]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.02-12.50.48:564][637]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.599
+[2020.04.02-12.50.53:089][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:089][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:090][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.53:090][901]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.50.53:090][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:090][901]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.53:090][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.53:103][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-12.50.53:108][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.53:140][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:143][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.53:147][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.04.02-12.50.53:204][904]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.02-12.51.32:498][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
