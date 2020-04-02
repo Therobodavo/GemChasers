@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 	UMG_API UClass* Z_Construct_UClass_UUserWidget();
 	UPackage* Z_Construct_UPackage__Script_GemChasers();
 	GEMCHASERS_API UFunction* Z_Construct_UFunction_UBattleUIWidget_StartRotation();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
 	GEMCHASERS_API UClass* Z_Construct_UClass_APlayerPawn_NoRegister();
 // End Cross Module References
 	void UBattleUIWidget::StaticRegisterNativesUBattleUIWidget()
@@ -61,6 +62,10 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_mousePos_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_mousePos;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerActor_MetaData[];
 #endif
@@ -106,6 +111,12 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_mousePos_MetaData[] = {
+		{ "ModuleRelativePath", "BattleUIWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_mousePos = { "mousePos", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, mousePos), Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_mousePos_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_mousePos_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_playerActor_MetaData[] = {
 		{ "ModuleRelativePath", "BattleUIWidget.h" },
 	};
@@ -146,6 +157,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation = { "rotation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, rotation), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UBattleUIWidget_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_mousePos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_playerActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_stops,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_spotStop,
@@ -180,7 +192,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBattleUIWidget, 1092130855);
+	IMPLEMENT_CLASS(UBattleUIWidget, 626850019);
 	template<> GEMCHASERS_API UClass* StaticClass<UBattleUIWidget>()
 	{
 		return UBattleUIWidget::StaticClass();

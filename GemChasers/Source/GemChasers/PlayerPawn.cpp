@@ -6,7 +6,7 @@
 #include "Engine.h"
 #include "EngineUtils.h"
 #include <BattleArea.h>
-#include <GemChasers\BattleAreaSpawnPoint.h>
+#include "BattleAreaSpawnPoint.h"
 #include <GemChasers\GemChasersInstance.h>
 #include "TestEnemy.h"
 
@@ -70,9 +70,10 @@ void APlayerPawn::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherAc
 				}
 			}
 		}
+
 		if (closest)
 		{
-			if (!closest->currentBattle) 
+			if (!(closest->currentBattle)) 
 			{
 				//Create Battle at this point
 				CreateBattleArea(closest);
@@ -112,6 +113,7 @@ void APlayerPawn::CreateBattleArea(ABattleAreaSpawnPoint* point)
 	//Spawns battle area
 	ABattleArea* battleArea = NULL;
 	battleArea = GetWorld()->SpawnActor<ABattleArea>(instance->battleArea->GeneratedClass, Location, Rotation, SpawnInfo);
+	battleArea->spawnPoint = point;
 	point->currentBattle = battleArea;
 	currentBattleArea = battleArea;
 	point->activeBattle = true;

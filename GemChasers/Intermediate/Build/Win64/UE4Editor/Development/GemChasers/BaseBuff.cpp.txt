@@ -1,0 +1,2 @@
+D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\Definitions.GemChasers.h
+D:\College Stuff\Unity\GemChasers\GemChasers\Source\GemChasers\BaseBuff.h

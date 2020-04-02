@@ -38,4 +38,7 @@ public:
 
 	UPROPERTY()
 		class APlayerPawn* playerActor;
+
+	UPROPERTY()
+		FVector2D mousePos;
 };

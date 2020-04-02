@@ -7,6 +7,8 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BaseBuff.cpp.obj"
+"D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BaseGem.cpp.obj"
 "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleArea.cpp.obj"
 "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleAreaSpawnPoint.cpp.obj"
 "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\BattleUIWidget.cpp.obj"

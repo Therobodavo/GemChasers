@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GemChasers.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{91154328-4041-4EBF-9881-167AB51CB229}</UniqueIdentifier>
+      <UniqueIdentifier>{0A5E2483-A7E1-4E55-B133-075DEDECB1FD}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GemChasers.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{433D7A8A-03BD-4B06-84B6-8F814294C108}</UniqueIdentifier>
+      <UniqueIdentifier>{2697DF78-E9F8-4662-AF8E-7750BF1CD0DB}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,8 +30,20 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\GemChasers">
-      <UniqueIdentifier>{2569F331-5EDC-42DC-8A78-0DC929770EBA}</UniqueIdentifier>
+      <UniqueIdentifier>{AA4768B3-FF8B-4332-89EE-90EEB3551999}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GemChasers\BaseBuff.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\BaseBuff.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GemChasers\BaseGem.cpp">
+      <Filter>Source\GemChasers</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GemChasers\BaseGem.h">
+      <Filter>Source\GemChasers</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\GemChasers\BattleArea.cpp">
       <Filter>Source\GemChasers</Filter>
     </ClCompile>

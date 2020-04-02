@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeGemChasers_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x416129EB,
+				0xF2BBE357,
 				0xA7085116,
 				METADATA_PARAMS(nullptr, 0)
 			};

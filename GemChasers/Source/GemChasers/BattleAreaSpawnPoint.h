@@ -22,7 +22,11 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY()
 	bool activeBattle = false;
+
+	UPROPERTY()
 	class ABattleArea* currentBattle = NULL;
 
 };

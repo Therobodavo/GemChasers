@@ -9,6 +9,7 @@
 #include "BattleUIWidget.h"
 #include "PlayerPawn.h"
 #include "BattleAreaSpawnPoint.h"
+
 //BattleArea.cpp File
 //Main code for creating battles and taking care of enemies/players
 //Programmed by David Knolls
@@ -19,6 +20,8 @@ ABattleArea::ABattleArea(const FObjectInitializer& OI) : Super(OI)
 {
 	PrimaryActorTick.bCanEverTick = true;
 	playerController = Cast<AMainPlayerController>(UGameplayStatics::GetPlayerController(this, 0));
+	playerActor = Cast<APlayerPawn>(UGameplayStatics::GetPlayerPawn(this, 0));
+	spawnPoint = Cast<ABattleAreaSpawnPoint>(GetOwner());
 
 	collider = OI.CreateDefaultSubobject<UBoxComponent>(this,TEXT("Collider"));
 	SetRootComponent(collider);
@@ -42,8 +45,6 @@ ABattleArea::ABattleArea(const FObjectInitializer& OI) : Super(OI)
 
 	enemies.SetNum(3,false);
 	enemies = { NULL,NULL,NULL };
-
-	//spawnPoint = Cast<ABattleAreaSpawnPoint>(GetOwner());
 }
 void ABattleArea::OnOverlap(UPrimitiveComponent * OverlappedComp, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
 {
@@ -99,13 +100,13 @@ void ABattleArea::Tick(float DeltaTime)
 			{
 				SetActorToSpot(enemies[i],i,false);
 			}
-			
-
 		}
 	}
 }
 void ABattleArea::Destroyed()
 {
+	Super::Destroyed();
+
 	if (playerController) 
 	{
 		playerController->battleUIWidget->RemoveFromViewport();
@@ -118,10 +119,16 @@ void ABattleArea::Destroyed()
 			enemies[i] = NULL;
 		}
 	}
-	//if (spawnPoint->currentBattle == this)
-	//{
-	//	spawnPoint->currentBattle = NULL;
-	//}
+	if (spawnPoint)
+	{
+		GLog->Log("Reset Spawnpoint");
+		spawnPoint->activeBattle = false;
+		spawnPoint->currentBattle = NULL;
+	}
+	if (playerActor)
+	{
+		playerActor->currentBattleArea = NULL;
+	}
 }
 //Actor to move, index for spot, and if player or enemy
 void ABattleArea::SetActorToSpot(AActor* a, int i, bool t)

@@ -26,13 +26,17 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	virtual void Destroyed() override;
-	UPROPERTY()
-		TArray<class ATestEnemy*> enemies;
 
 	UPROPERTY()
-		class AMainPlayerController* playerController;
+		TArray<class ATestEnemy*> enemies;
 	UPROPERTY()
-		class ABattleAreaSpawnPoint* spawnPoint;
+		class AMainPlayerController* playerController = NULL;
+
+	UPROPERTY()
+		class APlayerPawn* playerActor = NULL;
+
+	UPROPERTY()
+		class ABattleAreaSpawnPoint* spawnPoint = NULL;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		class UStaticMeshComponent* enemyPos1 = NULL;

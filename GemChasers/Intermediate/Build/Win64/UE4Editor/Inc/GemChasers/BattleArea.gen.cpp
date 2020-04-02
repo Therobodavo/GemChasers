@@ -25,6 +25,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	GEMCHASERS_API UClass* Z_Construct_UClass_ABattleAreaSpawnPoint_NoRegister();
+	GEMCHASERS_API UClass* Z_Construct_UClass_APlayerPawn_NoRegister();
 	GEMCHASERS_API UClass* Z_Construct_UClass_AMainPlayerController_NoRegister();
 	GEMCHASERS_API UClass* Z_Construct_UClass_ATestEnemy_NoRegister();
 // End Cross Module References
@@ -217,6 +218,10 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_spawnPoint;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerActor_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerActor;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_playerController_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_playerController;
@@ -326,6 +331,12 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_spawnPoint = { "spawnPoint", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattleArea, spawnPoint), Z_Construct_UClass_ABattleAreaSpawnPoint_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::NewProp_spawnPoint_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::NewProp_spawnPoint_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattleArea_Statics::NewProp_playerActor_MetaData[] = {
+		{ "ModuleRelativePath", "BattleArea.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABattleArea_Statics::NewProp_playerActor = { "playerActor", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABattleArea, playerActor), Z_Construct_UClass_APlayerPawn_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABattleArea_Statics::NewProp_playerActor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABattleArea_Statics::NewProp_playerActor_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABattleArea_Statics::NewProp_playerController_MetaData[] = {
 		{ "ModuleRelativePath", "BattleArea.h" },
 	};
@@ -349,6 +360,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPos2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemyPos1,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_spawnPoint,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_playerActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_playerController,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABattleArea_Statics::NewProp_enemies_Inner,
@@ -380,7 +392,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleArea() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABattleArea, 4224203700);
+	IMPLEMENT_CLASS(ABattleArea, 1270695318);
 	template<> GEMCHASERS_API UClass* StaticClass<ABattleArea>()
 	{
 		return ABattleArea::StaticClass();
