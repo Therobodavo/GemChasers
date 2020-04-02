@@ -37,30 +37,46 @@ void UBattleUIWidget::NativeConstruct()
 void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 {
 	Super::NativeTick(MyGeometry, InDeltaTime);
-	/*UOverlay* wheel = Cast<UOverlay>(GetWidgetFromName(FName("Wheel")));
+	UOverlay* innerWheel = Cast<UOverlay>(GetWidgetFromName(FName("InnerWheel")));
+	UOverlay* outerWheel = Cast<UOverlay>(GetWidgetFromName(FName("OuterWheel")));
 
 	if (isRotating)
 	{
 		float rotInc = InDeltaTime * 1440;
-		if (rotation + rotInc > 180)
+		if (outerRotation + rotInc > 180)
 		{
-			rotation = -180;
+			outerRotation = -180;
 		}
 		else
 		{
-			rotation += rotInc;
+			outerRotation += rotInc;
 		}
+
+		if (innerRotation - rotInc < -180) 
+		{
+			innerRotation = 180;
+		}
+		else 
+		{
+			innerRotation -= rotInc;
+		}
+
+
 	}
-	int temp = rotation;
 	if (GetWorld()->GetRealTimeSeconds() - timeRotationStarted >= 2)
 	{
 		isRotating = false;
-		rotation = stops[spotStop];
+		outerRotation = stops[outerSpotStop];
+		innerRotation = stops[innerSpotStop];
+	}
+	if (outerWheel && innerWheel) 
+	{
+		//SET ROTATION FOR
+		outerWheel->SetRenderTransformAngle(outerRotation);
+		innerWheel->SetRenderTransformAngle(innerRotation);
 	}
 
-	//SET ROTATION FOR
-	wheel->SetRenderTransformAngle(rotation);
-	
+	/*
 	//GetViewport
 	FVector2D viewportSize;
 	// as this function returns through the parameter, we just need to call it by passing in our FVector2D variable
@@ -88,10 +104,10 @@ void UBattleUIWidget::StartRotation()
 		{
 			if (!playerActor->currentBattleArea->IsPendingKill() && playerActor->currentBattleArea->IsValidLowLevel()) 
 			{
-				rotation = 0;
 				isRotating = true;
 				timeRotationStarted = GetWorld()->GetRealTimeSeconds();
-				spotStop = FMath::FRand() * 5.0f;
+				innerSpotStop = FMath::FRand() * 5.0f;
+				outerSpotStop = FMath::FRand() * 5.0f;
 				//playerActor->currentBattleArea->Destroy();
 				//playerActor->currentBattleArea = NULL;
 			}

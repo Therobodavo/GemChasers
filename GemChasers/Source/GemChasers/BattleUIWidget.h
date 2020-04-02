@@ -22,7 +22,9 @@ public:
 		void StartRotation();
 
 	UPROPERTY()
-		float rotation = 0;
+		float innerRotation = 0;
+	UPROPERTY()
+		float outerRotation = 0;
 
 	UPROPERTY()
 		bool isRotating = false;
@@ -31,7 +33,9 @@ public:
 		float timeRotationStarted = 0;
 
 	UPROPERTY()
-		int spotStop = 0;
+		int innerSpotStop = 0;
+	UPROPERTY()
+		int outerSpotStop = 0;
 
 	UPROPERTY()
 		int stops[6] = { -120,-60,0,60,120,180 };
