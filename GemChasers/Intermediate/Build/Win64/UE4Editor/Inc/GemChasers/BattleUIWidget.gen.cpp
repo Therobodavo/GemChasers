@@ -75,9 +75,13 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_stops;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_spotStop_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_outerSpotStop_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_spotStop;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_outerSpotStop;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_innerSpotStop_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_innerSpotStop;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_timeRotationStarted_MetaData[];
 #endif
@@ -88,9 +92,13 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 		static void NewProp_isRotating_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isRotating;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rotation_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_outerRotation_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_rotation;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_outerRotation;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_innerRotation_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_innerRotation;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -129,11 +137,17 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_stops = { "stops", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, CPP_ARRAY_DIM(stops, UBattleUIWidget), STRUCT_OFFSET(UBattleUIWidget, stops), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_stops_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_stops_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_spotStop_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerSpotStop_MetaData[] = {
 		{ "ModuleRelativePath", "BattleUIWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_spotStop = { "spotStop", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, spotStop), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_spotStop_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_spotStop_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerSpotStop = { "outerSpotStop", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, outerSpotStop), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerSpotStop_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerSpotStop_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerSpotStop_MetaData[] = {
+		{ "ModuleRelativePath", "BattleUIWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerSpotStop = { "innerSpotStop", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, innerSpotStop), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerSpotStop_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerSpotStop_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_timeRotationStarted_MetaData[] = {
 		{ "ModuleRelativePath", "BattleUIWidget.h" },
@@ -151,19 +165,27 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_isRotating = { "isRotating", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UBattleUIWidget), &Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_isRotating_SetBit, METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_isRotating_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_isRotating_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerRotation_MetaData[] = {
 		{ "ModuleRelativePath", "BattleUIWidget.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation = { "rotation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, rotation), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerRotation = { "outerRotation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, outerRotation), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerRotation_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerRotation_MetaData[] = {
+		{ "ModuleRelativePath", "BattleUIWidget.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerRotation = { "innerRotation", nullptr, (EPropertyFlags)0x0010000000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UBattleUIWidget, innerRotation), METADATA_PARAMS(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerRotation_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerRotation_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UBattleUIWidget_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_mousePos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_playerActor,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_stops,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_spotStop,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerSpotStop,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerSpotStop,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_timeRotationStarted,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_isRotating,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_rotation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_outerRotation,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UBattleUIWidget_Statics::NewProp_innerRotation,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UBattleUIWidget_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UBattleUIWidget>::IsAbstract,
@@ -192,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeBattleUIWidget() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UBattleUIWidget, 626850019);
+	IMPLEMENT_CLASS(UBattleUIWidget, 3384135351);
 	template<> GEMCHASERS_API UClass* StaticClass<UBattleUIWidget>()
 	{
 		return UBattleUIWidget::StaticClass();

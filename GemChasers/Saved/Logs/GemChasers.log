@@ -678,3 +678,255 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.02-12.40.02:305][561]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
 [2020.04.02-12.40.02:305][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2020.04.02-12.40.04:296][670]LogUObjectHash: Compacting FUObjectHashTables data took   4.79ms
+[2020.04.02-12.40.37:164][931]Candidate modules for hot reload:
+[2020.04.02-12.40.37:165][931]  GemChasers
+[2020.04.02-12.40.37:165][931]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,1853 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.04.02-12.40.37:341][931]Warning: Starting HotReload took  0.4s.
+[2020.04.02-12.40.58:562][193]LogSlate: Took 0.046698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.04.02-12.41.19:864][818]LogAudioMixer: Warning: Changing default audio render device to new device: {0.0.0.00000000}.{53f47ba3-69e5-49e5-8024-7c9de60b60fc}.
+[2020.04.02-12.41.19:864][818]LogTemp: Resetting audio stream to device id 
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.41.19:908][818]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: New page: Compilation - Apr 2, 2020, 4:46:15 AM
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Creating makefile for GemChasersEditor (no existing makefile)
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Parsing headers for GemChasersEditor
+[2020.04.02-12.46.15:471][203]CompilerResultsLog:   Running UnrealHeaderTool "D:\College Stuff\Unity\GemChasers\GemChasers\GemChasers.uproject" "D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\GemChasersEditor\Development\GemChasersEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Reflection code generated for GemChasersEditor in 30.3989578 seconds
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Building GemChasersEditor...
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.02-12.46.15:471][203]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: Building 9 actions with 8 processes...
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [1/9] GemChasers.init.gen.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [2/9] MainPlayerController.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [3/9] BattleUIWidget.gen.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [4/9] GemChasersInstance.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [5/9] BattleArea.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [6/9] BattleUIWidget.cpp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [7/9] UE4Editor-GemChasers-1853.lib
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.exp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [8/9] UE4Editor-GemChasers-1853.dll
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-1853.suppressed.exp
+[2020.04.02-12.46.15:472][203]CompilerResultsLog:   [9/9] GemChasersEditor.target
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: Total time in Parallel executor: 290.63 seconds
+[2020.04.02-12.46.15:472][203]CompilerResultsLog: Total execution time: 337.75 seconds
+[2020.04.02-12.46.15:472][203]LogMainFrame: MainFrame: Module compiling took 338.424 seconds
+[2020.04.02-12.46.15:504][203]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2020.04.02-12.46.15:566][203]LogClass: Could not find existing class BattleUIWidget in package /Script/GemChasers for HotReload, assuming new class
+[2020.04.02-12.46.15:566][203]LogClass: Function StartRotation is new.
+[2020.04.02-12.46.15:601][203]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.46.15:601][203]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.46.15:608][203]LogHotReload: Re-instancing BattleUIWidget after hot-reload.
+[2020.04.02-12.46.16:665][203]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 12 classes and 2 folders.
+[2020.04.02-12.46.16:678][203]Display: HotReload successful (10 functions remapped  0 scriptstructs remapped)
+[2020.04.02-12.46.16:856][203]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2020.04.02-12.46.16:878][203]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 3030 classes and 724 folders.
+[2020.04.02-12.46.16:898][203]Display: HotReload took 339.9s.
+[2020.04.02-12.46.24:588][353]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-12.46.24:767][353]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-12.46.24:787][353]PIE: New page: PIE session: TestMap (Apr 2, 2020, 4:46:24 AM)
+[2020.04.02-12.46.24:848][353]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.04.02-12.46.24:850][353]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.04.02-12.46.24:879][353]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.46.24:930][353]LogPlayLevel: PIE: StaticDuplicateObject took: (0.051022s)
+[2020.04.02-12.46.24:953][353]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.46.24:965][353]LogPlayLevel: PIE: World Init took: (0.034229s)
+[2020.04.02-12.46.24:965][353]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.086077s)
+[2020.04.02-12.46.25:038][353]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.46.25:066][353]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.46.25:066][353]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.46.25:066][353]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.46.25:084][353]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.46.25:097][353]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-12.46.25:106][353]LogInit: FAudioDevice initialized.
+[2020.04.02-12.46.25:307][353]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-12.46.25:311][353]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.04.02-08.46.25
+[2020.04.02-12.46.25:334][353]LogWorld: Bringing up level for play took: 0.024004
+[2020.04.02-12.46.25:355][353]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.04.02-12.46.25:554][353]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.04.02-12.46.25:751][353]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 1.786
+[2020.04.02-12.47.38:884][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.38:884][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.38:971][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.47.38:971][652]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.47.38:983][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.38:992][652]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.47.38:993][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.47.39:014][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-12.47.39:039][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.47.39:121][652]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.47.39:137][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.47.39:214][652]LogUObjectHash: Compacting FUObjectHashTables data took   5.73ms
+[2020.04.02-12.47.39:251][653]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.04.02-12.49.07:600][ 21]Candidate modules for hot reload:
+[2020.04.02-12.49.07:600][ 21]  GemChasers
+[2020.04.02-12.49.07:601][ 21]Launching UnrealBuildTool... [D:/Epic Games/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GemChasers,2892 Win64 Development -TargetType=Editor -Project="D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject" "D:/College Stuff/Unity/GemChasers/GemChasers/GemChasers.uproject"  -IgnoreJunk]
+[2020.04.02-12.49.07:612][ 21]Warning: Starting HotReload took  0.0s.
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: New page: Compilation - Apr 2, 2020, 4:49:24 AM
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\College Stuff\Unity\GemChasers).
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: Building GemChasersEditor...
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: Using Visual Studio 2019 14.25.28612 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade] Using backward-compatible build settings. The latest version of UE4 sets the following values by default, which may require code changes:
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade]     bLegacyPublicIncludePaths = false                 => Omits subfolders from public include paths to reduce compiler command line length. (Previously: true).
+[2020.04.02-12.49.24:031][896]CompilerResultsLog: [Upgrade]     ShadowVariableWarningLevel = WarningLevel.Error   => Treats shadowed variable warnings as errors. (Previously: WarningLevel.Warning).
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: [Upgrade]     PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs   => Set in build.cs files to enables IWYU-style PCH model. See https://docs.unrealengine.com/en-US/Programming/BuildTools/UnrealBuildTool/IWYU/index.html. (Previously: PCHUsageMode.UseSharedPCHs).
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: [Upgrade] Suppress this message by setting 'DefaultBuildSettings = BuildSettingsVersion.V2;' in GemChasersEditor.Target.cs, and explicitly overriding settings that differ from the new defaults.
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: [Upgrade]
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: Building 5 actions with 8 processes...
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [1/5] MainPlayerController.cpp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [2/5] BattleUIWidget.cpp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [3/5] UE4Editor-GemChasers-2892.lib
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.exp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [4/5] UE4Editor-GemChasers-2892.dll
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:      Creating library D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.suppressed.lib and object D:\College Stuff\Unity\GemChasers\GemChasers\Intermediate\Build\Win64\UE4Editor\Development\GemChasers\UE4Editor-GemChasers-2892.suppressed.exp
+[2020.04.02-12.49.24:032][896]CompilerResultsLog:   [5/5] GemChasersEditor.target
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: Total time in Parallel executor: 14.94 seconds
+[2020.04.02-12.49.24:032][896]CompilerResultsLog: Total execution time: 16.29 seconds
+[2020.04.02-12.49.24:032][896]LogMainFrame: MainFrame: Module compiling took 16.441 seconds
+[2020.04.02-12.49.24:064][896]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2020.04.02-12.49.24:113][896]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.49.24:113][896]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-12.49.24:118][896]LogContentBrowser: Native class hierarchy updated for 'GemChasers' in 0.0004 seconds. Added 12 classes and 2 folders.
+[2020.04.02-12.49.24:122][896]Display: HotReload successful (11 functions remapped  0 scriptstructs remapped)
+[2020.04.02-12.49.24:220][896]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2020.04.02-12.49.24:238][896]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 3030 classes and 724 folders.
+[2020.04.02-12.49.24:238][896]Display: HotReload took 16.7s.
+[2020.04.02-12.49.28:491][126]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-12.49.28:514][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.04.02-12.49.28:514][126]PIE: New page: PIE session: TestMap (Apr 2, 2020, 4:49:28 AM)
+[2020.04.02-12.49.28:514][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.49.28:518][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003757s)
+[2020.04.02-12.49.28:520][126]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.49.28:558][126]LogPlayLevel: PIE: World Init took: (0.039875s)
+[2020.04.02-12.49.28:558][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.043919s)
+[2020.04.02-12.49.28:629][126]LogUObjectHash: Compacting FUObjectHashTables data took   4.08ms
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.49.28:630][126]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.49.28:630][126]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.49.28:630][126]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.49.28:650][126]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.49.28:663][126]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-12.49.28:665][126]LogInit: FAudioDevice initialized.
+[2020.04.02-12.49.28:679][126]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-12.49.28:682][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.04.02-08.49.28
+[2020.04.02-12.49.28:682][126]LogWorld: Bringing up level for play took: 0.001424
+[2020.04.02-12.49.28:682][126]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.04.02-12.49.28:692][126]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.727
+[2020.04.02-12.50.22:562][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:562][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:562][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.22:562][346]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.50.22:562][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:562][346]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.22:563][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.22:571][346]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-12.50.22:575][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.22:606][346]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.22:613][346]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.22:618][346]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2020.04.02-12.50.22:672][349]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.04.02-12.50.26:996][442]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.50.37:942][ 39]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BPs/BattleUI" FILE="../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset" SILENT=true
+[2020.04.02-12.50.37:994][ 39]LogSavePackage: Moving '../../../../../College Stuff/Unity/GemChasers/GemChasers/Saved/BattleUI253F6C7C4DBE020ABF838188C8EDCBC2.tmp' to '../../../../../College Stuff/Unity/GemChasers/GemChasers/Content/BPs/BattleUI.uasset'
+[2020.04.02-12.50.38:017][ 39]AssetCheck: New page: Asset Save: BattleUI
+[2020.04.02-12.50.38:017][ 39]LogContentValidation: Display: Validating WidgetBlueprint /Game/BPs/BattleUI.BattleUI
+[2020.04.02-12.50.45:198][465]LogSlate: Window 'BattleUI' being destroyed
+[2020.04.02-12.50.45:208][465]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.45:208][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.45:212][465]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.45:212][465]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.48:205][637]LogTemp: Repeating last play command: Selected Viewport
+[2020.04.02-12.50.48:224][637]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.04.02-12.50.48:226][637]LogPlayLevel: [PlayLevel] Compiling BattleUI before play...
+[2020.04.02-12.50.48:459][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2020.04.02-12.50.48:460][637]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2020.04.02-12.50.48:460][637]PIE: New page: PIE session: TestMap (Apr 2, 2020, 4:50:48 AM)
+[2020.04.02-12.50.48:460][637]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.50.48:464][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003415s)
+[2020.04.02-12.50.48:465][637]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-12.50.48:466][637]LogPlayLevel: PIE: World Init took: (0.001694s)
+[2020.04.02-12.50.48:466][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.005428s)
+[2020.04.02-12.50.48:503][637]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-12.50.48:504][637]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-12.50.48:504][637]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-12.50.48:504][637]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: Channel Order:
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-12.50.48:523][637]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-12.50.48:542][637]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-12.50.48:544][637]LogInit: FAudioDevice initialized.
+[2020.04.02-12.50.48:556][637]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-12.50.48:558][637]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2020.04.02-08.50.48
+[2020.04.02-12.50.48:559][637]LogWorld: Bringing up level for play took: 0.001475
+[2020.04.02-12.50.48:559][637]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.04.02-12.50.48:564][637]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_TestMap 0.599
+[2020.04.02-12.50.53:089][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:089][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:090][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.53:090][901]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2020.04.02-12.50.53:090][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:090][901]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-12.50.53:090][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.53:103][901]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.04.02-12.50.53:108][901]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-12.50.53:140][901]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-12.50.53:143][901]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-12.50.53:147][901]LogUObjectHash: Compacting FUObjectHashTables data took   2.50ms
+[2020.04.02-12.50.53:204][904]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.04.02-12.51.32:498][193]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms

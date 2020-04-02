@@ -76,7 +76,7 @@ void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 		innerWheel->SetRenderTransformAngle(innerRotation);
 	}
 
-	/*
+	
 	//GetViewport
 	FVector2D viewportSize;
 	// as this function returns through the parameter, we just need to call it by passing in our FVector2D variable
@@ -86,14 +86,14 @@ void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 	float scale = GetDefault<UUserInterfaceSettings>(UUserInterfaceSettings::StaticClass())->GetDPIScaleBasedOnSize(FIntPoint(X, Y));
 
 	GetWorld()->GetFirstPlayerController()->GetMousePosition(mousePos.X,mousePos.Y);
-	UCanvasPanelSlot* wheelSlot = Cast<UCanvasPanelSlot>(wheel->Slot);
+	UCanvasPanelSlot* wheelSlot = Cast<UCanvasPanelSlot>(outerWheel->Slot);
 	FVector2D w = wheelSlot->GetPosition();
 	FVector2D wheelSize = wheelSlot->GetSize();
 	w.Set(w.X + ((wheelSize.X * scale) / 2), w.Y + ((wheelSize.Y * scale) / 2));
 	FVector2D currentPoint = (mousePos - w);
 	currentPoint.Normalize();
 	float angle = FMath::RadiansToDegrees(acosf(FVector2D::DotProduct(currentPoint, FVector2D(1,0))));
-	GLog->Log(FString::FromInt(angle));*/
+	GLog->Log(FString::FromInt(angle));
 }
 
 void UBattleUIWidget::StartRotation()

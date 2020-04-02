@@ -16,7 +16,9 @@ void AMainPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
 	instance = Cast<UGemChasersInstance>(GetGameInstance());
-
+	bShowMouseCursor = true;
+	bEnableClickEvents = true;
+	bEnableMouseOverEvents = true;
 	battleUIWidget = Cast<UBattleUIWidget>(CreateWidget<UUserWidget>(GetWorld(), instance->battleUI));
 	wanderingUIWidget = Cast<UWanderingUIWidget>(CreateWidget<UUserWidget>(GetWorld(), instance->wanderingUI));
 	//battleUIWidget->AddToViewport();
