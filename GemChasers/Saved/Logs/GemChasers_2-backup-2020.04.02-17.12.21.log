@@ -1,0 +1,2224 @@
+﻿Log file open, 04/02/20 13:11:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GemChasers
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.643042
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: Intel(R) HD Graphics 530
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  /Game/Maps/TestMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed
+LogInit: Base Directory: D:/Epic Games/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:803][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.04.02-17.11.52:803][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:803][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.04.02-17.11.52:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:804][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:807][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.02-17.11.52:807][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.02-17.11.52:808][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.02-17.11.52:809][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.02-17.11.52:809][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.02-17.11.52:809][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.04.02-17.11.52:848][  0]LogHAL: Display: Platform has ~ 16 GB [17086115840 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.04.02-17.11.52:848][  0]LogInit: Going up to parent DeviceProfile []
+[2020.04.02-17.11.52:848][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.04.02-17.11.52:848][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.04.02-17.11.52:849][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Scalability.ini]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.04.02-17.11.52:850][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/College Stuff/Unity/GemChasers/GemChasers/Saved/Config/Windows/Engine.ini]
+[2020.04.02-17.11.52:850][  0]LogInit: Computer: DAVIDSMSILAPTOP
+[2020.04.02-17.11.52:850][  0]LogInit: User: Thero
+[2020.04.02-17.11.52:850][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.04.02-17.11.52:850][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.04.02-17.11.52:851][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.04.02-17.11.52:851][  0]LogMemory: Platform Memory Stats for Windows
+[2020.04.02-17.11.52:851][  0]LogMemory: Process Physical Memory: 112.26 MB used, 114.87 MB peak
+[2020.04.02-17.11.52:851][  0]LogMemory: Process Virtual Memory: 100.80 MB used, 100.80 MB peak
+[2020.04.02-17.11.52:851][  0]LogMemory: Physical Memory: 10142.19 MB used,  6152.40 MB free, 16294.59 MB total
+[2020.04.02-17.11.52:851][  0]LogMemory: Virtual Memory: 5137.57 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2020.04.02-17.11.52:855][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.04.02-17.11.52:873][  0]LogInit: Using OS detected language (en-US).
+[2020.04.02-17.11.52:873][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.02-17.11.52:874][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.04.02-17.11.53:116][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.04.02-17.11.53:116][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.04.02-17.11.53:190][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.02-17.11.53:190][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.04.02-17.11.53:190][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.04.02-17.11.53:190][  0]LogD3D11RHI: D3D11 adapters:
+[2020.04.02-17.11.53:291][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970M' (Feature Level 11_0)
+[2020.04.02-17.11.53:291][  0]LogD3D11RHI:       3032/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.04.02-17.11.53:302][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 530' (Feature Level 11_0)
+[2020.04.02-17.11.53:302][  0]LogD3D11RHI:       128/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2020.04.02-17.11.53:305][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.04.02-17.11.53:305][  0]LogD3D11RHI:       0/0/8147 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.04.02-17.11.53:305][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.04.02-17.11.53:363][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.04.02-17.11.53:363][  0]LogD3D11RHI:     GPU DeviceId: 0x13d8 (for the marketing name, search the web for "GPU Device Id")
+[2020.04.02-17.11.53:363][  0]LogWindows: EnumDisplayDevices:
+[2020.04.02-17.11.53:364][  0]LogWindows:    0. 'Intel(R) HD Graphics 530' (P:1 D:1)
+[2020.04.02-17.11.53:364][  0]LogWindows:    1. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.02-17.11.53:364][  0]LogWindows:    2. 'Intel(R) HD Graphics 530' (P:0 D:0)
+[2020.04.02-17.11.53:365][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.04.02-17.11.53:365][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970M
+[2020.04.02-17.11.53:365][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.04.02-17.11.53:365][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.04.02-17.11.53:365][  0]LogRHI: Texture pool is 2122 MB (70% of 3032 MB)
+[2020.04.02-17.11.53:422][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.04.02-17.11.53:422][  0]LogD3D11RHI: Async texture creation enabled
+[2020.04.02-17.11.53:442][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.04.02-17.11.53:882][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.04.02-17.11.53:885][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.04.02-17.11.53:894][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.04.02-17.11.53:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.04.02-17.11.53:904][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.04.02-17.11.53:907][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.04.02-17.11.53:931][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../../College Stuff/Unity/GemChasers/GemChasers/Intermediate/Shaders/WorkingDirectory/13856/).
+[2020.04.02-17.11.53:931][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thero/AppData/Local/Temp/UnrealShaderWorkingDir/9C99E9C743927FE354807BACB671B034/'.
+[2020.04.02-17.11.53:932][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.04.02-17.11.53:932][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.04.02-17.11.53:932][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.04.02-17.11.54:994][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.04.02-17.11.55:089][  0]LogDerivedDataCache: Loaded boot cache 0.09s 130MB C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.04.02-17.11.55:089][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thero/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.04.02-17.11.55:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../College Stuff/Unity/GemChasers/GemChasers/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.04.02-17.11.55:089][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.04.02-17.11.55:089][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../College Stuff/Unity/GemChasers/GemChasers/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.02-17.11.55:089][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.04.02-17.11.55:101][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.04.02-17.11.55:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.04.02-17.11.55:102][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.04.02-17.11.55:103][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thero/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.04.02-17.11.55:103][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.04.02-17.11.55:103][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.04.02-17.11.55:137][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.04.02-17.11.55:140][  0]LogSlate: Using FreeType 2.10.0
+[2020.04.02-17.11.55:140][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.04.02-17.11.55:289][  0]LogInit: Using OS detected language (en-US).
+[2020.04.02-17.11.55:289][  0]LogInit: Using OS detected locale (en-US).
+[2020.04.02-17.11.55:289][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the language.
+[2020.04.02-17.11.55:289][  0]LogTextLocalizationManager: No localization for 'en-US' exists, so 'en' will be used for the locale.
+[2020.04.02-17.11.55:289][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.04.02-17.11.55:289][  0]LogSlate: FontCache flush requested. Reason: Culture for localization was changed
+[2020.04.02-17.11.55:290][  0]LogTextLocalizationManager: Compacting localization data took   0.00ms
+[2020.04.02-17.11.55:294][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2020.04.02-17.11.55:630][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.000798 seconds
+[2020.04.02-17.11.58:917][  0]LogInit: Selected Device Profile: [Windows]
+[2020.04.02-17.11.59:064][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.04.02-17.11.59:064][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.04.02-17.11.59:064][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.04.02-17.11.59:065][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.04.02-17.11.59:065][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.04.02-17.11.59:077][  0]LogNetVersion: GemChasers 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 569320847)
+[2020.04.02-17.11.59:670][  0]LogMoviePlayer: Initializing movie player
+[2020.04.02-17.11.59:766][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.04.02-17.11.59:768][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.04.02-17.11.59:789][  0]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-17.11.59:789][  0]LogScript: Warning: Script Msg: No world was found for object (/Script/GemChasers.Default__BattleArea) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-17.11.59:806][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-17.11.59:806][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-17.11.59:808][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__SKEL_BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-17.11.59:808][  0]LogScript: Warning: Script Msg: No world was found for object (/Game/BPs/BP_BattleArea.Default__SKEL_BP_BattleArea_C) passed in to UEngine::GetWorldFromContextObject().
+[2020.04.02-17.11.59:872][  0]SourceControl: Source control is disabled
+[2020.04.02-17.11.59:872][  0]SourceControl: Source control is disabled
+[2020.04.02-17.11.59:873][  0]SourceControl: Source control is disabled
+[2020.04.02-17.11.59:904][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.04.02-17.11.59:908][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.02-17.11.59:908][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.04.02-17.11.59:973][  0]LogOcInput: OculusInput pre-init called
+[2020.04.02-17.11.59:984][  0]LogUObjectArray: 53362 objects as part of root set at end of initial load.
+[2020.04.02-17.11.59:984][  0]LogUObjectAllocator: 9607944 out of 0 bytes used by permanent object pool.
+[2020.04.02-17.11.59:984][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.04.02-17.12.00:049][  0]LogEngine: Initializing Engine...
+[2020.04.02-17.12.00:050][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.04.02-17.12.00:052][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.04.02-17.12.00:286][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.04.02-17.12.00:287][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.04.02-17.12.00:287][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.04.02-17.12.00:288][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.04.02-17.12.00:288][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Name: Headphones (2- Xbox Controller)
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: Channel Order:
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.04.02-17.12.00:330][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.04.02-17.12.00:356][  0]LogAudioMixer: Display: Using Audio Device Headphones (2- Xbox Controller)
+[2020.04.02-17.12.00:366][  0]LogInit: FAudioDevice initialized.
+[2020.04.02-17.12.00:367][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.04.02-17.12.00:369][  0]LogInit: Texture streaming: Enabled
+[2020.04.02-17.12.00:530][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-17.12.00:533][  0]LogInit: Display: Game Engine Initialized.
+[2020.04.02-17.12.00:542][  0]LogInit: Display: Starting Game.
+[2020.04.02-17.12.00:542][  0]LogNet: Browse: /Game/Maps/TestMap?Name=Player
+[2020.04.02-17.12.00:542][  0]LogLoad: LoadMap: /Game/Maps/TestMap?Name=Player
+[2020.04.02-17.12.00:542][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2020.04.02-17.12.00:544][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-17.12.00:544][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-17.12.00:570][  0]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-17.12.00:573][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2020.04.02-17.12.00:685][  0]LogAIModule: Creating AISystem for world TestMap
+[2020.04.02-17.12.00:717][  0]LogLoad: Game class is 'BP_MainGamemode_C'
+[2020.04.02-17.12.00:725][  0]LogWorld: Bringing World /Game/Maps/TestMap.TestMap up for play (max tick rate 0) at 2020.04.02-13.12.00
+[2020.04.02-17.12.00:725][  0]LogWorld: Bringing up level for play took: 0.006669
+[2020.04.02-17.12.00:731][  0]LogLoad: Took 0.188549 seconds to LoadMap(/Game/Maps/TestMap)
+[2020.04.02-17.12.00:756][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:1).
+[2020.04.02-17.12.00:756][  0]LogLoad: (Engine Initialization) Total time: 9.81 seconds
+[2020.04.02-17.12.00:756][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.04.02-17.12.00:788][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.04.02-17.12.00:791][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-17.12.00:894][  0]LogRenderer: Reallocating scene render targets to support 128x128 Format 10 NumSamples 1 (Frame:1).
+[2020.04.02-17.12.00:923][  0]LogRenderer: Reallocating scene render targets to support 1280x720 Format 10 NumSamples 1 (Frame:2).
+[2020.04.02-17.12.10:715][231]Angle: 134
+[2020.04.02-17.12.10:719][232]Angle: 134
+[2020.04.02-17.12.10:725][233]Angle: 134
+[2020.04.02-17.12.10:730][234]Angle: 134
+[2020.04.02-17.12.10:736][235]Angle: 134
+[2020.04.02-17.12.10:742][236]Angle: 134
+[2020.04.02-17.12.10:747][237]Angle: 134
+[2020.04.02-17.12.10:753][238]Angle: 134
+[2020.04.02-17.12.10:757][239]Angle: 134
+[2020.04.02-17.12.10:762][240]Angle: 134
+[2020.04.02-17.12.10:768][241]Angle: 134
+[2020.04.02-17.12.10:773][242]Angle: 134
+[2020.04.02-17.12.10:779][243]Angle: 134
+[2020.04.02-17.12.10:784][244]Angle: 134
+[2020.04.02-17.12.10:789][245]Angle: 134
+[2020.04.02-17.12.10:795][246]Angle: 134
+[2020.04.02-17.12.10:800][247]Angle: 134
+[2020.04.02-17.12.10:805][248]Angle: 134
+[2020.04.02-17.12.10:811][249]Angle: 134
+[2020.04.02-17.12.10:816][250]Angle: 134
+[2020.04.02-17.12.10:821][251]Angle: 134
+[2020.04.02-17.12.10:827][252]Angle: 134
+[2020.04.02-17.12.10:832][253]Angle: 134
+[2020.04.02-17.12.10:838][254]Angle: 134
+[2020.04.02-17.12.10:843][255]Angle: 134
+[2020.04.02-17.12.10:849][256]Angle: 134
+[2020.04.02-17.12.10:854][257]Angle: 134
+[2020.04.02-17.12.10:859][258]Angle: 134
+[2020.04.02-17.12.10:864][259]Angle: 134
+[2020.04.02-17.12.10:870][260]Angle: 134
+[2020.04.02-17.12.10:876][261]Angle: 134
+[2020.04.02-17.12.10:881][262]Angle: 134
+[2020.04.02-17.12.10:886][263]Angle: 134
+[2020.04.02-17.12.10:893][264]Angle: 134
+[2020.04.02-17.12.10:899][265]Angle: 134
+[2020.04.02-17.12.10:904][266]Angle: 134
+[2020.04.02-17.12.10:909][267]Angle: 134
+[2020.04.02-17.12.10:914][268]Angle: 134
+[2020.04.02-17.12.10:920][269]Angle: 134
+[2020.04.02-17.12.10:925][270]Angle: 134
+[2020.04.02-17.12.10:931][271]Angle: 134
+[2020.04.02-17.12.10:936][272]Angle: 134
+[2020.04.02-17.12.10:941][273]Angle: 134
+[2020.04.02-17.12.10:947][274]Angle: 134
+[2020.04.02-17.12.10:952][275]Angle: 134
+[2020.04.02-17.12.10:958][276]Angle: 134
+[2020.04.02-17.12.10:963][277]Angle: 134
+[2020.04.02-17.12.10:969][278]Angle: 134
+[2020.04.02-17.12.10:974][279]Angle: 134
+[2020.04.02-17.12.10:979][280]Angle: 134
+[2020.04.02-17.12.10:984][281]Angle: 134
+[2020.04.02-17.12.10:989][282]Angle: 134
+[2020.04.02-17.12.10:995][283]Angle: 134
+[2020.04.02-17.12.11:000][284]Angle: 134
+[2020.04.02-17.12.11:005][285]Angle: 134
+[2020.04.02-17.12.11:011][286]Angle: 134
+[2020.04.02-17.12.11:017][287]Angle: 134
+[2020.04.02-17.12.11:022][288]Angle: 134
+[2020.04.02-17.12.11:027][289]Angle: 134
+[2020.04.02-17.12.11:033][290]Angle: 134
+[2020.04.02-17.12.11:038][291]Angle: 134
+[2020.04.02-17.12.11:043][292]Angle: 134
+[2020.04.02-17.12.11:049][293]Angle: 134
+[2020.04.02-17.12.11:055][294]Angle: 134
+[2020.04.02-17.12.11:060][295]Angle: 134
+[2020.04.02-17.12.11:066][296]Angle: 134
+[2020.04.02-17.12.11:071][297]Angle: 134
+[2020.04.02-17.12.11:076][298]Angle: 134
+[2020.04.02-17.12.11:082][299]Angle: 134
+[2020.04.02-17.12.11:087][300]Angle: 134
+[2020.04.02-17.12.11:092][301]Angle: 134
+[2020.04.02-17.12.11:097][302]Angle: 134
+[2020.04.02-17.12.11:103][303]Angle: 134
+[2020.04.02-17.12.11:108][304]Angle: 134
+[2020.04.02-17.12.11:113][305]Angle: 134
+[2020.04.02-17.12.11:119][306]Angle: 134
+[2020.04.02-17.12.11:124][307]Angle: 134
+[2020.04.02-17.12.11:129][308]Angle: 134
+[2020.04.02-17.12.11:135][309]Angle: 134
+[2020.04.02-17.12.11:141][310]Angle: 134
+[2020.04.02-17.12.11:146][311]Angle: 134
+[2020.04.02-17.12.11:152][312]Angle: 134
+[2020.04.02-17.12.11:157][313]Angle: 134
+[2020.04.02-17.12.11:162][314]Angle: 134
+[2020.04.02-17.12.11:168][315]Angle: 134
+[2020.04.02-17.12.11:173][316]Angle: 134
+[2020.04.02-17.12.11:178][317]Angle: 134
+[2020.04.02-17.12.11:183][318]Angle: 134
+[2020.04.02-17.12.11:189][319]Angle: 134
+[2020.04.02-17.12.11:197][320]Angle: 134
+[2020.04.02-17.12.11:202][321]Angle: 134
+[2020.04.02-17.12.11:207][322]Angle: 134
+[2020.04.02-17.12.11:213][323]Angle: 134
+[2020.04.02-17.12.11:218][324]Angle: 134
+[2020.04.02-17.12.11:223][325]Angle: 134
+[2020.04.02-17.12.11:229][326]Angle: 134
+[2020.04.02-17.12.11:234][327]Angle: 134
+[2020.04.02-17.12.11:239][328]Angle: 134
+[2020.04.02-17.12.11:244][329]Angle: 134
+[2020.04.02-17.12.11:250][330]Angle: 134
+[2020.04.02-17.12.11:255][331]Angle: 134
+[2020.04.02-17.12.11:261][332]Angle: 134
+[2020.04.02-17.12.11:266][333]Angle: 134
+[2020.04.02-17.12.11:271][334]Angle: 134
+[2020.04.02-17.12.11:277][335]Angle: 134
+[2020.04.02-17.12.11:282][336]Angle: 134
+[2020.04.02-17.12.11:288][337]Angle: 134
+[2020.04.02-17.12.11:293][338]Angle: 134
+[2020.04.02-17.12.11:298][339]Angle: 134
+[2020.04.02-17.12.11:303][340]Angle: 134
+[2020.04.02-17.12.11:309][341]Angle: 134
+[2020.04.02-17.12.11:314][342]Angle: 134
+[2020.04.02-17.12.11:319][343]Angle: 134
+[2020.04.02-17.12.11:325][344]Angle: 134
+[2020.04.02-17.12.11:330][345]Angle: 134
+[2020.04.02-17.12.11:335][346]Angle: 134
+[2020.04.02-17.12.11:341][347]Angle: 134
+[2020.04.02-17.12.11:346][348]Angle: 134
+[2020.04.02-17.12.11:352][349]Angle: 134
+[2020.04.02-17.12.11:357][350]Angle: 134
+[2020.04.02-17.12.11:362][351]Angle: 134
+[2020.04.02-17.12.11:368][352]Angle: 134
+[2020.04.02-17.12.11:373][353]Angle: 134
+[2020.04.02-17.12.11:378][354]Angle: 134
+[2020.04.02-17.12.11:383][355]Angle: 134
+[2020.04.02-17.12.11:389][356]Angle: 134
+[2020.04.02-17.12.11:394][357]Angle: 134
+[2020.04.02-17.12.11:400][358]Angle: 134
+[2020.04.02-17.12.11:405][359]Angle: 134
+[2020.04.02-17.12.11:410][360]Angle: 134
+[2020.04.02-17.12.11:416][361]Angle: 134
+[2020.04.02-17.12.11:421][362]Angle: 134
+[2020.04.02-17.12.11:426][363]Angle: 134
+[2020.04.02-17.12.11:432][364]Angle: 134
+[2020.04.02-17.12.11:437][365]Angle: 134
+[2020.04.02-17.12.11:442][366]Angle: 134
+[2020.04.02-17.12.11:448][367]Angle: 134
+[2020.04.02-17.12.11:454][368]Angle: 134
+[2020.04.02-17.12.11:459][369]Angle: 134
+[2020.04.02-17.12.11:464][370]Angle: 134
+[2020.04.02-17.12.11:470][371]Angle: 134
+[2020.04.02-17.12.11:475][372]Angle: 134
+[2020.04.02-17.12.11:481][373]Angle: 134
+[2020.04.02-17.12.11:486][374]Angle: 134
+[2020.04.02-17.12.11:491][375]Angle: 134
+[2020.04.02-17.12.11:497][376]Angle: 134
+[2020.04.02-17.12.11:502][377]Angle: 134
+[2020.04.02-17.12.11:508][378]Angle: 134
+[2020.04.02-17.12.11:513][379]Angle: 134
+[2020.04.02-17.12.11:518][380]Angle: 134
+[2020.04.02-17.12.11:524][381]Angle: 134
+[2020.04.02-17.12.11:529][382]Angle: 134
+[2020.04.02-17.12.11:535][383]Angle: 134
+[2020.04.02-17.12.11:540][384]Angle: 134
+[2020.04.02-17.12.11:545][385]Angle: 134
+[2020.04.02-17.12.11:551][386]Angle: 134
+[2020.04.02-17.12.11:556][387]Angle: 134
+[2020.04.02-17.12.11:561][388]Angle: 134
+[2020.04.02-17.12.11:567][389]Angle: 134
+[2020.04.02-17.12.11:572][390]Angle: 134
+[2020.04.02-17.12.11:577][391]Angle: 134
+[2020.04.02-17.12.11:583][392]Angle: 134
+[2020.04.02-17.12.11:588][393]Angle: 134
+[2020.04.02-17.12.11:592][394]Angle: 134
+[2020.04.02-17.12.11:599][395]Angle: 134
+[2020.04.02-17.12.11:605][396]Angle: 134
+[2020.04.02-17.12.11:610][397]Angle: 134
+[2020.04.02-17.12.11:616][398]Angle: 134
+[2020.04.02-17.12.11:622][399]Angle: 134
+[2020.04.02-17.12.11:627][400]Angle: 134
+[2020.04.02-17.12.11:632][401]Angle: 134
+[2020.04.02-17.12.11:637][402]Angle: 134
+[2020.04.02-17.12.11:643][403]Angle: 134
+[2020.04.02-17.12.11:648][404]Angle: 134
+[2020.04.02-17.12.11:653][405]Angle: 134
+[2020.04.02-17.12.11:659][406]Angle: 134
+[2020.04.02-17.12.11:664][407]Angle: 134
+[2020.04.02-17.12.11:669][408]Angle: 134
+[2020.04.02-17.12.11:675][409]Angle: 134
+[2020.04.02-17.12.11:681][410]Angle: 134
+[2020.04.02-17.12.11:686][411]Angle: 134
+[2020.04.02-17.12.11:691][412]Angle: 134
+[2020.04.02-17.12.11:696][413]Angle: 134
+[2020.04.02-17.12.11:701][414]Angle: 134
+[2020.04.02-17.12.11:707][415]Angle: 134
+[2020.04.02-17.12.11:713][416]Angle: 134
+[2020.04.02-17.12.11:718][417]Angle: 134
+[2020.04.02-17.12.11:723][418]Angle: 134
+[2020.04.02-17.12.11:729][419]Angle: 134
+[2020.04.02-17.12.11:734][420]Angle: 134
+[2020.04.02-17.12.11:740][421]Angle: 134
+[2020.04.02-17.12.11:745][422]Angle: 134
+[2020.04.02-17.12.11:751][423]Angle: 134
+[2020.04.02-17.12.11:756][424]Angle: 134
+[2020.04.02-17.12.11:761][425]Angle: 134
+[2020.04.02-17.12.11:766][426]Angle: 134
+[2020.04.02-17.12.11:771][427]Angle: 134
+[2020.04.02-17.12.11:778][428]Angle: 134
+[2020.04.02-17.12.11:783][429]Angle: 134
+[2020.04.02-17.12.11:788][430]Angle: 134
+[2020.04.02-17.12.11:794][431]Angle: 134
+[2020.04.02-17.12.11:799][432]Angle: 134
+[2020.04.02-17.12.11:805][433]Angle: 134
+[2020.04.02-17.12.11:810][434]Angle: 134
+[2020.04.02-17.12.11:815][435]Angle: 134
+[2020.04.02-17.12.11:820][436]Angle: 134
+[2020.04.02-17.12.11:826][437]Angle: 134
+[2020.04.02-17.12.11:831][438]Angle: 134
+[2020.04.02-17.12.11:837][439]Angle: 134
+[2020.04.02-17.12.11:842][440]Angle: 134
+[2020.04.02-17.12.11:848][441]Angle: 134
+[2020.04.02-17.12.11:852][442]Angle: 134
+[2020.04.02-17.12.11:858][443]Angle: 134
+[2020.04.02-17.12.11:864][444]Angle: 134
+[2020.04.02-17.12.11:869][445]Angle: 134
+[2020.04.02-17.12.11:874][446]Angle: 134
+[2020.04.02-17.12.11:880][447]Angle: 134
+[2020.04.02-17.12.11:885][448]Angle: 134
+[2020.04.02-17.12.11:890][449]Angle: 134
+[2020.04.02-17.12.11:896][450]Angle: 134
+[2020.04.02-17.12.11:902][451]Angle: 134
+[2020.04.02-17.12.11:909][452]Angle: 134
+[2020.04.02-17.12.11:913][453]Angle: 134
+[2020.04.02-17.12.11:918][454]Angle: 134
+[2020.04.02-17.12.11:924][455]Angle: 134
+[2020.04.02-17.12.11:929][456]Angle: 134
+[2020.04.02-17.12.11:934][457]Angle: 134
+[2020.04.02-17.12.11:940][458]Angle: 134
+[2020.04.02-17.12.11:945][459]Angle: 134
+[2020.04.02-17.12.11:952][460]Angle: 134
+[2020.04.02-17.12.11:957][461]Angle: 134
+[2020.04.02-17.12.11:962][462]Angle: 134
+[2020.04.02-17.12.11:968][463]Angle: 134
+[2020.04.02-17.12.11:973][464]Angle: 134
+[2020.04.02-17.12.11:979][465]Angle: 134
+[2020.04.02-17.12.11:984][466]Angle: 134
+[2020.04.02-17.12.11:990][467]Angle: 134
+[2020.04.02-17.12.11:996][468]Angle: 134
+[2020.04.02-17.12.12:002][469]Angle: 134
+[2020.04.02-17.12.12:007][470]Angle: 134
+[2020.04.02-17.12.12:012][471]Angle: 134
+[2020.04.02-17.12.12:018][472]Angle: 134
+[2020.04.02-17.12.12:023][473]Angle: 134
+[2020.04.02-17.12.12:030][474]Angle: 134
+[2020.04.02-17.12.12:035][475]Angle: 134
+[2020.04.02-17.12.12:041][476]Angle: 134
+[2020.04.02-17.12.12:047][477]Angle: 134
+[2020.04.02-17.12.12:052][478]Angle: 134
+[2020.04.02-17.12.12:058][479]Angle: 134
+[2020.04.02-17.12.12:063][480]Angle: 134
+[2020.04.02-17.12.12:069][481]Angle: 134
+[2020.04.02-17.12.12:075][482]Angle: 134
+[2020.04.02-17.12.12:081][483]Angle: 134
+[2020.04.02-17.12.12:086][484]Angle: 134
+[2020.04.02-17.12.12:092][485]Angle: 134
+[2020.04.02-17.12.12:098][486]Angle: 134
+[2020.04.02-17.12.12:103][487]Angle: 134
+[2020.04.02-17.12.12:109][488]Angle: 134
+[2020.04.02-17.12.12:115][489]Angle: 134
+[2020.04.02-17.12.12:120][490]Angle: 134
+[2020.04.02-17.12.12:126][491]Angle: 134
+[2020.04.02-17.12.12:132][492]Angle: 134
+[2020.04.02-17.12.12:137][493]Angle: 134
+[2020.04.02-17.12.12:143][494]Angle: 134
+[2020.04.02-17.12.12:149][495]Angle: 134
+[2020.04.02-17.12.12:154][496]Angle: 134
+[2020.04.02-17.12.12:160][497]Angle: 134
+[2020.04.02-17.12.12:166][498]Angle: 134
+[2020.04.02-17.12.12:172][499]Angle: 134
+[2020.04.02-17.12.12:177][500]Angle: 134
+[2020.04.02-17.12.12:183][501]Angle: 134
+[2020.04.02-17.12.12:189][502]Angle: 134
+[2020.04.02-17.12.12:194][503]Angle: 134
+[2020.04.02-17.12.12:200][504]Angle: 134
+[2020.04.02-17.12.12:207][505]Angle: 134
+[2020.04.02-17.12.12:213][506]Angle: 134
+[2020.04.02-17.12.12:218][507]Angle: 134
+[2020.04.02-17.12.12:224][508]Angle: 134
+[2020.04.02-17.12.12:229][509]Angle: 134
+[2020.04.02-17.12.12:236][510]Angle: 134
+[2020.04.02-17.12.12:241][511]Angle: 134
+[2020.04.02-17.12.12:248][512]Angle: 134
+[2020.04.02-17.12.12:253][513]Angle: 134
+[2020.04.02-17.12.12:258][514]Angle: 134
+[2020.04.02-17.12.12:264][515]Angle: 134
+[2020.04.02-17.12.12:270][516]Angle: 134
+[2020.04.02-17.12.12:276][517]Angle: 134
+[2020.04.02-17.12.12:282][518]Angle: 134
+[2020.04.02-17.12.12:287][519]Angle: 134
+[2020.04.02-17.12.12:293][520]Angle: 134
+[2020.04.02-17.12.12:299][521]Angle: 134
+[2020.04.02-17.12.12:305][522]Angle: 134
+[2020.04.02-17.12.12:310][523]Angle: 134
+[2020.04.02-17.12.12:316][524]Angle: 134
+[2020.04.02-17.12.12:322][525]Angle: 134
+[2020.04.02-17.12.12:328][526]Angle: 134
+[2020.04.02-17.12.12:334][527]Angle: 134
+[2020.04.02-17.12.12:340][528]Angle: 134
+[2020.04.02-17.12.12:345][529]Angle: 134
+[2020.04.02-17.12.12:351][530]Angle: 134
+[2020.04.02-17.12.12:357][531]Angle: 134
+[2020.04.02-17.12.12:363][532]Angle: 134
+[2020.04.02-17.12.12:368][533]Angle: 134
+[2020.04.02-17.12.12:374][534]Angle: 134
+[2020.04.02-17.12.12:380][535]Angle: 134
+[2020.04.02-17.12.12:386][536]Angle: 134
+[2020.04.02-17.12.12:391][537]Angle: 134
+[2020.04.02-17.12.12:397][538]Angle: 134
+[2020.04.02-17.12.12:403][539]Angle: 134
+[2020.04.02-17.12.12:409][540]Angle: 134
+[2020.04.02-17.12.12:414][541]Angle: 134
+[2020.04.02-17.12.12:419][542]Angle: 134
+[2020.04.02-17.12.12:426][543]Angle: 134
+[2020.04.02-17.12.12:432][544]Angle: 134
+[2020.04.02-17.12.12:437][545]Angle: 134
+[2020.04.02-17.12.12:443][546]Angle: 134
+[2020.04.02-17.12.12:449][547]Angle: 134
+[2020.04.02-17.12.12:454][548]Angle: 134
+[2020.04.02-17.12.12:460][549]Angle: 134
+[2020.04.02-17.12.12:465][550]Angle: 134
+[2020.04.02-17.12.12:472][551]Angle: 134
+[2020.04.02-17.12.12:477][552]Angle: 134
+[2020.04.02-17.12.12:483][553]Angle: 134
+[2020.04.02-17.12.12:489][554]Angle: 134
+[2020.04.02-17.12.12:495][555]Angle: 134
+[2020.04.02-17.12.12:501][556]Angle: 134
+[2020.04.02-17.12.12:507][557]Angle: 134
+[2020.04.02-17.12.12:513][558]Angle: 134
+[2020.04.02-17.12.12:518][559]Angle: 134
+[2020.04.02-17.12.12:524][560]Angle: 134
+[2020.04.02-17.12.12:529][561]Angle: 134
+[2020.04.02-17.12.12:535][562]Angle: 134
+[2020.04.02-17.12.12:541][563]Angle: 134
+[2020.04.02-17.12.12:546][564]Angle: 134
+[2020.04.02-17.12.12:552][565]Angle: 134
+[2020.04.02-17.12.12:558][566]Angle: 134
+[2020.04.02-17.12.12:564][567]Angle: 134
+[2020.04.02-17.12.12:570][568]Angle: 134
+[2020.04.02-17.12.12:575][569]Angle: 134
+[2020.04.02-17.12.12:581][570]Angle: 134
+[2020.04.02-17.12.12:587][571]Angle: 134
+[2020.04.02-17.12.12:592][572]Angle: 134
+[2020.04.02-17.12.12:598][573]Angle: 134
+[2020.04.02-17.12.12:604][574]Angle: 134
+[2020.04.02-17.12.12:612][575]Angle: 134
+[2020.04.02-17.12.12:618][576]Angle: 134
+[2020.04.02-17.12.12:623][577]Angle: 134
+[2020.04.02-17.12.12:629][578]Angle: 134
+[2020.04.02-17.12.12:635][579]Angle: 134
+[2020.04.02-17.12.12:640][580]Angle: 134
+[2020.04.02-17.12.12:647][581]Angle: 134
+[2020.04.02-17.12.12:652][582]Angle: 134
+[2020.04.02-17.12.12:658][583]Angle: 134
+[2020.04.02-17.12.12:664][584]Angle: 134
+[2020.04.02-17.12.12:670][585]Angle: 134
+[2020.04.02-17.12.12:676][586]Angle: 134
+[2020.04.02-17.12.12:682][587]Angle: 134
+[2020.04.02-17.12.12:688][588]Angle: 134
+[2020.04.02-17.12.12:694][589]Angle: 134
+[2020.04.02-17.12.12:699][590]Angle: 134
+[2020.04.02-17.12.12:705][591]Angle: 134
+[2020.04.02-17.12.12:712][592]Angle: 134
+[2020.04.02-17.12.12:717][593]Angle: 134
+[2020.04.02-17.12.12:723][594]Angle: 134
+[2020.04.02-17.12.12:729][595]Angle: 134
+[2020.04.02-17.12.12:735][596]Angle: 134
+[2020.04.02-17.12.12:741][597]Angle: 134
+[2020.04.02-17.12.12:747][598]Angle: 134
+[2020.04.02-17.12.12:753][599]Angle: 134
+[2020.04.02-17.12.12:759][600]Angle: 134
+[2020.04.02-17.12.12:765][601]Angle: 134
+[2020.04.02-17.12.12:770][602]Angle: 134
+[2020.04.02-17.12.12:777][603]Angle: 134
+[2020.04.02-17.12.12:783][604]Angle: 134
+[2020.04.02-17.12.12:789][605]Angle: 134
+[2020.04.02-17.12.12:794][606]Angle: 134
+[2020.04.02-17.12.12:800][607]Angle: 134
+[2020.04.02-17.12.12:806][608]Angle: 134
+[2020.04.02-17.12.12:812][609]Angle: 134
+[2020.04.02-17.12.12:818][610]Angle: 134
+[2020.04.02-17.12.12:824][611]Angle: 134
+[2020.04.02-17.12.12:830][612]Angle: 134
+[2020.04.02-17.12.12:836][613]Angle: 134
+[2020.04.02-17.12.12:842][614]Angle: 134
+[2020.04.02-17.12.12:848][615]Angle: 134
+[2020.04.02-17.12.12:854][616]Angle: 134
+[2020.04.02-17.12.12:860][617]Angle: 134
+[2020.04.02-17.12.12:866][618]Angle: 134
+[2020.04.02-17.12.12:872][619]Angle: 134
+[2020.04.02-17.12.12:878][620]Angle: 134
+[2020.04.02-17.12.12:884][621]Angle: 134
+[2020.04.02-17.12.12:890][622]Angle: 134
+[2020.04.02-17.12.12:896][623]Angle: 134
+[2020.04.02-17.12.12:903][624]Angle: 134
+[2020.04.02-17.12.12:909][625]Angle: 134
+[2020.04.02-17.12.12:916][626]Angle: 134
+[2020.04.02-17.12.12:922][627]Angle: 134
+[2020.04.02-17.12.12:927][628]Angle: 134
+[2020.04.02-17.12.12:934][629]Angle: 134
+[2020.04.02-17.12.12:940][630]Angle: 134
+[2020.04.02-17.12.12:946][631]Angle: 134
+[2020.04.02-17.12.12:952][632]Angle: 134
+[2020.04.02-17.12.12:958][633]Angle: 134
+[2020.04.02-17.12.12:964][634]Angle: 134
+[2020.04.02-17.12.12:970][635]Angle: 134
+[2020.04.02-17.12.12:976][636]Angle: 134
+[2020.04.02-17.12.12:982][637]Angle: 134
+[2020.04.02-17.12.12:988][638]Angle: 134
+[2020.04.02-17.12.12:994][639]Angle: 134
+[2020.04.02-17.12.13:000][640]Angle: 134
+[2020.04.02-17.12.13:006][641]Angle: 134
+[2020.04.02-17.12.13:012][642]Angle: 134
+[2020.04.02-17.12.13:018][643]Angle: 134
+[2020.04.02-17.12.13:024][644]Angle: 134
+[2020.04.02-17.12.13:030][645]Angle: 134
+[2020.04.02-17.12.13:036][646]Angle: 134
+[2020.04.02-17.12.13:042][647]Angle: 134
+[2020.04.02-17.12.13:048][648]Angle: 134
+[2020.04.02-17.12.13:055][649]Angle: 134
+[2020.04.02-17.12.13:060][650]Angle: 134
+[2020.04.02-17.12.13:067][651]Angle: 134
+[2020.04.02-17.12.13:072][652]Angle: 134
+[2020.04.02-17.12.13:079][653]Angle: 134
+[2020.04.02-17.12.13:085][654]Angle: 135
+[2020.04.02-17.12.13:090][655]Angle: 135
+[2020.04.02-17.12.13:097][656]Angle: 135
+[2020.04.02-17.12.13:102][657]Angle: 135
+[2020.04.02-17.12.13:109][658]Angle: 135
+[2020.04.02-17.12.13:114][659]Angle: 135
+[2020.04.02-17.12.13:121][660]Angle: 135
+[2020.04.02-17.12.13:127][661]Angle: 135
+[2020.04.02-17.12.13:132][662]Angle: 135
+[2020.04.02-17.12.13:139][663]Angle: 136
+[2020.04.02-17.12.13:144][664]Angle: 136
+[2020.04.02-17.12.13:151][665]Angle: 136
+[2020.04.02-17.12.13:157][666]Angle: 136
+[2020.04.02-17.12.13:162][667]Angle: 136
+[2020.04.02-17.12.13:169][668]Angle: 136
+[2020.04.02-17.12.13:175][669]Angle: 136
+[2020.04.02-17.12.13:180][670]Angle: 137
+[2020.04.02-17.12.13:187][671]Angle: 137
+[2020.04.02-17.12.13:193][672]Angle: 137
+[2020.04.02-17.12.13:198][673]Angle: 137
+[2020.04.02-17.12.13:204][674]Angle: 137
+[2020.04.02-17.12.13:210][675]Angle: 137
+[2020.04.02-17.12.13:219][676]Angle: 137
+[2020.04.02-17.12.13:224][677]Angle: 137
+[2020.04.02-17.12.13:230][678]Angle: 137
+[2020.04.02-17.12.13:236][679]Angle: 137
+[2020.04.02-17.12.13:242][680]Angle: 137
+[2020.04.02-17.12.13:248][681]Angle: 136
+[2020.04.02-17.12.13:254][682]Angle: 136
+[2020.04.02-17.12.13:261][683]Angle: 136
+[2020.04.02-17.12.13:267][684]Angle: 136
+[2020.04.02-17.12.13:273][685]Angle: 136
+[2020.04.02-17.12.13:280][686]Angle: 136
+[2020.04.02-17.12.13:285][687]Angle: 136
+[2020.04.02-17.12.13:291][688]Angle: 136
+[2020.04.02-17.12.13:297][689]Angle: 136
+[2020.04.02-17.12.13:303][690]Angle: 136
+[2020.04.02-17.12.13:309][691]Angle: 136
+[2020.04.02-17.12.13:316][692]Angle: 136
+[2020.04.02-17.12.13:322][693]Angle: 136
+[2020.04.02-17.12.13:328][694]Angle: 136
+[2020.04.02-17.12.13:334][695]Angle: 136
+[2020.04.02-17.12.13:340][696]Angle: 136
+[2020.04.02-17.12.13:346][697]Angle: 136
+[2020.04.02-17.12.13:352][698]Angle: 136
+[2020.04.02-17.12.13:358][699]Angle: 136
+[2020.04.02-17.12.13:365][700]Angle: 136
+[2020.04.02-17.12.13:371][701]Angle: 136
+[2020.04.02-17.12.13:377][702]Angle: 136
+[2020.04.02-17.12.13:383][703]Angle: 136
+[2020.04.02-17.12.13:389][704]Angle: 136
+[2020.04.02-17.12.13:395][705]Angle: 136
+[2020.04.02-17.12.13:401][706]Angle: 136
+[2020.04.02-17.12.13:407][707]Angle: 136
+[2020.04.02-17.12.13:414][708]Angle: 136
+[2020.04.02-17.12.13:420][709]Angle: 136
+[2020.04.02-17.12.13:427][710]Angle: 136
+[2020.04.02-17.12.13:432][711]Angle: 136
+[2020.04.02-17.12.13:438][712]Angle: 136
+[2020.04.02-17.12.13:444][713]Angle: 135
+[2020.04.02-17.12.13:450][714]Angle: 135
+[2020.04.02-17.12.13:456][715]Angle: 135
+[2020.04.02-17.12.13:462][716]Angle: 135
+[2020.04.02-17.12.13:469][717]Angle: 135
+[2020.04.02-17.12.13:475][718]Angle: 134
+[2020.04.02-17.12.13:481][719]Angle: 134
+[2020.04.02-17.12.13:487][720]Angle: 133
+[2020.04.02-17.12.13:493][721]Angle: 133
+[2020.04.02-17.12.13:499][722]Angle: 133
+[2020.04.02-17.12.13:505][723]Angle: 132
+[2020.04.02-17.12.13:512][724]Angle: 132
+[2020.04.02-17.12.13:518][725]Angle: 131
+[2020.04.02-17.12.13:524][726]Angle: 130
+[2020.04.02-17.12.13:531][727]Angle: 130
+[2020.04.02-17.12.13:537][728]Angle: 128
+[2020.04.02-17.12.13:543][729]Angle: 128
+[2020.04.02-17.12.13:549][730]Angle: 126
+[2020.04.02-17.12.13:556][731]Angle: 125
+[2020.04.02-17.12.13:562][732]Angle: 125
+[2020.04.02-17.12.13:568][733]Angle: 122
+[2020.04.02-17.12.13:574][734]Angle: 122
+[2020.04.02-17.12.13:581][735]Angle: 121
+[2020.04.02-17.12.13:587][736]Angle: 119
+[2020.04.02-17.12.13:593][737]Angle: 119
+[2020.04.02-17.12.13:600][738]Angle: 116
+[2020.04.02-17.12.13:605][739]Angle: 116
+[2020.04.02-17.12.13:611][740]Angle: 116
+[2020.04.02-17.12.13:619][741]Angle: 112
+[2020.04.02-17.12.13:625][742]Angle: 112
+[2020.04.02-17.12.13:631][743]Angle: 109
+[2020.04.02-17.12.13:637][744]Angle: 109
+[2020.04.02-17.12.13:644][745]Angle: 109
+[2020.04.02-17.12.13:650][746]Angle: 106
+[2020.04.02-17.12.13:656][747]Angle: 106
+[2020.04.02-17.12.13:662][748]Angle: 104
+[2020.04.02-17.12.13:668][749]Angle: 103
+[2020.04.02-17.12.13:675][750]Angle: 103
+[2020.04.02-17.12.13:681][751]Angle: 101
+[2020.04.02-17.12.13:686][752]Angle: 101
+[2020.04.02-17.12.13:694][753]Angle: 100
+[2020.04.02-17.12.13:700][754]Angle: 99
+[2020.04.02-17.12.13:705][755]Angle: 99
+[2020.04.02-17.12.13:712][756]Angle: 97
+[2020.04.02-17.12.13:718][757]Angle: 97
+[2020.04.02-17.12.13:724][758]Angle: 97
+[2020.04.02-17.12.13:731][759]Angle: 96
+[2020.04.02-17.12.13:737][760]Angle: 96
+[2020.04.02-17.12.13:743][761]Angle: 96
+[2020.04.02-17.12.13:749][762]Angle: 96
+[2020.04.02-17.12.13:755][763]Angle: 96
+[2020.04.02-17.12.13:761][764]Angle: 96
+[2020.04.02-17.12.13:768][765]Angle: 96
+[2020.04.02-17.12.13:774][766]Angle: 96
+[2020.04.02-17.12.13:781][767]Angle: 96
+[2020.04.02-17.12.13:787][768]Angle: 96
+[2020.04.02-17.12.13:793][769]Angle: 96
+[2020.04.02-17.12.13:799][770]Angle: 96
+[2020.04.02-17.12.13:805][771]Angle: 96
+[2020.04.02-17.12.13:811][772]Angle: 96
+[2020.04.02-17.12.13:818][773]Angle: 96
+[2020.04.02-17.12.13:824][774]Angle: 96
+[2020.04.02-17.12.13:831][775]Angle: 96
+[2020.04.02-17.12.13:837][776]Angle: 96
+[2020.04.02-17.12.13:843][777]Angle: 96
+[2020.04.02-17.12.13:849][778]Angle: 96
+[2020.04.02-17.12.13:855][779]Angle: 96
+[2020.04.02-17.12.13:861][780]Angle: 96
+[2020.04.02-17.12.13:867][781]Angle: 96
+[2020.04.02-17.12.13:873][782]Angle: 97
+[2020.04.02-17.12.13:880][783]Angle: 97
+[2020.04.02-17.12.13:887][784]Angle: 97
+[2020.04.02-17.12.13:893][785]Angle: 98
+[2020.04.02-17.12.13:899][786]Angle: 98
+[2020.04.02-17.12.13:906][787]Angle: 99
+[2020.04.02-17.12.13:912][788]Angle: 99
+[2020.04.02-17.12.13:920][789]Angle: 100
+[2020.04.02-17.12.13:926][790]Angle: 100
+[2020.04.02-17.12.13:932][791]Angle: 101
+[2020.04.02-17.12.13:938][792]Angle: 101
+[2020.04.02-17.12.13:944][793]Angle: 101
+[2020.04.02-17.12.13:951][794]Angle: 102
+[2020.04.02-17.12.13:958][795]Angle: 102
+[2020.04.02-17.12.13:963][796]Angle: 102
+[2020.04.02-17.12.13:969][797]Angle: 103
+[2020.04.02-17.12.13:976][798]Angle: 103
+[2020.04.02-17.12.13:982][799]Angle: 103
+[2020.04.02-17.12.13:989][800]Angle: 104
+[2020.04.02-17.12.13:995][801]Angle: 104
+[2020.04.02-17.12.14:001][802]Angle: 105
+[2020.04.02-17.12.14:006][803]Angle: 105
+[2020.04.02-17.12.14:013][804]Angle: 105
+[2020.04.02-17.12.14:020][805]Angle: 105
+[2020.04.02-17.12.14:026][806]Angle: 105
+[2020.04.02-17.12.14:032][807]Angle: 106
+[2020.04.02-17.12.14:038][808]Angle: 106
+[2020.04.02-17.12.14:044][809]Angle: 106
+[2020.04.02-17.12.14:051][810]Angle: 106
+[2020.04.02-17.12.14:057][811]Angle: 106
+[2020.04.02-17.12.14:063][812]Angle: 106
+[2020.04.02-17.12.14:070][813]Angle: 106
+[2020.04.02-17.12.14:075][814]Angle: 106
+[2020.04.02-17.12.14:083][815]Angle: 106
+[2020.04.02-17.12.14:088][816]Angle: 106
+[2020.04.02-17.12.14:094][817]Angle: 106
+[2020.04.02-17.12.14:100][818]Angle: 106
+[2020.04.02-17.12.14:107][819]Angle: 106
+[2020.04.02-17.12.14:113][820]Angle: 106
+[2020.04.02-17.12.14:120][821]Angle: 106
+[2020.04.02-17.12.14:126][822]Angle: 106
+[2020.04.02-17.12.14:132][823]Angle: 106
+[2020.04.02-17.12.14:138][824]Angle: 106
+[2020.04.02-17.12.14:145][825]Angle: 106
+[2020.04.02-17.12.14:150][826]Angle: 106
+[2020.04.02-17.12.14:157][827]Angle: 106
+[2020.04.02-17.12.14:163][828]Angle: 106
+[2020.04.02-17.12.14:169][829]Angle: 106
+[2020.04.02-17.12.14:175][830]Angle: 106
+[2020.04.02-17.12.14:181][831]Angle: 106
+[2020.04.02-17.12.14:187][832]Angle: 106
+[2020.04.02-17.12.14:194][833]Angle: 106
+[2020.04.02-17.12.14:200][834]Angle: 106
+[2020.04.02-17.12.14:206][835]Angle: 106
+[2020.04.02-17.12.14:213][836]Angle: 106
+[2020.04.02-17.12.14:220][837]Angle: 106
+[2020.04.02-17.12.14:227][838]Angle: 106
+[2020.04.02-17.12.14:234][839]Angle: 106
+[2020.04.02-17.12.14:239][840]Angle: 106
+[2020.04.02-17.12.14:245][841]Angle: 106
+[2020.04.02-17.12.14:252][842]Angle: 106
+[2020.04.02-17.12.14:258][843]Angle: 106
+[2020.04.02-17.12.14:264][844]Angle: 106
+[2020.04.02-17.12.14:270][845]Angle: 106
+[2020.04.02-17.12.14:276][846]Angle: 106
+[2020.04.02-17.12.14:283][847]Angle: 106
+[2020.04.02-17.12.14:289][848]Angle: 106
+[2020.04.02-17.12.14:295][849]Angle: 106
+[2020.04.02-17.12.14:301][850]Angle: 106
+[2020.04.02-17.12.14:307][851]Angle: 106
+[2020.04.02-17.12.14:313][852]Angle: 106
+[2020.04.02-17.12.14:320][853]Angle: 106
+[2020.04.02-17.12.14:326][854]Angle: 106
+[2020.04.02-17.12.14:333][855]Angle: 106
+[2020.04.02-17.12.14:339][856]Angle: 106
+[2020.04.02-17.12.14:345][857]Angle: 106
+[2020.04.02-17.12.14:351][858]Angle: 106
+[2020.04.02-17.12.14:357][859]Angle: 105
+[2020.04.02-17.12.14:363][860]Angle: 105
+[2020.04.02-17.12.14:369][861]Angle: 105
+[2020.04.02-17.12.14:375][862]Angle: 105
+[2020.04.02-17.12.14:383][863]Angle: 104
+[2020.04.02-17.12.14:389][864]Angle: 104
+[2020.04.02-17.12.14:395][865]Angle: 104
+[2020.04.02-17.12.14:402][866]Angle: 102
+[2020.04.02-17.12.14:407][867]Angle: 102
+[2020.04.02-17.12.14:413][868]Angle: 102
+[2020.04.02-17.12.14:420][869]Angle: 101
+[2020.04.02-17.12.14:426][870]Angle: 101
+[2020.04.02-17.12.14:433][871]Angle: 100
+[2020.04.02-17.12.14:438][872]Angle: 99
+[2020.04.02-17.12.14:445][873]Angle: 99
+[2020.04.02-17.12.14:451][874]Angle: 97
+[2020.04.02-17.12.14:457][875]Angle: 97
+[2020.04.02-17.12.14:463][876]Angle: 96
+[2020.04.02-17.12.14:470][877]Angle: 96
+[2020.04.02-17.12.14:476][878]Angle: 96
+[2020.04.02-17.12.14:483][879]Angle: 96
+[2020.04.02-17.12.14:488][880]Angle: 96
+[2020.04.02-17.12.14:494][881]Angle: 96
+[2020.04.02-17.12.14:502][882]Angle: 96
+[2020.04.02-17.12.14:507][883]Angle: 96
+[2020.04.02-17.12.14:513][884]Angle: 96
+[2020.04.02-17.12.14:519][885]Angle: 96
+[2020.04.02-17.12.14:526][886]Angle: 96
+[2020.04.02-17.12.14:532][887]Angle: 96
+[2020.04.02-17.12.14:538][888]Angle: 96
+[2020.04.02-17.12.14:545][889]Angle: 96
+[2020.04.02-17.12.14:551][890]Angle: 96
+[2020.04.02-17.12.14:557][891]Angle: 96
+[2020.04.02-17.12.14:563][892]Angle: 96
+[2020.04.02-17.12.14:570][893]Angle: 96
+[2020.04.02-17.12.14:576][894]Angle: 96
+[2020.04.02-17.12.14:583][895]Angle: 97
+[2020.04.02-17.12.14:588][896]Angle: 97
+[2020.04.02-17.12.14:595][897]Angle: 97
+[2020.04.02-17.12.14:601][898]Angle: 97
+[2020.04.02-17.12.14:607][899]Angle: 97
+[2020.04.02-17.12.14:614][900]Angle: 97
+[2020.04.02-17.12.14:620][901]Angle: 97
+[2020.04.02-17.12.14:628][902]Angle: 97
+[2020.04.02-17.12.14:634][903]Angle: 97
+[2020.04.02-17.12.14:640][904]Angle: 98
+[2020.04.02-17.12.14:647][905]Angle: 98
+[2020.04.02-17.12.14:653][906]Angle: 98
+[2020.04.02-17.12.14:659][907]Angle: 98
+[2020.04.02-17.12.14:665][908]Angle: 98
+[2020.04.02-17.12.14:671][909]Angle: 98
+[2020.04.02-17.12.14:678][910]Angle: 99
+[2020.04.02-17.12.14:683][911]Angle: 99
+[2020.04.02-17.12.14:689][912]Angle: 99
+[2020.04.02-17.12.14:696][913]Angle: 99
+[2020.04.02-17.12.14:702][914]Angle: 99
+[2020.04.02-17.12.14:708][915]Angle: 100
+[2020.04.02-17.12.14:714][916]Angle: 100
+[2020.04.02-17.12.14:720][917]Angle: 100
+[2020.04.02-17.12.14:726][918]Angle: 100
+[2020.04.02-17.12.14:733][919]Angle: 100
+[2020.04.02-17.12.14:739][920]Angle: 100
+[2020.04.02-17.12.14:745][921]Angle: 100
+[2020.04.02-17.12.14:751][922]Angle: 100
+[2020.04.02-17.12.14:757][923]Angle: 100
+[2020.04.02-17.12.14:764][924]Angle: 100
+[2020.04.02-17.12.14:770][925]Angle: 100
+[2020.04.02-17.12.14:776][926]Angle: 100
+[2020.04.02-17.12.14:782][927]Angle: 100
+[2020.04.02-17.12.14:788][928]Angle: 100
+[2020.04.02-17.12.14:794][929]Angle: 100
+[2020.04.02-17.12.14:800][930]Angle: 100
+[2020.04.02-17.12.14:806][931]Angle: 100
+[2020.04.02-17.12.14:813][932]Angle: 100
+[2020.04.02-17.12.14:819][933]Angle: 100
+[2020.04.02-17.12.14:826][934]Angle: 100
+[2020.04.02-17.12.14:831][935]Angle: 100
+[2020.04.02-17.12.14:838][936]Angle: 100
+[2020.04.02-17.12.14:844][937]Angle: 100
+[2020.04.02-17.12.14:850][938]Angle: 100
+[2020.04.02-17.12.14:856][939]Angle: 100
+[2020.04.02-17.12.14:862][940]Angle: 100
+[2020.04.02-17.12.14:869][941]Angle: 100
+[2020.04.02-17.12.14:875][942]Angle: 100
+[2020.04.02-17.12.14:881][943]Angle: 100
+[2020.04.02-17.12.14:887][944]Angle: 100
+[2020.04.02-17.12.14:893][945]Angle: 100
+[2020.04.02-17.12.14:899][946]Angle: 100
+[2020.04.02-17.12.14:906][947]Angle: 100
+[2020.04.02-17.12.14:912][948]Angle: 100
+[2020.04.02-17.12.14:918][949]Angle: 100
+[2020.04.02-17.12.14:924][950]Angle: 100
+[2020.04.02-17.12.14:933][951]Angle: 100
+[2020.04.02-17.12.14:939][952]Angle: 100
+[2020.04.02-17.12.14:945][953]Angle: 100
+[2020.04.02-17.12.14:951][954]Angle: 100
+[2020.04.02-17.12.14:957][955]Angle: 100
+[2020.04.02-17.12.14:963][956]Angle: 101
+[2020.04.02-17.12.14:969][957]Angle: 101
+[2020.04.02-17.12.14:976][958]Angle: 101
+[2020.04.02-17.12.14:982][959]Angle: 101
+[2020.04.02-17.12.14:988][960]Angle: 101
+[2020.04.02-17.12.14:994][961]Angle: 101
+[2020.04.02-17.12.15:001][962]Angle: 101
+[2020.04.02-17.12.15:007][963]Angle: 101
+[2020.04.02-17.12.15:013][964]Angle: 101
+[2020.04.02-17.12.15:019][965]Angle: 101
+[2020.04.02-17.12.15:026][966]Angle: 101
+[2020.04.02-17.12.15:032][967]Angle: 101
+[2020.04.02-17.12.15:038][968]Angle: 101
+[2020.04.02-17.12.15:045][969]Angle: 101
+[2020.04.02-17.12.15:052][970]Angle: 101
+[2020.04.02-17.12.15:057][971]Angle: 101
+[2020.04.02-17.12.15:064][972]Angle: 101
+[2020.04.02-17.12.15:069][973]Angle: 101
+[2020.04.02-17.12.15:076][974]Angle: 102
+[2020.04.02-17.12.15:082][975]Angle: 102
+[2020.04.02-17.12.15:089][976]Angle: 102
+[2020.04.02-17.12.15:095][977]Angle: 102
+[2020.04.02-17.12.15:101][978]Angle: 102
+[2020.04.02-17.12.15:107][979]Angle: 102
+[2020.04.02-17.12.15:114][980]Angle: 102
+[2020.04.02-17.12.15:120][981]Angle: 102
+[2020.04.02-17.12.15:127][982]Angle: 102
+[2020.04.02-17.12.15:132][983]Angle: 102
+[2020.04.02-17.12.15:139][984]Angle: 102
+[2020.04.02-17.12.15:145][985]Angle: 102
+[2020.04.02-17.12.15:151][986]Angle: 102
+[2020.04.02-17.12.15:157][987]Angle: 102
+[2020.04.02-17.12.15:163][988]Angle: 102
+[2020.04.02-17.12.15:170][989]Angle: 102
+[2020.04.02-17.12.15:176][990]Angle: 102
+[2020.04.02-17.12.15:183][991]Angle: 102
+[2020.04.02-17.12.15:189][992]Angle: 102
+[2020.04.02-17.12.15:195][993]Angle: 102
+[2020.04.02-17.12.15:202][994]Angle: 102
+[2020.04.02-17.12.15:207][995]Angle: 102
+[2020.04.02-17.12.15:214][996]Angle: 102
+[2020.04.02-17.12.15:220][997]Angle: 102
+[2020.04.02-17.12.15:227][998]Angle: 102
+[2020.04.02-17.12.15:235][999]Angle: 102
+[2020.04.02-17.12.15:241][  0]Angle: 102
+[2020.04.02-17.12.15:247][  1]Angle: 102
+[2020.04.02-17.12.15:253][  2]Angle: 102
+[2020.04.02-17.12.15:259][  3]Angle: 102
+[2020.04.02-17.12.15:267][  4]Angle: 102
+[2020.04.02-17.12.15:272][  5]Angle: 102
+[2020.04.02-17.12.15:279][  6]Angle: 102
+[2020.04.02-17.12.15:285][  7]Angle: 102
+[2020.04.02-17.12.15:291][  8]Angle: 102
+[2020.04.02-17.12.15:297][  9]Angle: 102
+[2020.04.02-17.12.15:304][ 10]Angle: 102
+[2020.04.02-17.12.15:309][ 11]Angle: 102
+[2020.04.02-17.12.15:317][ 12]Angle: 102
+[2020.04.02-17.12.15:322][ 13]Angle: 102
+[2020.04.02-17.12.15:328][ 14]Angle: 102
+[2020.04.02-17.12.15:335][ 15]Angle: 102
+[2020.04.02-17.12.15:341][ 16]Angle: 102
+[2020.04.02-17.12.15:349][ 17]Angle: 102
+[2020.04.02-17.12.15:354][ 18]Angle: 102
+[2020.04.02-17.12.15:359][ 19]Angle: 102
+[2020.04.02-17.12.15:366][ 20]Angle: 102
+[2020.04.02-17.12.15:372][ 21]Angle: 102
+[2020.04.02-17.12.15:379][ 22]Angle: 102
+[2020.04.02-17.12.15:385][ 23]Angle: 102
+[2020.04.02-17.12.15:391][ 24]Angle: 102
+[2020.04.02-17.12.15:398][ 25]Angle: 102
+[2020.04.02-17.12.15:403][ 26]Angle: 102
+[2020.04.02-17.12.15:410][ 27]Angle: 102
+[2020.04.02-17.12.15:417][ 28]Angle: 102
+[2020.04.02-17.12.15:423][ 29]Angle: 102
+[2020.04.02-17.12.15:429][ 30]Angle: 101
+[2020.04.02-17.12.15:435][ 31]Angle: 101
+[2020.04.02-17.12.15:441][ 32]Angle: 101
+[2020.04.02-17.12.15:448][ 33]Angle: 101
+[2020.04.02-17.12.15:454][ 34]Angle: 101
+[2020.04.02-17.12.15:461][ 35]Angle: 101
+[2020.04.02-17.12.15:467][ 36]Angle: 101
+[2020.04.02-17.12.15:473][ 37]Angle: 101
+[2020.04.02-17.12.15:479][ 38]Angle: 101
+[2020.04.02-17.12.15:485][ 39]Angle: 101
+[2020.04.02-17.12.15:491][ 40]Angle: 100
+[2020.04.02-17.12.15:498][ 41]Angle: 100
+[2020.04.02-17.12.15:503][ 42]Angle: 100
+[2020.04.02-17.12.15:510][ 43]Angle: 100
+[2020.04.02-17.12.15:516][ 44]Angle: 100
+[2020.04.02-17.12.15:522][ 45]Angle: 100
+[2020.04.02-17.12.15:529][ 46]Angle: 100
+[2020.04.02-17.12.15:535][ 47]Angle: 100
+[2020.04.02-17.12.15:542][ 48]Angle: 100
+[2020.04.02-17.12.15:547][ 49]Angle: 100
+[2020.04.02-17.12.15:554][ 50]Angle: 100
+[2020.04.02-17.12.15:560][ 51]Angle: 100
+[2020.04.02-17.12.15:567][ 52]Angle: 100
+[2020.04.02-17.12.15:572][ 53]Angle: 100
+[2020.04.02-17.12.15:579][ 54]Angle: 100
+[2020.04.02-17.12.15:585][ 55]Angle: 100
+[2020.04.02-17.12.15:591][ 56]Angle: 100
+[2020.04.02-17.12.15:598][ 57]Angle: 100
+[2020.04.02-17.12.15:604][ 58]Angle: 100
+[2020.04.02-17.12.15:610][ 59]Angle: 100
+[2020.04.02-17.12.15:617][ 60]Angle: 100
+[2020.04.02-17.12.15:623][ 61]Angle: 100
+[2020.04.02-17.12.15:629][ 62]Angle: 100
+[2020.04.02-17.12.15:635][ 63]Angle: 100
+[2020.04.02-17.12.15:643][ 64]Angle: 100
+[2020.04.02-17.12.15:649][ 65]Angle: 100
+[2020.04.02-17.12.15:655][ 66]Angle: 100
+[2020.04.02-17.12.15:662][ 67]Angle: 100
+[2020.04.02-17.12.15:668][ 68]Angle: 100
+[2020.04.02-17.12.15:674][ 69]Angle: 100
+[2020.04.02-17.12.15:680][ 70]Angle: 100
+[2020.04.02-17.12.15:686][ 71]Angle: 100
+[2020.04.02-17.12.15:692][ 72]Angle: 100
+[2020.04.02-17.12.15:699][ 73]Angle: 100
+[2020.04.02-17.12.15:705][ 74]Angle: 100
+[2020.04.02-17.12.15:711][ 75]Angle: 100
+[2020.04.02-17.12.15:718][ 76]Angle: 100
+[2020.04.02-17.12.15:724][ 77]Angle: 100
+[2020.04.02-17.12.15:730][ 78]Angle: 100
+[2020.04.02-17.12.15:736][ 79]Angle: 100
+[2020.04.02-17.12.15:743][ 80]Angle: 100
+[2020.04.02-17.12.15:749][ 81]Angle: 100
+[2020.04.02-17.12.15:755][ 82]Angle: 100
+[2020.04.02-17.12.15:761][ 83]Angle: 100
+[2020.04.02-17.12.15:767][ 84]Angle: 100
+[2020.04.02-17.12.15:773][ 85]Angle: 100
+[2020.04.02-17.12.15:780][ 86]Angle: 100
+[2020.04.02-17.12.15:787][ 87]Angle: 100
+[2020.04.02-17.12.15:793][ 88]Angle: 100
+[2020.04.02-17.12.15:799][ 89]Angle: 100
+[2020.04.02-17.12.15:804][ 90]Angle: 100
+[2020.04.02-17.12.15:811][ 91]Angle: 100
+[2020.04.02-17.12.15:817][ 92]Angle: 100
+[2020.04.02-17.12.15:823][ 93]Angle: 100
+[2020.04.02-17.12.15:829][ 94]Angle: 100
+[2020.04.02-17.12.15:835][ 95]Angle: 100
+[2020.04.02-17.12.15:842][ 96]Angle: 100
+[2020.04.02-17.12.15:848][ 97]Angle: 100
+[2020.04.02-17.12.15:854][ 98]Angle: 100
+[2020.04.02-17.12.15:860][ 99]Angle: 100
+[2020.04.02-17.12.15:866][100]Angle: 100
+[2020.04.02-17.12.15:873][101]Angle: 100
+[2020.04.02-17.12.15:879][102]Angle: 100
+[2020.04.02-17.12.15:885][103]Angle: 100
+[2020.04.02-17.12.15:891][104]Angle: 100
+[2020.04.02-17.12.15:898][105]Angle: 100
+[2020.04.02-17.12.15:904][106]Angle: 100
+[2020.04.02-17.12.15:911][107]Angle: 100
+[2020.04.02-17.12.15:917][108]Angle: 100
+[2020.04.02-17.12.15:924][109]Angle: 100
+[2020.04.02-17.12.15:930][110]Angle: 100
+[2020.04.02-17.12.15:936][111]Angle: 100
+[2020.04.02-17.12.15:944][112]Angle: 100
+[2020.04.02-17.12.15:951][113]Angle: 100
+[2020.04.02-17.12.15:957][114]Angle: 100
+[2020.04.02-17.12.15:964][115]Angle: 100
+[2020.04.02-17.12.15:970][116]Angle: 100
+[2020.04.02-17.12.15:976][117]Angle: 100
+[2020.04.02-17.12.15:983][118]Angle: 100
+[2020.04.02-17.12.15:990][119]Angle: 100
+[2020.04.02-17.12.15:996][120]Angle: 100
+[2020.04.02-17.12.16:002][121]Angle: 100
+[2020.04.02-17.12.16:009][122]Angle: 100
+[2020.04.02-17.12.16:016][123]Angle: 100
+[2020.04.02-17.12.16:022][124]Angle: 100
+[2020.04.02-17.12.16:029][125]Angle: 100
+[2020.04.02-17.12.16:035][126]Angle: 100
+[2020.04.02-17.12.16:041][127]Angle: 100
+[2020.04.02-17.12.16:048][128]Angle: 100
+[2020.04.02-17.12.16:054][129]Angle: 100
+[2020.04.02-17.12.16:061][130]Angle: 100
+[2020.04.02-17.12.16:067][131]Angle: 100
+[2020.04.02-17.12.16:074][132]Angle: 100
+[2020.04.02-17.12.16:080][133]Angle: 100
+[2020.04.02-17.12.16:087][134]Angle: 100
+[2020.04.02-17.12.16:093][135]Angle: 100
+[2020.04.02-17.12.16:100][136]Angle: 100
+[2020.04.02-17.12.16:106][137]Angle: 100
+[2020.04.02-17.12.16:112][138]Angle: 100
+[2020.04.02-17.12.16:119][139]Angle: 100
+[2020.04.02-17.12.16:125][140]Angle: 100
+[2020.04.02-17.12.16:132][141]Angle: 100
+[2020.04.02-17.12.16:139][142]Angle: 100
+[2020.04.02-17.12.16:144][143]Angle: 100
+[2020.04.02-17.12.16:151][144]Angle: 100
+[2020.04.02-17.12.16:158][145]Angle: 100
+[2020.04.02-17.12.16:164][146]Angle: 100
+[2020.04.02-17.12.16:170][147]Angle: 100
+[2020.04.02-17.12.16:177][148]Angle: 100
+[2020.04.02-17.12.16:183][149]Angle: 100
+[2020.04.02-17.12.16:189][150]Angle: 100
+[2020.04.02-17.12.16:196][151]Angle: 100
+[2020.04.02-17.12.16:202][152]Angle: 100
+[2020.04.02-17.12.16:208][153]Angle: 100
+[2020.04.02-17.12.16:216][154]Angle: 100
+[2020.04.02-17.12.16:222][155]Angle: 100
+[2020.04.02-17.12.16:228][156]Angle: 100
+[2020.04.02-17.12.16:235][157]Angle: 100
+[2020.04.02-17.12.16:242][158]Angle: 100
+[2020.04.02-17.12.16:250][159]Angle: 100
+[2020.04.02-17.12.16:256][160]Angle: 100
+[2020.04.02-17.12.16:262][161]Angle: 100
+[2020.04.02-17.12.16:269][162]Angle: 100
+[2020.04.02-17.12.16:275][163]Angle: 100
+[2020.04.02-17.12.16:282][164]Angle: 100
+[2020.04.02-17.12.16:287][165]Angle: 100
+[2020.04.02-17.12.16:294][166]Angle: 100
+[2020.04.02-17.12.16:301][167]Angle: 100
+[2020.04.02-17.12.16:307][168]Angle: 100
+[2020.04.02-17.12.16:314][169]Angle: 100
+[2020.04.02-17.12.16:320][170]Angle: 100
+[2020.04.02-17.12.16:326][171]Angle: 100
+[2020.04.02-17.12.16:333][172]Angle: 100
+[2020.04.02-17.12.16:340][173]Angle: 100
+[2020.04.02-17.12.16:346][174]Angle: 100
+[2020.04.02-17.12.16:352][175]Angle: 100
+[2020.04.02-17.12.16:358][176]Angle: 100
+[2020.04.02-17.12.16:366][177]Angle: 100
+[2020.04.02-17.12.16:372][178]Angle: 100
+[2020.04.02-17.12.16:378][179]Angle: 100
+[2020.04.02-17.12.16:385][180]Angle: 100
+[2020.04.02-17.12.16:390][181]Angle: 100
+[2020.04.02-17.12.16:398][182]Angle: 100
+[2020.04.02-17.12.16:404][183]Angle: 100
+[2020.04.02-17.12.16:411][184]Angle: 100
+[2020.04.02-17.12.16:417][185]Angle: 100
+[2020.04.02-17.12.16:423][186]Angle: 100
+[2020.04.02-17.12.16:430][187]Angle: 100
+[2020.04.02-17.12.16:436][188]Angle: 100
+[2020.04.02-17.12.16:443][189]Angle: 101
+[2020.04.02-17.12.16:449][190]Angle: 101
+[2020.04.02-17.12.16:455][191]Angle: 101
+[2020.04.02-17.12.16:462][192]Angle: 102
+[2020.04.02-17.12.16:468][193]Angle: 102
+[2020.04.02-17.12.16:474][194]Angle: 102
+[2020.04.02-17.12.16:482][195]Angle: 103
+[2020.04.02-17.12.16:493][196]Angle: 103
+[2020.04.02-17.12.16:495][197]Angle: 103
+[2020.04.02-17.12.16:503][198]Angle: 103
+[2020.04.02-17.12.16:513][199]Angle: 105
+[2020.04.02-17.12.16:516][200]Angle: 105
+[2020.04.02-17.12.16:525][201]Angle: 107
+[2020.04.02-17.12.16:529][202]Angle: 107
+[2020.04.02-17.12.16:539][203]Angle: 107
+[2020.04.02-17.12.16:544][204]Angle: 109
+[2020.04.02-17.12.16:550][205]Angle: 109
+[2020.04.02-17.12.16:570][206]Angle: 112
+[2020.04.02-17.12.16:575][207]Angle: 113
+[2020.04.02-17.12.16:578][208]Angle: 113
+[2020.04.02-17.12.16:586][209]Angle: 115
+[2020.04.02-17.12.16:593][210]Angle: 116
+[2020.04.02-17.12.16:599][211]Angle: 116
+[2020.04.02-17.12.16:605][212]Angle: 118
+[2020.04.02-17.12.16:613][213]Angle: 118
+[2020.04.02-17.12.16:621][214]Angle: 120
+[2020.04.02-17.12.16:627][215]Angle: 120
+[2020.04.02-17.12.16:634][216]Angle: 121
+[2020.04.02-17.12.16:643][217]Angle: 122
+[2020.04.02-17.12.16:649][218]Angle: 122
+[2020.04.02-17.12.16:654][219]Angle: 122
+[2020.04.02-17.12.16:661][220]Angle: 122
+[2020.04.02-17.12.16:667][221]Angle: 122
+[2020.04.02-17.12.16:867][222]Angle: 137
+[2020.04.02-17.12.16:873][223]Angle: 137
+[2020.04.02-17.12.16:882][224]Angle: 137
+[2020.04.02-17.12.16:888][225]Angle: 138
+[2020.04.02-17.12.16:896][226]Angle: 138
+[2020.04.02-17.12.16:904][227]Angle: 138
+[2020.04.02-17.12.16:911][228]Angle: 138
+[2020.04.02-17.12.16:918][229]Angle: 138
+[2020.04.02-17.12.16:925][230]Angle: 139
+[2020.04.02-17.12.16:932][231]Angle: 139
+[2020.04.02-17.12.16:939][232]Angle: 139
+[2020.04.02-17.12.16:946][233]Angle: 139
+[2020.04.02-17.12.16:954][234]Angle: 140
+[2020.04.02-17.12.16:961][235]Angle: 140
+[2020.04.02-17.12.16:968][236]Angle: 140
+[2020.04.02-17.12.16:976][237]Angle: 140
+[2020.04.02-17.12.16:982][238]Angle: 140
+[2020.04.02-17.12.16:990][239]Angle: 140
+[2020.04.02-17.12.16:997][240]Angle: 140
+[2020.04.02-17.12.17:003][241]Angle: 140
+[2020.04.02-17.12.17:011][242]Angle: 140
+[2020.04.02-17.12.17:018][243]Angle: 140
+[2020.04.02-17.12.17:025][244]Angle: 140
+[2020.04.02-17.12.17:032][245]Angle: 140
+[2020.04.02-17.12.17:039][246]Angle: 140
+[2020.04.02-17.12.17:046][247]Angle: 140
+[2020.04.02-17.12.17:054][248]Angle: 140
+[2020.04.02-17.12.17:060][249]Angle: 140
+[2020.04.02-17.12.17:068][250]Angle: 140
+[2020.04.02-17.12.17:074][251]Angle: 140
+[2020.04.02-17.12.17:082][252]Angle: 140
+[2020.04.02-17.12.17:088][253]Angle: 141
+[2020.04.02-17.12.17:095][254]Angle: 141
+[2020.04.02-17.12.17:101][255]Angle: 141
+[2020.04.02-17.12.17:108][256]Angle: 141
+[2020.04.02-17.12.17:115][257]Angle: 141
+[2020.04.02-17.12.17:122][258]Angle: 141
+[2020.04.02-17.12.17:129][259]Angle: 142
+[2020.04.02-17.12.17:135][260]Angle: 142
+[2020.04.02-17.12.17:141][261]Angle: 142
+[2020.04.02-17.12.17:148][262]Angle: 142
+[2020.04.02-17.12.17:155][263]Angle: 142
+[2020.04.02-17.12.17:162][264]Angle: 143
+[2020.04.02-17.12.17:168][265]Angle: 143
+[2020.04.02-17.12.17:174][266]Angle: 143
+[2020.04.02-17.12.17:181][267]Angle: 143
+[2020.04.02-17.12.17:187][268]Angle: 143
+[2020.04.02-17.12.17:194][269]Angle: 144
+[2020.04.02-17.12.17:200][270]Angle: 144
+[2020.04.02-17.12.17:206][271]Angle: 144
+[2020.04.02-17.12.17:215][272]Angle: 145
+[2020.04.02-17.12.17:221][273]Angle: 145
+[2020.04.02-17.12.17:227][274]Angle: 146
+[2020.04.02-17.12.17:234][275]Angle: 146
+[2020.04.02-17.12.17:241][276]Angle: 146
+[2020.04.02-17.12.17:247][277]Angle: 147
+[2020.04.02-17.12.17:253][278]Angle: 147
+[2020.04.02-17.12.17:260][279]Angle: 147
+[2020.04.02-17.12.17:266][280]Angle: 147
+[2020.04.02-17.12.17:272][281]Angle: 147
+[2020.04.02-17.12.17:279][282]Angle: 147
+[2020.04.02-17.12.17:285][283]Angle: 147
+[2020.04.02-17.12.17:292][284]Angle: 147
+[2020.04.02-17.12.17:298][285]Angle: 147
+[2020.04.02-17.12.17:305][286]Angle: 147
+[2020.04.02-17.12.17:311][287]Angle: 147
+[2020.04.02-17.12.17:318][288]Angle: 147
+[2020.04.02-17.12.17:324][289]Angle: 147
+[2020.04.02-17.12.17:331][290]Angle: 147
+[2020.04.02-17.12.17:337][291]Angle: 147
+[2020.04.02-17.12.17:343][292]Angle: 147
+[2020.04.02-17.12.17:350][293]Angle: 147
+[2020.04.02-17.12.17:357][294]Angle: 147
+[2020.04.02-17.12.17:363][295]Angle: 147
+[2020.04.02-17.12.17:368][296]Angle: 147
+[2020.04.02-17.12.17:375][297]Angle: 147
+[2020.04.02-17.12.17:381][298]Angle: 147
+[2020.04.02-17.12.17:388][299]Angle: 147
+[2020.04.02-17.12.17:394][300]Angle: 147
+[2020.04.02-17.12.17:401][301]Angle: 147
+[2020.04.02-17.12.17:407][302]Angle: 147
+[2020.04.02-17.12.17:414][303]Angle: 147
+[2020.04.02-17.12.17:421][304]Angle: 147
+[2020.04.02-17.12.17:427][305]Angle: 147
+[2020.04.02-17.12.17:434][306]Angle: 147
+[2020.04.02-17.12.17:440][307]Angle: 147
+[2020.04.02-17.12.17:447][308]Angle: 147
+[2020.04.02-17.12.17:453][309]Angle: 147
+[2020.04.02-17.12.17:460][310]Angle: 147
+[2020.04.02-17.12.17:467][311]Angle: 147
+[2020.04.02-17.12.17:473][312]Angle: 147
+[2020.04.02-17.12.17:479][313]Angle: 147
+[2020.04.02-17.12.17:486][314]Angle: 147
+[2020.04.02-17.12.17:492][315]Angle: 147
+[2020.04.02-17.12.17:499][316]Angle: 147
+[2020.04.02-17.12.17:505][317]Angle: 147
+[2020.04.02-17.12.17:511][318]Angle: 147
+[2020.04.02-17.12.17:518][319]Angle: 147
+[2020.04.02-17.12.17:525][320]Angle: 147
+[2020.04.02-17.12.17:531][321]Angle: 147
+[2020.04.02-17.12.17:538][322]Angle: 147
+[2020.04.02-17.12.17:546][323]Angle: 147
+[2020.04.02-17.12.17:553][324]Angle: 147
+[2020.04.02-17.12.17:559][325]Angle: 147
+[2020.04.02-17.12.17:564][326]Angle: 147
+[2020.04.02-17.12.17:571][327]Angle: 147
+[2020.04.02-17.12.17:577][328]Angle: 147
+[2020.04.02-17.12.17:583][329]Angle: 147
+[2020.04.02-17.12.17:590][330]Angle: 147
+[2020.04.02-17.12.17:596][331]Angle: 147
+[2020.04.02-17.12.17:602][332]Angle: 147
+[2020.04.02-17.12.17:609][333]Angle: 147
+[2020.04.02-17.12.17:615][334]Angle: 147
+[2020.04.02-17.12.17:622][335]Angle: 147
+[2020.04.02-17.12.17:629][336]Angle: 147
+[2020.04.02-17.12.17:635][337]Angle: 147
+[2020.04.02-17.12.17:642][338]Angle: 147
+[2020.04.02-17.12.17:648][339]Angle: 147
+[2020.04.02-17.12.17:654][340]Angle: 147
+[2020.04.02-17.12.17:661][341]Angle: 147
+[2020.04.02-17.12.17:667][342]Angle: 147
+[2020.04.02-17.12.17:674][343]Angle: 147
+[2020.04.02-17.12.17:680][344]Angle: 147
+[2020.04.02-17.12.17:687][345]Angle: 147
+[2020.04.02-17.12.17:693][346]Angle: 147
+[2020.04.02-17.12.17:700][347]Angle: 147
+[2020.04.02-17.12.17:706][348]Angle: 147
+[2020.04.02-17.12.17:713][349]Angle: 147
+[2020.04.02-17.12.17:719][350]Angle: 147
+[2020.04.02-17.12.17:726][351]Angle: 147
+[2020.04.02-17.12.17:733][352]Angle: 147
+[2020.04.02-17.12.17:739][353]Angle: 147
+[2020.04.02-17.12.17:745][354]Angle: 147
+[2020.04.02-17.12.17:751][355]Angle: 147
+[2020.04.02-17.12.17:758][356]Angle: 147
+[2020.04.02-17.12.17:765][357]Angle: 147
+[2020.04.02-17.12.17:771][358]Angle: 147
+[2020.04.02-17.12.17:777][359]Angle: 147
+[2020.04.02-17.12.17:784][360]Angle: 147
+[2020.04.02-17.12.17:790][361]Angle: 147
+[2020.04.02-17.12.17:797][362]Angle: 147
+[2020.04.02-17.12.17:804][363]Angle: 147
+[2020.04.02-17.12.17:809][364]Angle: 147
+[2020.04.02-17.12.17:817][365]Angle: 147
+[2020.04.02-17.12.17:823][366]Angle: 147
+[2020.04.02-17.12.17:829][367]Angle: 147
+[2020.04.02-17.12.17:836][368]Angle: 147
+[2020.04.02-17.12.17:842][369]Angle: 147
+[2020.04.02-17.12.17:848][370]Angle: 147
+[2020.04.02-17.12.17:855][371]Angle: 147
+[2020.04.02-17.12.17:861][372]Angle: 147
+[2020.04.02-17.12.17:868][373]Angle: 147
+[2020.04.02-17.12.17:875][374]Angle: 147
+[2020.04.02-17.12.17:883][375]Angle: 147
+[2020.04.02-17.12.17:890][376]Angle: 147
+[2020.04.02-17.12.17:895][377]Angle: 147
+[2020.04.02-17.12.17:902][378]Angle: 147
+[2020.04.02-17.12.17:908][379]Angle: 147
+[2020.04.02-17.12.17:915][380]Angle: 147
+[2020.04.02-17.12.17:921][381]Angle: 147
+[2020.04.02-17.12.17:928][382]Angle: 147
+[2020.04.02-17.12.17:934][383]Angle: 147
+[2020.04.02-17.12.17:940][384]Angle: 147
+[2020.04.02-17.12.17:946][385]Angle: 147
+[2020.04.02-17.12.17:953][386]Angle: 147
+[2020.04.02-17.12.17:959][387]Angle: 147
+[2020.04.02-17.12.17:966][388]Angle: 147
+[2020.04.02-17.12.17:972][389]Angle: 147
+[2020.04.02-17.12.17:979][390]Angle: 147
+[2020.04.02-17.12.17:985][391]Angle: 147
+[2020.04.02-17.12.17:992][392]Angle: 147
+[2020.04.02-17.12.17:998][393]Angle: 147
+[2020.04.02-17.12.18:005][394]Angle: 147
+[2020.04.02-17.12.18:011][395]Angle: 147
+[2020.04.02-17.12.18:017][396]Angle: 147
+[2020.04.02-17.12.18:024][397]Angle: 147
+[2020.04.02-17.12.18:031][398]Angle: 147
+[2020.04.02-17.12.18:037][399]Angle: 147
+[2020.04.02-17.12.18:043][400]Angle: 147
+[2020.04.02-17.12.18:050][401]Angle: 147
+[2020.04.02-17.12.18:056][402]Angle: 147
+[2020.04.02-17.12.18:063][403]Angle: 147
+[2020.04.02-17.12.18:069][404]Angle: 147
+[2020.04.02-17.12.18:075][405]Angle: 147
+[2020.04.02-17.12.18:082][406]Angle: 147
+[2020.04.02-17.12.18:088][407]Angle: 147
+[2020.04.02-17.12.18:095][408]Angle: 147
+[2020.04.02-17.12.18:101][409]Angle: 147
+[2020.04.02-17.12.18:108][410]Angle: 147
+[2020.04.02-17.12.18:114][411]Angle: 147
+[2020.04.02-17.12.18:121][412]Angle: 147
+[2020.04.02-17.12.18:127][413]Angle: 147
+[2020.04.02-17.12.18:134][414]Angle: 147
+[2020.04.02-17.12.18:140][415]Angle: 147
+[2020.04.02-17.12.18:147][416]Angle: 147
+[2020.04.02-17.12.18:154][417]Angle: 147
+[2020.04.02-17.12.18:160][418]Angle: 147
+[2020.04.02-17.12.18:167][419]Angle: 147
+[2020.04.02-17.12.18:173][420]Angle: 147
+[2020.04.02-17.12.18:180][421]Angle: 147
+[2020.04.02-17.12.18:186][422]Angle: 147
+[2020.04.02-17.12.18:193][423]Angle: 147
+[2020.04.02-17.12.18:199][424]Angle: 147
+[2020.04.02-17.12.18:205][425]Angle: 147
+[2020.04.02-17.12.18:213][426]Angle: 147
+[2020.04.02-17.12.18:221][427]Angle: 147
+[2020.04.02-17.12.18:227][428]Angle: 147
+[2020.04.02-17.12.18:233][429]Angle: 147
+[2020.04.02-17.12.18:239][430]Angle: 147
+[2020.04.02-17.12.18:246][431]Angle: 147
+[2020.04.02-17.12.18:253][432]Angle: 147
+[2020.04.02-17.12.18:259][433]Angle: 147
+[2020.04.02-17.12.18:266][434]Angle: 147
+[2020.04.02-17.12.18:272][435]Angle: 147
+[2020.04.02-17.12.18:278][436]Angle: 147
+[2020.04.02-17.12.18:285][437]Angle: 147
+[2020.04.02-17.12.18:291][438]Angle: 147
+[2020.04.02-17.12.18:298][439]Angle: 147
+[2020.04.02-17.12.18:304][440]Angle: 147
+[2020.04.02-17.12.18:310][441]Angle: 147
+[2020.04.02-17.12.18:316][442]Angle: 147
+[2020.04.02-17.12.18:323][443]Angle: 147
+[2020.04.02-17.12.18:329][444]Angle: 147
+[2020.04.02-17.12.18:335][445]Angle: 147
+[2020.04.02-17.12.18:342][446]Angle: 147
+[2020.04.02-17.12.18:348][447]Angle: 147
+[2020.04.02-17.12.18:355][448]Angle: 147
+[2020.04.02-17.12.18:361][449]Angle: 147
+[2020.04.02-17.12.18:368][450]Angle: 147
+[2020.04.02-17.12.18:374][451]Angle: 147
+[2020.04.02-17.12.18:381][452]Angle: 147
+[2020.04.02-17.12.18:387][453]Angle: 147
+[2020.04.02-17.12.18:394][454]Angle: 147
+[2020.04.02-17.12.18:400][455]Angle: 147
+[2020.04.02-17.12.18:407][456]Angle: 147
+[2020.04.02-17.12.18:413][457]Angle: 147
+[2020.04.02-17.12.18:419][458]Angle: 147
+[2020.04.02-17.12.18:426][459]Angle: 147
+[2020.04.02-17.12.18:432][460]Angle: 147
+[2020.04.02-17.12.18:439][461]Angle: 147
+[2020.04.02-17.12.18:445][462]Angle: 147
+[2020.04.02-17.12.18:452][463]Angle: 147
+[2020.04.02-17.12.18:458][464]Angle: 147
+[2020.04.02-17.12.18:465][465]Angle: 147
+[2020.04.02-17.12.18:471][466]Angle: 147
+[2020.04.02-17.12.18:477][467]Angle: 147
+[2020.04.02-17.12.18:484][468]Angle: 147
+[2020.04.02-17.12.18:491][469]Angle: 147
+[2020.04.02-17.12.18:497][470]Angle: 147
+[2020.04.02-17.12.18:503][471]Angle: 147
+[2020.04.02-17.12.18:510][472]Angle: 147
+[2020.04.02-17.12.18:516][473]Angle: 147
+[2020.04.02-17.12.18:523][474]Angle: 147
+[2020.04.02-17.12.18:529][475]Angle: 147
+[2020.04.02-17.12.18:536][476]Angle: 147
+[2020.04.02-17.12.18:542][477]Angle: 147
+[2020.04.02-17.12.18:550][478]Angle: 147
+[2020.04.02-17.12.18:557][479]Angle: 147
+[2020.04.02-17.12.18:563][480]Angle: 147
+[2020.04.02-17.12.18:571][481]Angle: 147
+[2020.04.02-17.12.18:576][482]Angle: 147
+[2020.04.02-17.12.18:583][483]Angle: 147
+[2020.04.02-17.12.18:589][484]Angle: 147
+[2020.04.02-17.12.18:596][485]Angle: 147
+[2020.04.02-17.12.18:602][486]Angle: 147
+[2020.04.02-17.12.18:609][487]Angle: 147
+[2020.04.02-17.12.18:615][488]Angle: 147
+[2020.04.02-17.12.18:621][489]Angle: 147
+[2020.04.02-17.12.18:628][490]Angle: 147
+[2020.04.02-17.12.18:634][491]Angle: 147
+[2020.04.02-17.12.18:641][492]Angle: 147
+[2020.04.02-17.12.18:647][493]Angle: 147
+[2020.04.02-17.12.18:654][494]Angle: 147
+[2020.04.02-17.12.18:661][495]Angle: 147
+[2020.04.02-17.12.18:667][496]Angle: 147
+[2020.04.02-17.12.18:673][497]Angle: 147
+[2020.04.02-17.12.18:680][498]Angle: 147
+[2020.04.02-17.12.18:686][499]Angle: 147
+[2020.04.02-17.12.18:693][500]Angle: 147
+[2020.04.02-17.12.18:700][501]Angle: 147
+[2020.04.02-17.12.18:706][502]Angle: 147
+[2020.04.02-17.12.18:712][503]Angle: 147
+[2020.04.02-17.12.18:719][504]Angle: 147
+[2020.04.02-17.12.18:725][505]Angle: 147
+[2020.04.02-17.12.18:731][506]Angle: 147
+[2020.04.02-17.12.18:738][507]Angle: 147
+[2020.04.02-17.12.18:745][508]Angle: 147
+[2020.04.02-17.12.18:751][509]Angle: 147
+[2020.04.02-17.12.18:757][510]Angle: 147
+[2020.04.02-17.12.18:764][511]Angle: 147
+[2020.04.02-17.12.18:770][512]Angle: 147
+[2020.04.02-17.12.18:777][513]Angle: 147
+[2020.04.02-17.12.18:783][514]Angle: 147
+[2020.04.02-17.12.18:790][515]Angle: 147
+[2020.04.02-17.12.18:796][516]Angle: 147
+[2020.04.02-17.12.18:803][517]Angle: 147
+[2020.04.02-17.12.18:809][518]Angle: 147
+[2020.04.02-17.12.18:816][519]Angle: 147
+[2020.04.02-17.12.18:823][520]Angle: 147
+[2020.04.02-17.12.18:829][521]Angle: 147
+[2020.04.02-17.12.18:836][522]Angle: 147
+[2020.04.02-17.12.18:843][523]Angle: 147
+[2020.04.02-17.12.18:849][524]Angle: 147
+[2020.04.02-17.12.18:856][525]Angle: 147
+[2020.04.02-17.12.18:862][526]Angle: 147
+[2020.04.02-17.12.18:869][527]Angle: 147
+[2020.04.02-17.12.18:877][528]Angle: 147
+[2020.04.02-17.12.18:884][529]Angle: 147
+[2020.04.02-17.12.18:891][530]Angle: 147
+[2020.04.02-17.12.18:898][531]Angle: 147
+[2020.04.02-17.12.18:904][532]Angle: 147
+[2020.04.02-17.12.18:910][533]Angle: 147
+[2020.04.02-17.12.18:916][534]Angle: 147
+[2020.04.02-17.12.18:923][535]Angle: 147
+[2020.04.02-17.12.18:929][536]Angle: 147
+[2020.04.02-17.12.18:936][537]Angle: 147
+[2020.04.02-17.12.18:942][538]Angle: 147
+[2020.04.02-17.12.18:949][539]Angle: 147
+[2020.04.02-17.12.18:956][540]Angle: 147
+[2020.04.02-17.12.18:961][541]Angle: 147
+[2020.04.02-17.12.18:968][542]Angle: 147
+[2020.04.02-17.12.18:974][543]Angle: 147
+[2020.04.02-17.12.18:981][544]Angle: 147
+[2020.04.02-17.12.18:988][545]Angle: 147
+[2020.04.02-17.12.18:994][546]Angle: 147
+[2020.04.02-17.12.19:001][547]Angle: 147
+[2020.04.02-17.12.19:007][548]Angle: 147
+[2020.04.02-17.12.19:014][549]Angle: 147
+[2020.04.02-17.12.19:021][550]Angle: 147
+[2020.04.02-17.12.19:027][551]Angle: 147
+[2020.04.02-17.12.19:034][552]Angle: 147
+[2020.04.02-17.12.19:041][553]Angle: 147
+[2020.04.02-17.12.19:047][554]Angle: 147
+[2020.04.02-17.12.19:054][555]Angle: 147
+[2020.04.02-17.12.19:060][556]Angle: 147
+[2020.04.02-17.12.19:067][557]Angle: 147
+[2020.04.02-17.12.19:073][558]Angle: 147
+[2020.04.02-17.12.19:079][559]Angle: 147
+[2020.04.02-17.12.19:085][560]Angle: 147
+[2020.04.02-17.12.19:092][561]Angle: 147
+[2020.04.02-17.12.19:099][562]Angle: 147
+[2020.04.02-17.12.19:105][563]Angle: 147
+[2020.04.02-17.12.19:112][564]Angle: 147
+[2020.04.02-17.12.19:119][565]Angle: 147
+[2020.04.02-17.12.19:125][566]Angle: 147
+[2020.04.02-17.12.19:132][567]Angle: 147
+[2020.04.02-17.12.19:138][568]Angle: 147
+[2020.04.02-17.12.19:145][569]Angle: 147
+[2020.04.02-17.12.19:152][570]Angle: 147
+[2020.04.02-17.12.19:158][571]Angle: 147
+[2020.04.02-17.12.19:165][572]Angle: 147
+[2020.04.02-17.12.19:171][573]Angle: 147
+[2020.04.02-17.12.19:178][574]Angle: 147
+[2020.04.02-17.12.19:185][575]Angle: 147
+[2020.04.02-17.12.19:191][576]Angle: 147
+[2020.04.02-17.12.19:198][577]Angle: 147
+[2020.04.02-17.12.19:204][578]Angle: 147
+[2020.04.02-17.12.19:211][579]Angle: 147
+[2020.04.02-17.12.19:219][580]Angle: 147
+[2020.04.02-17.12.19:225][581]Angle: 147
+[2020.04.02-17.12.19:232][582]Angle: 147
+[2020.04.02-17.12.19:238][583]Angle: 147
+[2020.04.02-17.12.19:245][584]Angle: 147
+[2020.04.02-17.12.19:252][585]Angle: 147
+[2020.04.02-17.12.19:258][586]Angle: 147
+[2020.04.02-17.12.19:265][587]Angle: 147
+[2020.04.02-17.12.19:271][588]Angle: 147
+[2020.04.02-17.12.19:277][589]Angle: 147
+[2020.04.02-17.12.19:284][590]Angle: 147
+[2020.04.02-17.12.19:290][591]Angle: 147
+[2020.04.02-17.12.19:297][592]Angle: 147
+[2020.04.02-17.12.19:303][593]Angle: 147
+[2020.04.02-17.12.19:310][594]Angle: 147
+[2020.04.02-17.12.19:317][595]Angle: 147
+[2020.04.02-17.12.19:323][596]Angle: 147
+[2020.04.02-17.12.19:330][597]Angle: 147
+[2020.04.02-17.12.19:336][598]Angle: 147
+[2020.04.02-17.12.19:343][599]Angle: 147
+[2020.04.02-17.12.19:349][600]Angle: 147
+[2020.04.02-17.12.19:356][601]Angle: 147
+[2020.04.02-17.12.19:362][602]Angle: 147
+[2020.04.02-17.12.19:368][603]Angle: 147
+[2020.04.02-17.12.19:375][604]Angle: 147
+[2020.04.02-17.12.19:382][605]Angle: 147
+[2020.04.02-17.12.19:388][606]Angle: 147
+[2020.04.02-17.12.19:395][607]Angle: 147
+[2020.04.02-17.12.19:402][608]Angle: 147
+[2020.04.02-17.12.19:408][609]Angle: 147
+[2020.04.02-17.12.19:415][610]Angle: 147
+[2020.04.02-17.12.19:421][611]Angle: 147
+[2020.04.02-17.12.19:428][612]Angle: 147
+[2020.04.02-17.12.19:434][613]Angle: 147
+[2020.04.02-17.12.19:441][614]Angle: 147
+[2020.04.02-17.12.19:447][615]Angle: 147
+[2020.04.02-17.12.19:454][616]Angle: 147
+[2020.04.02-17.12.19:460][617]Angle: 147
+[2020.04.02-17.12.19:467][618]Angle: 147
+[2020.04.02-17.12.19:474][619]Angle: 147
+[2020.04.02-17.12.19:480][620]Angle: 147
+[2020.04.02-17.12.19:487][621]Angle: 147
+[2020.04.02-17.12.19:493][622]Angle: 147
+[2020.04.02-17.12.19:500][623]Angle: 147
+[2020.04.02-17.12.19:506][624]Angle: 147
+[2020.04.02-17.12.19:513][625]Angle: 147
+[2020.04.02-17.12.19:520][626]Angle: 147
+[2020.04.02-17.12.19:526][627]Angle: 147
+[2020.04.02-17.12.19:533][628]Angle: 147
+[2020.04.02-17.12.19:539][629]Angle: 147
+[2020.04.02-17.12.19:547][630]Angle: 147
+[2020.04.02-17.12.19:583][631]Angle: 147
+[2020.04.02-17.12.19:592][632]Angle: 147
+[2020.04.02-17.12.19:598][633]Angle: 147
+[2020.04.02-17.12.19:606][634]Angle: 147
+[2020.04.02-17.12.19:613][635]Angle: 147
+[2020.04.02-17.12.19:620][636]Angle: 147
+[2020.04.02-17.12.19:628][637]Angle: 147
+[2020.04.02-17.12.19:635][638]Angle: 147
+[2020.04.02-17.12.19:642][639]Angle: 147
+[2020.04.02-17.12.19:648][640]Angle: 147
+[2020.04.02-17.12.19:655][641]Angle: 147
+[2020.04.02-17.12.19:663][642]Angle: 147
+[2020.04.02-17.12.19:669][643]Angle: 147
+[2020.04.02-17.12.19:676][644]Angle: 147
+[2020.04.02-17.12.19:683][645]Angle: 147
+[2020.04.02-17.12.19:689][646]Angle: 147
+[2020.04.02-17.12.19:695][647]Angle: 147
+[2020.04.02-17.12.19:702][648]Angle: 147
+[2020.04.02-17.12.19:708][649]Angle: 147
+[2020.04.02-17.12.19:715][650]Angle: 147
+[2020.04.02-17.12.19:721][651]Angle: 147
+[2020.04.02-17.12.19:728][652]Angle: 147
+[2020.04.02-17.12.19:734][653]Angle: 147
+[2020.04.02-17.12.19:740][654]Angle: 147
+[2020.04.02-17.12.19:747][655]Angle: 147
+[2020.04.02-17.12.19:753][656]Angle: 147
+[2020.04.02-17.12.19:778][657]LogSlate: Window 'GemChasers (64-bit Development PCD3D_SM5) ' being destroyed
+[2020.04.02-17.12.19:780][657]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.04.02-17.12.19:785][658]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-17.12.19:786][658]LogEngine: All Windows Closed
+[2020.04.02-17.12.19:786][658]LogWindows: FPlatformMisc::RequestExit(0)
+[2020.04.02-17.12.19:786][658]LogCore: Engine exit requested (reason: Win RequestExit)
+[2020.04.02-17.12.19:786][659]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2020.04.02-17.12.19:787][659]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.04.02-17.12.19:793][659]LogInit: Display: PreExit Game.
+[2020.04.02-17.12.19:793][659]LogWorld: BeginTearingDown for /Game/Maps/TestMap
+[2020.04.02-17.12.19:794][659]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2020.04.02-17.12.19:794][659]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.04.02-17.12.20:068][659]LogExit: Preparing to exit.
+[2020.04.02-17.12.20:784][659]LogMoviePlayer: Shutting down movie player
+[2020.04.02-17.12.20:963][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.04.02-17.12.20:966][659]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2020.04.02-17.12.20:973][659]LogExit: Game engine shut down
+[2020.04.02-17.12.21:072][659]LogExit: Object subsystem successfully closed.
+[2020.04.02-17.12.21:098][659]LogShaderCompilers: Display: Shaders left to compile 0
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (436)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module SequenceRecorder (434)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module AutomationController (432)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module AutomationWorker (430)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module Voice (428)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module AIModule (426)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module GameplayDebugger (425)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module AITestSuite (423)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module NavigationSystem (421)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module OculusMR (418)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (416)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (414)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module WebMMedia (412)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (410)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (408)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (406)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module MagicLeapMediaCodecFactory (404)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (402)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module CharacterAI (400)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module SessionServices (398)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (396)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module LiveCoding (394)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module LevelSequence (392)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (390)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module MovieScene (388)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (386)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module PortalServices (384)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module PortalRpc (382)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module MessagingRpc (380)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (378)
+[2020.04.02-17.12.21:110][659]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (376)
+[2020.04.02-17.12.21:114][659]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (370)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module OculusInput (368)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (366)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module EditableMesh (364)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (362)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module CableComponent (360)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module AudioCapture (358)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (357)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module AssetTags (354)
+[2020.04.02-17.12.21:281][659]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (352)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (350)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module AppleImageUtils (348)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module AndroidPermission (346)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (344)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (342)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module MediaCompositing (340)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (336)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (334)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (332)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (330)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (329)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module GeometryCache (326)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (325)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module BackChannel (322)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module AutomationUtils (320)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (318)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module HotReload (317)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (316)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module SourceControl (305)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (302)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (300)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module GemChasers (298)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module SignificanceManager (296)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (294)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (292)
+[2020.04.02-17.12.21:282][659]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (288)
+[2020.04.02-17.12.21:283][659]LogModuleManager: Shutting down and abandoning module ActorSequence (286)
+[2020.04.02-17.12.21:283][659]LogModuleManager: Shutting down and abandoning module UdpMessaging (284)
+[2020.04.02-17.12.21:384][659]LogModuleManager: Shutting down and abandoning module TcpMessaging (282)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (280)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (278)
+[2020.04.02-17.12.21:783][659]LogMagicLeapPlanes: Planes tracker already destroyed.
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (276)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (274)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (272)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (270)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (268)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (266)
+[2020.04.02-17.12.21:783][659]LogModuleManager: Shutting down and abandoning module MagicLeapController (264)
+[2020.04.02-17.12.21:784][659]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (262)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module MagicLeapAR (260)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module AugmentedReality (259)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (256)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module FacialAnimation (254)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (252)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module TreeMap (251)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module AnimationSharing (248)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (246)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module Paper2D (244)
+[2020.04.02-17.12.21:784][659]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (242)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (240)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (238)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module PacketHandler (236)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (234)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (232)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module MediaAssets (230)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module Overlay (228)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module OverlayEditor (227)
+[2020.04.02-17.12.21:785][659]LogModuleManager: Shutting down and abandoning module VREditor (224)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module StringTableEditor (222)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (220)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (218)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module FunctionalTesting (216)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (214)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (213)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module UMG (210)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module UMGEditor (209)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module Sequencer (208)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module MessageLog (205)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module SlateReflector (200)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module Slate (198)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module SlateCore (196)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (194)
+[2020.04.02-17.12.21:786][659]LogModuleManager: Shutting down and abandoning module EditorStyle (192)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module UnrealEd (190)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module Messaging (186)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (184)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (182)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module XAudio2 (180)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module Networking (178)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module Core (176)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MovieSceneTools (174)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module KismetCompiler (172)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MeshUtilities (170)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (169)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (168)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (167)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (165)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (163)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (161)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MaterialBaking (157)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (152)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (150)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.04.02-17.12.21:787][659]LogDerivedDataCache: Shutdown
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module XGEController (146)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module TargetPlatform (144)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (143)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (141)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (139)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (137)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (135)
+[2020.04.02-17.12.21:787][659]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (133)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (131)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (129)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (127)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (125)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module ImageWrapper (124)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (121)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (119)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (117)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (115)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (113)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (111)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (109)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (107)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module InputCore (104)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module Settings (102)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module PhysXCooking (100)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module ChaosSolvers (98)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (97)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module Chaos (94)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (92)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (91)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (88)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module SteamVRInput (86)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module SteamVR (84)
+[2020.04.02-17.12.21:788][659]LogHMD: Freeing OpenVRDLLHandle.
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module OculusHMD (82)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (80)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (78)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (76)
+[2020.04.02-17.12.21:788][659]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (72)
+[2020.04.02-17.12.21:789][659]LogModuleManager: Shutting down and abandoning module XMPP (67)
+[2020.04.02-17.12.21:789][659]LogModuleManager: Shutting down and abandoning module WebSockets (66)
+[2020.04.02-17.12.21:809][659]LogModuleManager: Shutting down and abandoning module HTTP (63)
+[2020.04.02-17.12.21:831][659]LogModuleManager: Shutting down and abandoning module SSL (62)
+[2020.04.02-17.12.21:832][659]LogModuleManager: Shutting down and abandoning module WmfMedia (58)
+[2020.04.02-17.12.21:834][659]LogModuleManager: Shutting down and abandoning module Media (57)
+[2020.04.02-17.12.21:834][659]LogModuleManager: Shutting down and abandoning module MagicLeap (54)
+[2020.04.02-17.12.21:834][659]LogModuleManager: Shutting down and abandoning module VariantManagerContent (52)
+[2020.04.02-17.12.21:834][659]LogModuleManager: Shutting down and abandoning module DatasmithContent (50)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module AISupportModule (48)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module DesktopPlatform (46)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (44)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (42)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module PlatformCrypto (40)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module PropertyEditor (37)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module AudioEditor (34)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2020.04.02-17.12.21:835][659]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2020.04.02-17.12.21:836][659]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2020.04.02-17.12.21:837][659]LogD3D11RHI: Shutdown
+[2020.04.02-17.12.21:837][659]LogD3D11RHI: CleanupD3DDevice
+[2020.04.02-17.12.21:845][659]LogExit: Exiting.
+[2020.04.02-17.12.21:873][659]Log file closed, 04/02/20 13:12:21

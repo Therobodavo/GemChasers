@@ -16,6 +16,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define GemChasers_Source_GemChasers_BattleUIWidget_h_15_SPARSE_DATA
 #define GemChasers_Source_GemChasers_BattleUIWidget_h_15_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSelectMove) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectMove(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execStartRotation) \
 	{ \
 		P_FINISH; \
@@ -26,6 +34,14 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define GemChasers_Source_GemChasers_BattleUIWidget_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSelectMove) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectMove(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execStartRotation) \
 	{ \

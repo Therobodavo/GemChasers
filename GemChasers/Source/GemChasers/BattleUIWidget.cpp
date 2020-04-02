@@ -23,6 +23,12 @@ void UBattleUIWidget::NativeConstruct()
 	Super::NativeConstruct();
 	playerActor = Cast<APlayerPawn>(GetWorld()->GetFirstPlayerController()->GetPawn());
 	UButton* btn = Cast<UButton>(GetWidgetFromName(FName("BTN")));
+	innerWheel = Cast<UOverlay>(GetWidgetFromName(FName("InnerWheel")));
+	outerWheel = Cast<UOverlay>(GetWidgetFromName(FName("OuterWheel")));
+	mainWheel = Cast<UOverlay>(GetWidgetFromName(FName("WheelUI")));
+	moveOverlay = Cast<UOverlay>(GetWidgetFromName(FName("MoveOverlay")));
+	hoverImage = Cast<UImage>(GetWidgetFromName(FName("Hover")));
+	selectedImage = Cast<UImage>(GetWidgetFromName(FName("Selected")));
 
 	stops[0] = -120;
 	stops[1] = -60;
@@ -32,17 +38,15 @@ void UBattleUIWidget::NativeConstruct()
 	stops[5] = 180;
 
 	btn->OnClicked.AddDynamic(this, &UBattleUIWidget::StartRotation);
+	hoverImage->OnMouseButtonDownEvent.BindUFunction(this,FName("SelectMove"));
 }
-
+void UBattleUIWidget::SelectMove() 
+{
+	GLog->Log("HELLO WORLD");
+}
 void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 {
 	Super::NativeTick(MyGeometry, InDeltaTime);
-	UOverlay* innerWheel = Cast<UOverlay>(GetWidgetFromName(FName("InnerWheel")));
-	UOverlay* outerWheel = Cast<UOverlay>(GetWidgetFromName(FName("OuterWheel")));
-	UOverlay* mainWheel = Cast<UOverlay>(GetWidgetFromName(FName("WheelUI")));
-	UOverlay* moveOverlay = Cast<UOverlay>(GetWidgetFromName(FName("MoveOverlay")));
-	UImage* hoverImage = Cast<UImage>(GetWidgetFromName(FName("Hover")));
-	UImage* selectedImage = Cast<UImage>(GetWidgetFromName(FName("Selected")));
 
 	if (isRotating)
 	{
@@ -99,7 +103,7 @@ void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 		//Scales wheel size and position
 		//position based off middle
 		wheelSize.Set(wheelSize.X * dpi * wheelScale.X, wheelSize.Y * dpi * wheelScale.Y);
-		wheelPosition.Set((wheelPosition.X * dpi * wheelScale.X) + (wheelSize.X / 2), (wheelPosition.Y * dpi * wheelScale.Y) + (wheelSize.Y / 2));
+		wheelPosition.Set((wheelPosition.X * dpi) + (wheelSize.X / 2), (wheelPosition.Y * dpi) + (wheelSize.Y / 2));
 
 		FVector2D currentPoint = (mousePos - wheelPosition);
 		currentPoint.Normalize();
@@ -141,8 +145,8 @@ void UBattleUIWidget::NativeTick(const FGeometry& MyGeometry, float InDeltaTime)
 		}
 		//GLog->Log("Distance: " + FString::SanitizeFloat((mousePos - wheelPosition).Size()));
 		//GLog->Log("Half Circle: " + FString::SanitizeFloat(wheelSize.X / 2));
-		//GLog->Log("Current Mouse: " + FString::FromInt(mousePos.X) + ", " + FString::FromInt(mousePos.Y));
-		GLog->Log("Angle: " + FString::FromInt(angle));
+		GLog->Log("Current Mouse: " + FString::FromInt(mousePos.X) + ", " + FString::FromInt(mousePos.Y));
+		GLog->Log("Wheel center: " + FString::FromInt(wheelPosition.X) + ", " + FString::FromInt(wheelPosition.Y));
 	}
 }
 

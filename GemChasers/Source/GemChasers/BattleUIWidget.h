@@ -36,13 +36,26 @@ public:
 		int innerSpotStop = 0;
 	UPROPERTY()
 		int outerSpotStop = 0;
-
+	UPROPERTY()
+		class UOverlay* innerWheel = NULL;
+	UPROPERTY()
+		class UOverlay* outerWheel = NULL;
+	UPROPERTY()
+		class UOverlay* mainWheel = NULL;
+	UPROPERTY()
+		class UOverlay* moveOverlay = NULL;
+	UPROPERTY()
+		class UImage* hoverImage = NULL;
+	UPROPERTY()
+		class UImage* selectedImage = NULL;
 	UPROPERTY()
 		int stops[6] = { -120,-60,0,60,120,180 };
 
 	UPROPERTY()
-		class APlayerPawn* playerActor;
+		class APlayerPawn* playerActor = NULL;
 
 	UPROPERTY()
 		FVector2D mousePos;
+	UFUNCTION()
+		void SelectMove();
 };
